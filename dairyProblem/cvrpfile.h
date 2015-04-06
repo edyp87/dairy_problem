@@ -1,5 +1,4 @@
-#ifndef CVRPFILE_H
-#define CVRPFILE_H
+#pragma once
 
 #include <QTextStream>
 #include <QStringList>
@@ -27,5 +26,3 @@ private:
 };
 
 } // namespace Vrp
-
-#endif // CVRPFILE_H

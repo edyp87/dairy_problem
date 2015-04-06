@@ -1,5 +1,4 @@
-#ifndef VRPTOKENS_H
-#define VRPTOKENS_H
+#pragma once
 
 #include <QStringList>
 
@@ -56,5 +55,3 @@ static QStringList keywordStringList {
 Utils::e_keywords findEnumForKeyword(QString p_keyword);
 
 } // namespace Utils
-
-#endif // VRPTOKENS_H

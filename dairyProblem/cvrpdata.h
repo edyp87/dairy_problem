@@ -1,5 +1,4 @@
-#ifndef CVRPDATA_H
-#define CVRPDATA_H
+#pragma once
 
 #include <QString>
 #include <QList>
@@ -47,5 +46,3 @@ private:
 };
 
 } // namespace Vrp
-
-#endif // CVRPDATA_H

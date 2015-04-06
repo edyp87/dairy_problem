@@ -1,5 +1,4 @@
-#ifndef VRPFILEREADER_H
-#define VRPFILEREADER_H
+#pragma once
 
 #include <QTextStream>
 #include <QFile>
@@ -43,5 +42,3 @@ private:
 };
 
 } // namespace Vrp
-
-#endif // VRPFILEREADER_H

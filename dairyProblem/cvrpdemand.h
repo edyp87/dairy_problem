@@ -1,5 +1,4 @@
-#ifndef VRPDEMAND_H
-#define VRPDEMAND_H
+#pragma once
 
 #include <QtGlobal>
 #include <QTextStream>
@@ -16,5 +15,3 @@ struct CvrpDemand
 QDebug operator<<(QDebug cout, const CvrpDemand& p_node);
 
 } // namespace Vrp
-
-#endif // VRPDEMAND_H
