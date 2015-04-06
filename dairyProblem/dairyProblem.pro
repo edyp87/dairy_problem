@@ -10,8 +10,14 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = dairyProblem
 TEMPLATE = app
+QMAKE_CXXFLAGS += -std=c++11
 
+SOURCES += main.cpp \
+    vrpfilereader.cpp \
+    cvrpfile.cpp \
+    cvrpdata.cpp
 
-SOURCES += main.cpp
-
-HEADERS  +=
+HEADERS  += \
+    vrpfilereader.h \
+    cvrpfile.h \
+    cvrpdata.h
