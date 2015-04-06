@@ -4,8 +4,8 @@
 #include <QFile>
 #include <memory>
 
-#include <dataReader/cvrpfile.h>
-#include <dataReader/cvrpdata.h>
+#include <dataReader/CvrpFile.h>
+#include <dataReader/CvrpData.h>
 #include <dataReader/IDataReader.h>
 
 /*

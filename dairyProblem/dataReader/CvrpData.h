@@ -2,8 +2,8 @@
 
 #include <QString>
 #include <QList>
-#include <dataReader/vrp2dcoordinate.h>
-#include <dataReader/cvrpdemand.h>
+#include <dataReader/Vrp2dCoordinate.h>
+#include <dataReader/CvrpDemand.h>
 
 namespace Vrp
 {

@@ -13,18 +13,18 @@ TEMPLATE = app
 QMAKE_CXXFLAGS += -std=c++11
 
 SOURCES += main.cpp \
-    dataReader/cvrpdata.cpp \
-    dataReader/cvrpdemand.cpp \
-    dataReader/cvrpfile.cpp \
-    dataReader/cvrpfilereader.cpp \
-    dataReader/vrp2dcoordinate.cpp \
-    dataReader/vrptokens.cpp
+    dataReader/CvrpData.cpp \
+    dataReader/CvrpDemand.cpp \
+    dataReader/CvrpFile.cpp \
+    dataReader/CvrpFilereader.cpp \
+    dataReader/Vrp2dCoordinate.cpp \
+    dataReader/VrpTokens.cpp
 
 HEADERS  += \
-    dataReader/cvrpdata.h \
-    dataReader/cvrpdemand.h \
-    dataReader/cvrpfile.h \
-    dataReader/cvrpfilereader.h \
     dataReader/IDataReader.h \
-    dataReader/vrp2dcoordinate.h \
-    dataReader/vrptokens.h
+    dataReader/CvrpData.h \
+    dataReader/CvrpDemand.h \
+    dataReader/CvrpFile.h \
+    dataReader/CvrpFilereader.h \
+    dataReader/Vrp2dCoordinate.h \
+    dataReader/VrpTokens.h
