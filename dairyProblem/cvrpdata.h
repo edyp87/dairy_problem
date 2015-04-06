@@ -6,6 +6,9 @@
 #include <vrp2dcoordinate.h>
 #include <vrpdemand.h>
 
+namespace Vrp
+{
+
 class CvrpData
 {
 public:
@@ -42,5 +45,7 @@ private:
     QList<Vrp2dCoordinate> m_nodeCoordinates;
     QList<VrpDemand> m_demands;
 };
+
+} // namespace Vrp
 
 #endif // CVRPDATA_H

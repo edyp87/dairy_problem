@@ -12,6 +12,9 @@
  * This reader is implemented only for CVRP problems with two dimension.
  */
 
+namespace Vrp
+{
+
 class VrpFileReader
 {
 public:
@@ -38,5 +41,7 @@ private:
     CvrpFile m_file;
     CvrpData m_data;
 };
+
+} // namespace Vrp
 
 #endif // VRPFILEREADER_H

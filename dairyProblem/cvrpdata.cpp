@@ -1,5 +1,8 @@
 #include "cvrpdata.h"
 
+namespace Vrp
+{
+
 CvrpData::CvrpData()
 {
 }
@@ -97,10 +100,4 @@ void CvrpData::setDepot(const quint32 depot)
     m_depot = depot;
 }
 
-
-
-
-
-
-
-
+} // namespace Vrp

@@ -2,6 +2,10 @@
 #include <QDebug>
 #include <QStringList>
 #include <stdexcept>
+#include <vrptokens.h>
+
+namespace Vrp
+{
 
 VrpFileReader::VrpFileReader(const QString p_filename)
     : m_file(p_filename)
@@ -57,28 +61,39 @@ void VrpFileReader::processLine(QStringList l_wordList, QString l_line)
         case Utils::e_keywords::TYPE:
             readVrpType(l_wordList);
             break;
-         case Utils::e_keywords::DIMENSION:
+        case Utils::e_keywords::DIMENSION:
             readDimension(l_wordList);
             break;
-         case Utils::e_keywords::EDGE_WEIGHT_TYPE:
+        case Utils::e_keywords::EDGE_WEIGHT_TYPE:
             readEdgesType(l_wordList);
             break;
-         case Utils::e_keywords::CAPACITY:
+        case Utils::e_keywords::CAPACITY:
             readCapacity(l_wordList);
             break;
-         case Utils::e_keywords::NODE_COORD_SECTION:
+        case Utils::e_keywords::NODE_COORD_SECTION:
             readCoordinates();
             break;
-         case Utils::e_keywords::DEMAND_SECTION:
+        case Utils::e_keywords::DEMAND_SECTION:
             readDemands();
             break;
-         case Utils::e_keywords::DEPOT_SECTION:
+        case Utils::e_keywords::DEPOT_SECTION:
             readDepots();
             break;
-         case Utils::e_keywords::END:
+        case Utils::e_keywords::END:
             break;
-         default:
+        case Utils::e_keywords::EDGE_WEIGHT_FORMAT:
+        case Utils::e_keywords::EDGE_DATA_FORMAT:
+        case Utils::e_keywords::NODE_COORD_TYPE:
+        case Utils::e_keywords::DISPLAY_DATA_TYPE:
+        case Utils::e_keywords::EDGE_DATA_SECTION:
+        case Utils::e_keywords::FIXED_EDGE_SECTION:
+        case Utils::e_keywords::DISPLAY_DATA_SECTION:
+        case Utils::e_keywords::TOUR_SECTION:
+        case Utils::e_keywords::EDGE_WEIGHT_SECTION:
+        case Utils::e_keywords::UNDEFINED:
             throw std::runtime_error(std::string("Unimplemented token!"));
+        default:
+            throw std::runtime_error(std::string("Undefined token!"));
     }
 }
 
@@ -129,6 +144,7 @@ void VrpFileReader::readDepots()
     while (l_line.toInt() != -1)
     {
         m_data.setDepot(l_line.toUInt());
+        qDebug() << "READER: Depot set: " <<  m_data.depot();
         l_isDepotSet = true;
         l_line = m_file.readLine();
     }
@@ -192,3 +208,5 @@ CvrpData VrpFileReader::getData()
 {
     return m_data;
 }
+
+} // namespace Vrp

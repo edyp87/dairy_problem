@@ -69,6 +69,7 @@ READER: Demand set:  Index:  29 , demand:  15
 READER: Demand set:  Index:  30 , demand:  2
 READER: Demand set:  Index:  31 , demand:  14
 READER: Demand set:  Index:  32 , demand:  9
+READER: Depot set:  1
 "../dairyProblem/data/A-n33-k5.vrp"
 READER: Name set:  "A-n33-k5"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 5, Optimal value: 661)"
@@ -142,6 +143,7 @@ READER: Demand set:  Index:  30 , demand:  8
 READER: Demand set:  Index:  31 , demand:  20
 READER: Demand set:  Index:  32 , demand:  24
 READER: Demand set:  Index:  33 , demand:  3
+READER: Depot set:  1
 "../dairyProblem/data/A-n33-k6.vrp"
 READER: Name set:  "A-n33-k6"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 6, Optimal value: 742)"
@@ -215,6 +217,7 @@ READER: Demand set:  Index:  30 , demand:  22
 READER: Demand set:  Index:  31 , demand:  25
 READER: Demand set:  Index:  32 , demand:  2
 READER: Demand set:  Index:  33 , demand:  22
+READER: Depot set:  1
 "../dairyProblem/data/A-n34-k5.vrp"
 READER: Name set:  "A-n34-k5"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 5, Optimal value: 778)"
@@ -290,6 +293,7 @@ READER: Demand set:  Index:  31 , demand:  19
 READER: Demand set:  Index:  32 , demand:  4
 READER: Demand set:  Index:  33 , demand:  15
 READER: Demand set:  Index:  34 , demand:  1
+READER: Depot set:  1
 "../dairyProblem/data/A-n36-k5.vrp"
 READER: Name set:  "A-n36-k5"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 5, Optimal value: 799)"
@@ -369,6 +373,7 @@ READER: Demand set:  Index:  33 , demand:  12
 READER: Demand set:  Index:  34 , demand:  2
 READER: Demand set:  Index:  35 , demand:  23
 READER: Demand set:  Index:  36 , demand:  11
+READER: Depot set:  1
 "../dairyProblem/data/A-n37-k5.vrp"
 READER: Name set:  "A-n37-k5"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 5, Optimal value: 669)"
@@ -450,6 +455,7 @@ READER: Demand set:  Index:  34 , demand:  7
 READER: Demand set:  Index:  35 , demand:  7
 READER: Demand set:  Index:  36 , demand:  20
 READER: Demand set:  Index:  37 , demand:  20
+READER: Depot set:  1
 "../dairyProblem/data/A-n37-k6.vrp"
 READER: Name set:  "A-n37-k6"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 6, Optimal value: 949)"
@@ -531,6 +537,7 @@ READER: Demand set:  Index:  34 , demand:  8
 READER: Demand set:  Index:  35 , demand:  19
 READER: Demand set:  Index:  36 , demand:  66
 READER: Demand set:  Index:  37 , demand:  21
+READER: Depot set:  1
 "../dairyProblem/data/A-n38-k5.vrp"
 READER: Name set:  "A-n38-k5"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 5, Optimal value: 730)"
@@ -614,6 +621,7 @@ READER: Demand set:  Index:  35 , demand:  24
 READER: Demand set:  Index:  36 , demand:  13
 READER: Demand set:  Index:  37 , demand:  14
 READER: Demand set:  Index:  38 , demand:  14
+READER: Depot set:  1
 "../dairyProblem/data/A-n39-k5.vrp"
 READER: Name set:  "A-n39-k5"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 5, Optimal value: 822)"
@@ -699,6 +707,7 @@ READER: Demand set:  Index:  36 , demand:  24
 READER: Demand set:  Index:  37 , demand:  19
 READER: Demand set:  Index:  38 , demand:  4
 READER: Demand set:  Index:  39 , demand:  7
+READER: Depot set:  1
 "../dairyProblem/data/A-n39-k6.vrp"
 READER: Name set:  "A-n39-k6"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 6, Optimal value: 831)"
@@ -784,6 +793,7 @@ READER: Demand set:  Index:  36 , demand:  7
 READER: Demand set:  Index:  37 , demand:  15
 READER: Demand set:  Index:  38 , demand:  10
 READER: Demand set:  Index:  39 , demand:  2
+READER: Depot set:  1
 "../dairyProblem/data/A-n44-k7.vrp"
 READER: Name set:  "A-n44-k6"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 6, Optimal value: 937)"
@@ -879,6 +889,7 @@ READER: Demand set:  Index:  41 , demand:  13
 READER: Demand set:  Index:  42 , demand:  4
 READER: Demand set:  Index:  43 , demand:  14
 READER: Demand set:  Index:  44 , demand:  18
+READER: Depot set:  1
 "../dairyProblem/data/A-n45-k6.vrp"
 READER: Name set:  "A-n45-k6"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 6, Optimal value: 944)"
@@ -976,6 +987,7 @@ READER: Demand set:  Index:  42 , demand:  5
 READER: Demand set:  Index:  43 , demand:  3
 READER: Demand set:  Index:  44 , demand:  18
 READER: Demand set:  Index:  45 , demand:  12
+READER: Depot set:  1
 "../dairyProblem/data/A-n45-k7.vrp"
 READER: Name set:  "A-n45-k7"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 7, Best value: 1146)"
@@ -1073,6 +1085,7 @@ READER: Demand set:  Index:  42 , demand:  6
 READER: Demand set:  Index:  43 , demand:  11
 READER: Demand set:  Index:  44 , demand:  21
 READER: Demand set:  Index:  45 , demand:  24
+READER: Depot set:  1
 "../dairyProblem/data/A-n46-k7.vrp"
 READER: Name set:  "A-n46-k7"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 7, Optimal value: 914)"
@@ -1172,6 +1185,7 @@ READER: Demand set:  Index:  43 , demand:  22
 READER: Demand set:  Index:  44 , demand:  20
 READER: Demand set:  Index:  45 , demand:  21
 READER: Demand set:  Index:  46 , demand:  2
+READER: Depot set:  1
 "../dairyProblem/data/A-n48-k7.vrp"
 READER: Name set:  "A-n48-k7"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 7, Best value: 1073)"
@@ -1275,6 +1289,7 @@ READER: Demand set:  Index:  45 , demand:  7
 READER: Demand set:  Index:  46 , demand:  16
 READER: Demand set:  Index:  47 , demand:  18
 READER: Demand set:  Index:  48 , demand:  16
+READER: Depot set:  1
 "../dairyProblem/data/A-n53-k7.vrp"
 READER: Name set:  "A-n53-k7"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 7, Optimal value: 1010)"
@@ -1388,6 +1403,7 @@ READER: Demand set:  Index:  50 , demand:  3
 READER: Demand set:  Index:  51 , demand:  3
 READER: Demand set:  Index:  52 , demand:  5
 READER: Demand set:  Index:  53 , demand:  13
+READER: Depot set:  1
 "../dairyProblem/data/A-n54-k7.vrp"
 READER: Name set:  "A-n54-k7"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 7, Best value: 1167)"
@@ -1503,6 +1519,7 @@ READER: Demand set:  Index:  51 , demand:  18
 READER: Demand set:  Index:  52 , demand:  5
 READER: Demand set:  Index:  53 , demand:  9
 READER: Demand set:  Index:  54 , demand:  36
+READER: Depot set:  1
 "../dairyProblem/data/A-n55-k9.vrp"
 READER: Name set:  "A-n55-k9"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 9, Optimal value: 1073)"
@@ -1620,6 +1637,7 @@ READER: Demand set:  Index:  52 , demand:  18
 READER: Demand set:  Index:  53 , demand:  7
 READER: Demand set:  Index:  54 , demand:  11
 READER: Demand set:  Index:  55 , demand:  12
+READER: Depot set:  1
 "../dairyProblem/data/A-n60-k9.vrp"
 READER: Name set:  "A-n60-k9"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 9, Best value: 1408)"
@@ -1747,6 +1765,7 @@ READER: Demand set:  Index:  57 , demand:  18
 READER: Demand set:  Index:  58 , demand:  22
 READER: Demand set:  Index:  59 , demand:  9
 READER: Demand set:  Index:  60 , demand:  23
+READER: Depot set:  1
 "../dairyProblem/data/A-n61-k9.vrp"
 READER: Name set:  "A-n61-k9"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 9, Best value: 1035)"
@@ -1876,6 +1895,7 @@ READER: Demand set:  Index:  58 , demand:  12
 READER: Demand set:  Index:  59 , demand:  27
 READER: Demand set:  Index:  60 , demand:  9
 READER: Demand set:  Index:  61 , demand:  15
+READER: Depot set:  1
 "../dairyProblem/data/A-n62-k8.vrp"
 READER: Name set:  "A-n62-k8"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 8, Best value: 1290)"
@@ -2007,6 +2027,7 @@ READER: Demand set:  Index:  59 , demand:  26
 READER: Demand set:  Index:  60 , demand:  21
 READER: Demand set:  Index:  61 , demand:  2
 READER: Demand set:  Index:  62 , demand:  7
+READER: Depot set:  1
 "../dairyProblem/data/A-n63-k10.vrp"
 READER: Name set:  "A-n63-k10"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 10, Best value: 1315)"
@@ -2140,6 +2161,7 @@ READER: Demand set:  Index:  60 , demand:  5
 READER: Demand set:  Index:  61 , demand:  22
 READER: Demand set:  Index:  62 , demand:  17
 READER: Demand set:  Index:  63 , demand:  6
+READER: Depot set:  1
 "../dairyProblem/data/A-n63-k9.vrp"
 READER: Name set:  "A-n63-k9"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 9, Best value: 1634)"
@@ -2273,6 +2295,7 @@ READER: Demand set:  Index:  60 , demand:  20
 READER: Demand set:  Index:  61 , demand:  18
 READER: Demand set:  Index:  62 , demand:  19
 READER: Demand set:  Index:  63 , demand:  8
+READER: Depot set:  1
 "../dairyProblem/data/A-n64-k9.vrp"
 READER: Name set:  "A-n64-k9"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 9, Best value: 1402)"
@@ -2408,6 +2431,7 @@ READER: Demand set:  Index:  61 , demand:  11
 READER: Demand set:  Index:  62 , demand:  12
 READER: Demand set:  Index:  63 , demand:  54
 READER: Demand set:  Index:  64 , demand:  8
+READER: Depot set:  1
 "../dairyProblem/data/A-n65-k9.vrp"
 READER: Name set:  "A-n65-k9"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 9, Best value: 1177)"
@@ -2545,6 +2569,7 @@ READER: Demand set:  Index:  62 , demand:  2
 READER: Demand set:  Index:  63 , demand:  16
 READER: Demand set:  Index:  64 , demand:  23
 READER: Demand set:  Index:  65 , demand:  14
+READER: Depot set:  1
 "../dairyProblem/data/A-n69-k9.vrp"
 READER: Name set:  "A-n69-k9"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 9, Best value: 1168)"
@@ -2690,6 +2715,7 @@ READER: Demand set:  Index:  66 , demand:  22
 READER: Demand set:  Index:  67 , demand:  7
 READER: Demand set:  Index:  68 , demand:  24
 READER: Demand set:  Index:  69 , demand:  18
+READER: Depot set:  1
 "../dairyProblem/data/A-n80-k10.vrp"
 READER: Name set:  "A-n80-k10"
 READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 10, Best value: 1764)"
@@ -2857,3 +2883,4 @@ READER: Demand set:  Index:  77 , demand:  14
 READER: Demand set:  Index:  78 , demand:  2
 READER: Demand set:  Index:  79 , demand:  2
 READER: Demand set:  Index:  80 , demand:  24
+READER: Depot set:  1

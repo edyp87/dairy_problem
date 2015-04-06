@@ -1,25 +1,10 @@
 #include "cvrpfile.h"
 #include <stdexcept>
 
+namespace Vrp
+{
+
 QString CvrpFile::s_descriptionSplitter = ":";
-
-namespace Utils
-{
-
-e_keywords findEnumForKeyword(QString p_keyword)
-{
-    for (int i = 0; i < keywordStringList.size(); ++i)
-    {
-        if (keywordStringList[i] == p_keyword)
-        {
-            return (e_keywords) i;
-        }
-    }
-    return Utils::e_keywords::UNDEFINED;
-}
-
-} // namespace Utils
-
 
 CvrpFile::CvrpFile(const QString &p_filename)
     : m_cvrpRawFile(p_filename)
@@ -46,3 +31,5 @@ void CvrpFile::loadCvrpFile()
     }
     m_cvrpRawFileStream.reset(new QTextStream(&m_cvrpRawFile));
 }
+
+} // namespace Vrp

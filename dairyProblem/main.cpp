@@ -3,7 +3,7 @@
 #include <QDirIterator>
 #include <QCryptographicHash>
 
-QList<CvrpData> g_dataList;
+QList<Vrp::CvrpData> g_dataList;
 
 void showProgress()
 {
@@ -16,7 +16,7 @@ void showProgress()
             {
                 qDebug() << info.filePath();
 
-                g_dataList.append(VrpFileReader(info.filePath()).getData());
+                g_dataList.append(Vrp::VrpFileReader(info.filePath()).getData());
             }
             if (info.isDir())
             {
