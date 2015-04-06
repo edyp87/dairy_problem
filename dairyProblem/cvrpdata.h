@@ -4,7 +4,7 @@
 #include <QString>
 #include <QList>
 #include <vrp2dcoordinate.h>
-#include <vrpdemand.h>
+#include <cvrpdemand.h>
 
 namespace Vrp
 {
@@ -28,9 +28,9 @@ public:
     QList<Vrp2dCoordinate> nodeCoordinates() const;
     void setNodeCoordinates(const QList<Vrp2dCoordinate> nodeCoordinates);
     void appendToCoordinates(const Vrp2dCoordinate p_node);
-    QList<VrpDemand> demands() const;
-    void setDemands(const QList<VrpDemand> demands);
-    void appendToDemands(const VrpDemand p_demand);
+    QList<CvrpDemand> demands() const;
+    void setDemands(const QList<CvrpDemand> demands);
+    void appendToDemands(const CvrpDemand p_demand);
     quint32 depot() const;
     void setDepot(const quint32 depot);
 
@@ -43,7 +43,7 @@ private:
     quint32 m_capacity;
     quint32 m_depot;
     QList<Vrp2dCoordinate> m_nodeCoordinates;
-    QList<VrpDemand> m_demands;
+    QList<CvrpDemand> m_demands;
 };
 
 } // namespace Vrp

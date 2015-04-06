@@ -8,12 +8,12 @@
 namespace Vrp
 {
 
-struct VrpDemand
+struct CvrpDemand
 {
     quint32 index, demand;
 };
 
-QDebug operator<<(QDebug cout, const VrpDemand& p_node);
+QDebug operator<<(QDebug cout, const CvrpDemand& p_node);
 
 } // namespace Vrp
 

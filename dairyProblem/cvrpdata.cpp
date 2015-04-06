@@ -76,17 +76,17 @@ void CvrpData::appendToCoordinates(const Vrp2dCoordinate p_node)
 {
     m_nodeCoordinates.append(p_node);
 }
-QList<VrpDemand> CvrpData::demands() const
+QList<CvrpDemand> CvrpData::demands() const
 {
     return m_demands;
 }
 
-void CvrpData::setDemands(const QList<VrpDemand> demands)
+void CvrpData::setDemands(const QList<CvrpDemand> demands)
 {
     m_demands = demands;
 }
 
-void CvrpData::appendToDemands(const VrpDemand p_demand)
+void CvrpData::appendToDemands(const CvrpDemand p_demand)
 {
     m_demands.append(p_demand);
 }
