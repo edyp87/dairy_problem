@@ -1,5 +1,5 @@
 #include <iostream>
-#include <vrpfilereader.h>
+#include <cvrpfilereader.h>
 #include <QDirIterator>
 #include <QCryptographicHash>
 
@@ -31,4 +31,3 @@ int main()
     showProgress();
     return 0;
 }
-
