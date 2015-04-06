@@ -16,7 +16,7 @@ void showProgress()
             {
                 qDebug() << info.filePath();
 
-                g_dataList.append(Vrp::VrpFileReader(info.filePath()).getData());
+                g_dataList.append(Vrp::CvrpFileReader(info.filePath()).getData());
             }
             if (info.isDir())
             {

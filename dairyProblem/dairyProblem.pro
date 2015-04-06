@@ -13,17 +13,17 @@ TEMPLATE = app
 QMAKE_CXXFLAGS += -std=c++11
 
 SOURCES += main.cpp \
-    vrpfilereader.cpp \
     cvrpfile.cpp \
     cvrpdata.cpp \
     vrp2dcoordinate.cpp \
     vrptokens.cpp \
-    cvrpdemand.cpp
+    cvrpdemand.cpp \
+    cvrpfilereader.cpp
 
 HEADERS  += \
-    vrpfilereader.h \
     cvrpfile.h \
     cvrpdata.h \
     vrp2dcoordinate.h \
     vrptokens.h \
-    cvrpdemand.h
+    cvrpdemand.h \
+    cvrpfilereader.h

@@ -1,4 +1,4 @@
-#include "vrpfilereader.h"
+#include "cvrpfilereader.h"
 #include <QDebug>
 #include <QStringList>
 #include <stdexcept>
@@ -7,13 +7,13 @@
 namespace Vrp
 {
 
-VrpFileReader::VrpFileReader(const QString p_filename)
+CvrpFileReader::CvrpFileReader(const QString p_filename)
     : m_file(p_filename)
 {
     serializeFileToDataClass();
 }
 
-void VrpFileReader::serializeFileToDataClass()
+void CvrpFileReader::serializeFileToDataClass()
 {
     while (not m_file.atEnd())
     {
@@ -21,7 +21,7 @@ void VrpFileReader::serializeFileToDataClass()
     }
 }
 
-void VrpFileReader::processNextLine()
+void CvrpFileReader::processNextLine()
 {
     QString l_line = m_file.readLine();
 
@@ -43,12 +43,12 @@ void VrpFileReader::processNextLine()
     processLine(l_wordList, l_line);
 }
 
-void VrpFileReader::removeWhiteSpaces(QStringList &l_wordList)
+void CvrpFileReader::removeWhiteSpaces(QStringList &l_wordList)
 {
     l_wordList.replaceInStrings(QRegExp("\\s*"), "");
 }
 
-void VrpFileReader::processLine(QStringList l_wordList, QString l_line)
+void CvrpFileReader::processLine(QStringList l_wordList, QString l_line)
 {
     switch (Utils::findEnumForKeyword(l_wordList[0]))
     {
@@ -97,7 +97,7 @@ void VrpFileReader::processLine(QStringList l_wordList, QString l_line)
     }
 }
 
-void VrpFileReader::showFile()
+void CvrpFileReader::showFile()
 {
     QString l_line = m_file.readLine();
 
@@ -108,7 +108,7 @@ void VrpFileReader::showFile()
     }
 }
 
-void VrpFileReader::readCoordinates()
+void CvrpFileReader::readCoordinates()
 {
     quint32 l_dimension = m_data.dimension();
 
@@ -122,7 +122,7 @@ void VrpFileReader::readCoordinates()
     }
 }
 
-void VrpFileReader::readDemands()
+void CvrpFileReader::readDemands()
 {
     quint32 l_dimension = m_data.dimension();
 
@@ -136,7 +136,7 @@ void VrpFileReader::readDemands()
     }
 }
 
-void VrpFileReader::readDepots()
+void CvrpFileReader::readDepots()
 {
     QString l_line = m_file.readLine();
     bool l_isDepotSet = false;
@@ -155,13 +155,13 @@ void VrpFileReader::readDepots()
     }
 }
 
-void VrpFileReader::readCapacity(QStringList l_wordList)
+void CvrpFileReader::readCapacity(QStringList l_wordList)
 {
     m_data.setCapacity(l_wordList[1].toInt());
     qDebug() << "READER: Capacity set: " << m_data.capacity();
 }
 
-void VrpFileReader::readEdgesType(QStringList l_wordList)
+void CvrpFileReader::readEdgesType(QStringList l_wordList)
 {
     if (l_wordList[1] != "EUC_2D")
     {
@@ -171,13 +171,13 @@ void VrpFileReader::readEdgesType(QStringList l_wordList)
     qDebug() << "READER: Type of edge weight set: " << m_data.edgeWeightType();
 }
 
-void VrpFileReader::readDimension(QStringList l_wordList)
+void CvrpFileReader::readDimension(QStringList l_wordList)
 {
     m_data.setDimension(l_wordList[1].toInt());
     qDebug() << "READER: Dimension set: " << m_data.dimension();
 }
 
-void VrpFileReader::readVrpType(QStringList l_wordList)
+void CvrpFileReader::readVrpType(QStringList l_wordList)
 {
     if (l_wordList[1] != "CVRP")
     {
@@ -187,24 +187,24 @@ void VrpFileReader::readVrpType(QStringList l_wordList)
     qDebug() << "READER: Type set: " << m_data.type();
 }
 
-void VrpFileReader::readComment(QString l_line)
+void CvrpFileReader::readComment(QString l_line)
 {
     m_data.setComment(l_line);
     qDebug() << "READER: Comment set: " << m_data.comment();
 }
 
-void VrpFileReader::readName(QStringList l_wordList)
+void CvrpFileReader::readName(QStringList l_wordList)
 {
     m_data.setName(l_wordList[1]);
     qDebug() << "READER: Name set: " << m_data.name();
 }
 
-QStringList VrpFileReader::splitLine(QString p_line)
+QStringList CvrpFileReader::splitLine(QString p_line)
 {
     return p_line.split(CvrpFile::s_descriptionSplitter);
 }
 
-CvrpData VrpFileReader::getData()
+CvrpData CvrpFileReader::getData()
 {
     return m_data;
 }

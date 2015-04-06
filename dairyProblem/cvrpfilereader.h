@@ -15,10 +15,10 @@
 namespace Vrp
 {
 
-class VrpFileReader
+class CvrpFileReader
 {
 public:
-    explicit VrpFileReader(const QString p_filename);
+    explicit CvrpFileReader(const QString p_filename);
     CvrpData getData();
 
 private:
