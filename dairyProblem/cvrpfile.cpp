@@ -20,11 +20,23 @@ e_keywords findEnumForKeyword(QString p_keyword)
 
 } // namespace Utils
 
+
 CvrpFile::CvrpFile(const QString &p_filename)
     : m_cvrpRawFile(p_filename)
 {
     loadCvrpFile();
 }
+
+QString CvrpFile::readLine() const
+{
+    return m_cvrpRawFileStream->readLine();
+}
+
+bool CvrpFile::atEnd() const
+{
+    return m_cvrpRawFileStream->atEnd();
+}
+
 
 void CvrpFile::loadCvrpFile()
 {

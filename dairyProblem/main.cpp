@@ -1,10 +1,11 @@
 #include <iostream>
 #include <vrpfilereader.h>
 #include <QDirIterator>
+#include <QCryptographicHash>
 
 QList<CvrpData> g_dataList;
 
-int main()
+void showProgress()
 {
     QDir dir("../dairyProblem/data");
     if (dir.exists())
@@ -23,5 +24,11 @@ int main()
             }
         }
     }
+}
+
+int main()
+{
+    showProgress();
     return 0;
 }
+

@@ -1,0 +1,2859 @@
+"../dairyProblem/data/A-n32-k5.vrp"
+READER: Name set:  "A-n32-k5"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 5, Optimal value: 784)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  32
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  82 , y:  76 .
+READER: Node set:  Index:  2 , x:  96 , y:  44 .
+READER: Node set:  Index:  3 , x:  50 , y:  5 .
+READER: Node set:  Index:  4 , x:  49 , y:  8 .
+READER: Node set:  Index:  5 , x:  13 , y:  7 .
+READER: Node set:  Index:  6 , x:  29 , y:  89 .
+READER: Node set:  Index:  7 , x:  58 , y:  30 .
+READER: Node set:  Index:  8 , x:  84 , y:  39 .
+READER: Node set:  Index:  9 , x:  14 , y:  24 .
+READER: Node set:  Index:  10 , x:  2 , y:  39 .
+READER: Node set:  Index:  11 , x:  3 , y:  82 .
+READER: Node set:  Index:  12 , x:  5 , y:  10 .
+READER: Node set:  Index:  13 , x:  98 , y:  52 .
+READER: Node set:  Index:  14 , x:  84 , y:  25 .
+READER: Node set:  Index:  15 , x:  61 , y:  59 .
+READER: Node set:  Index:  16 , x:  1 , y:  65 .
+READER: Node set:  Index:  17 , x:  88 , y:  51 .
+READER: Node set:  Index:  18 , x:  91 , y:  2 .
+READER: Node set:  Index:  19 , x:  19 , y:  32 .
+READER: Node set:  Index:  20 , x:  93 , y:  3 .
+READER: Node set:  Index:  21 , x:  50 , y:  93 .
+READER: Node set:  Index:  22 , x:  98 , y:  14 .
+READER: Node set:  Index:  23 , x:  5 , y:  42 .
+READER: Node set:  Index:  24 , x:  42 , y:  9 .
+READER: Node set:  Index:  25 , x:  61 , y:  62 .
+READER: Node set:  Index:  26 , x:  9 , y:  97 .
+READER: Node set:  Index:  27 , x:  80 , y:  55 .
+READER: Node set:  Index:  28 , x:  57 , y:  69 .
+READER: Node set:  Index:  29 , x:  23 , y:  15 .
+READER: Node set:  Index:  30 , x:  20 , y:  70 .
+READER: Node set:  Index:  31 , x:  85 , y:  60 .
+READER: Node set:  Index:  32 , x:  98 , y:  5 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  19
+READER: Demand set:  Index:  3 , demand:  21
+READER: Demand set:  Index:  4 , demand:  6
+READER: Demand set:  Index:  5 , demand:  19
+READER: Demand set:  Index:  6 , demand:  7
+READER: Demand set:  Index:  7 , demand:  12
+READER: Demand set:  Index:  8 , demand:  16
+READER: Demand set:  Index:  9 , demand:  6
+READER: Demand set:  Index:  10 , demand:  16
+READER: Demand set:  Index:  11 , demand:  8
+READER: Demand set:  Index:  12 , demand:  14
+READER: Demand set:  Index:  13 , demand:  21
+READER: Demand set:  Index:  14 , demand:  16
+READER: Demand set:  Index:  15 , demand:  3
+READER: Demand set:  Index:  16 , demand:  22
+READER: Demand set:  Index:  17 , demand:  18
+READER: Demand set:  Index:  18 , demand:  19
+READER: Demand set:  Index:  19 , demand:  1
+READER: Demand set:  Index:  20 , demand:  24
+READER: Demand set:  Index:  21 , demand:  8
+READER: Demand set:  Index:  22 , demand:  12
+READER: Demand set:  Index:  23 , demand:  4
+READER: Demand set:  Index:  24 , demand:  8
+READER: Demand set:  Index:  25 , demand:  24
+READER: Demand set:  Index:  26 , demand:  24
+READER: Demand set:  Index:  27 , demand:  2
+READER: Demand set:  Index:  28 , demand:  20
+READER: Demand set:  Index:  29 , demand:  15
+READER: Demand set:  Index:  30 , demand:  2
+READER: Demand set:  Index:  31 , demand:  14
+READER: Demand set:  Index:  32 , demand:  9
+"../dairyProblem/data/A-n33-k5.vrp"
+READER: Name set:  "A-n33-k5"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 5, Optimal value: 661)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  33
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  42 , y:  68 .
+READER: Node set:  Index:  2 , x:  77 , y:  97 .
+READER: Node set:  Index:  3 , x:  28 , y:  64 .
+READER: Node set:  Index:  4 , x:  77 , y:  39 .
+READER: Node set:  Index:  5 , x:  32 , y:  33 .
+READER: Node set:  Index:  6 , x:  32 , y:  8 .
+READER: Node set:  Index:  7 , x:  42 , y:  92 .
+READER: Node set:  Index:  8 , x:  8 , y:  3 .
+READER: Node set:  Index:  9 , x:  7 , y:  14 .
+READER: Node set:  Index:  10 , x:  82 , y:  17 .
+READER: Node set:  Index:  11 , x:  48 , y:  13 .
+READER: Node set:  Index:  12 , x:  53 , y:  82 .
+READER: Node set:  Index:  13 , x:  39 , y:  27 .
+READER: Node set:  Index:  14 , x:  7 , y:  24 .
+READER: Node set:  Index:  15 , x:  67 , y:  98 .
+READER: Node set:  Index:  16 , x:  54 , y:  52 .
+READER: Node set:  Index:  17 , x:  72 , y:  43 .
+READER: Node set:  Index:  18 , x:  73 , y:  3 .
+READER: Node set:  Index:  19 , x:  59 , y:  77 .
+READER: Node set:  Index:  20 , x:  58 , y:  97 .
+READER: Node set:  Index:  21 , x:  23 , y:  43 .
+READER: Node set:  Index:  22 , x:  68 , y:  98 .
+READER: Node set:  Index:  23 , x:  47 , y:  62 .
+READER: Node set:  Index:  24 , x:  52 , y:  72 .
+READER: Node set:  Index:  25 , x:  32 , y:  88 .
+READER: Node set:  Index:  26 , x:  39 , y:  7 .
+READER: Node set:  Index:  27 , x:  17 , y:  8 .
+READER: Node set:  Index:  28 , x:  38 , y:  7 .
+READER: Node set:  Index:  29 , x:  58 , y:  74 .
+READER: Node set:  Index:  30 , x:  82 , y:  67 .
+READER: Node set:  Index:  31 , x:  42 , y:  7 .
+READER: Node set:  Index:  32 , x:  68 , y:  82 .
+READER: Node set:  Index:  33 , x:  7 , y:  48 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  5
+READER: Demand set:  Index:  3 , demand:  23
+READER: Demand set:  Index:  4 , demand:  14
+READER: Demand set:  Index:  5 , demand:  13
+READER: Demand set:  Index:  6 , demand:  8
+READER: Demand set:  Index:  7 , demand:  18
+READER: Demand set:  Index:  8 , demand:  19
+READER: Demand set:  Index:  9 , demand:  10
+READER: Demand set:  Index:  10 , demand:  18
+READER: Demand set:  Index:  11 , demand:  20
+READER: Demand set:  Index:  12 , demand:  5
+READER: Demand set:  Index:  13 , demand:  9
+READER: Demand set:  Index:  14 , demand:  23
+READER: Demand set:  Index:  15 , demand:  9
+READER: Demand set:  Index:  16 , demand:  18
+READER: Demand set:  Index:  17 , demand:  10
+READER: Demand set:  Index:  18 , demand:  24
+READER: Demand set:  Index:  19 , demand:  13
+READER: Demand set:  Index:  20 , demand:  14
+READER: Demand set:  Index:  21 , demand:  8
+READER: Demand set:  Index:  22 , demand:  10
+READER: Demand set:  Index:  23 , demand:  19
+READER: Demand set:  Index:  24 , demand:  14
+READER: Demand set:  Index:  25 , demand:  13
+READER: Demand set:  Index:  26 , demand:  14
+READER: Demand set:  Index:  27 , demand:  2
+READER: Demand set:  Index:  28 , demand:  23
+READER: Demand set:  Index:  29 , demand:  15
+READER: Demand set:  Index:  30 , demand:  8
+READER: Demand set:  Index:  31 , demand:  20
+READER: Demand set:  Index:  32 , demand:  24
+READER: Demand set:  Index:  33 , demand:  3
+"../dairyProblem/data/A-n33-k6.vrp"
+READER: Name set:  "A-n33-k6"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 6, Optimal value: 742)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  33
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  34 , y:  31 .
+READER: Node set:  Index:  2 , x:  45 , y:  55 .
+READER: Node set:  Index:  3 , x:  70 , y:  80 .
+READER: Node set:  Index:  4 , x:  81 , y:  70 .
+READER: Node set:  Index:  5 , x:  85 , y:  61 .
+READER: Node set:  Index:  6 , x:  59 , y:  55 .
+READER: Node set:  Index:  7 , x:  45 , y:  60 .
+READER: Node set:  Index:  8 , x:  50 , y:  64 .
+READER: Node set:  Index:  9 , x:  80 , y:  64 .
+READER: Node set:  Index:  10 , x:  75 , y:  90 .
+READER: Node set:  Index:  11 , x:  25 , y:  40 .
+READER: Node set:  Index:  12 , x:  9 , y:  66 .
+READER: Node set:  Index:  13 , x:  1 , y:  44 .
+READER: Node set:  Index:  14 , x:  50 , y:  54 .
+READER: Node set:  Index:  15 , x:  35 , y:  45 .
+READER: Node set:  Index:  16 , x:  71 , y:  84 .
+READER: Node set:  Index:  17 , x:  1 , y:  9 .
+READER: Node set:  Index:  18 , x:  25 , y:  54 .
+READER: Node set:  Index:  19 , x:  45 , y:  59 .
+READER: Node set:  Index:  20 , x:  45 , y:  71 .
+READER: Node set:  Index:  21 , x:  66 , y:  84 .
+READER: Node set:  Index:  22 , x:  11 , y:  35 .
+READER: Node set:  Index:  23 , x:  81 , y:  46 .
+READER: Node set:  Index:  24 , x:  85 , y:  10 .
+READER: Node set:  Index:  25 , x:  75 , y:  20 .
+READER: Node set:  Index:  26 , x:  15 , y:  21 .
+READER: Node set:  Index:  27 , x:  90 , y:  45 .
+READER: Node set:  Index:  28 , x:  15 , y:  0 .
+READER: Node set:  Index:  29 , x:  31 , y:  26 .
+READER: Node set:  Index:  30 , x:  10 , y:  95 .
+READER: Node set:  Index:  31 , x:  6 , y:  6 .
+READER: Node set:  Index:  32 , x:  51 , y:  5 .
+READER: Node set:  Index:  33 , x:  26 , y:  36 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  26
+READER: Demand set:  Index:  3 , demand:  17
+READER: Demand set:  Index:  4 , demand:  6
+READER: Demand set:  Index:  5 , demand:  15
+READER: Demand set:  Index:  6 , demand:  7
+READER: Demand set:  Index:  7 , demand:  5
+READER: Demand set:  Index:  8 , demand:  15
+READER: Demand set:  Index:  9 , demand:  16
+READER: Demand set:  Index:  10 , demand:  17
+READER: Demand set:  Index:  11 , demand:  1
+READER: Demand set:  Index:  12 , demand:  21
+READER: Demand set:  Index:  13 , demand:  66
+READER: Demand set:  Index:  14 , demand:  25
+READER: Demand set:  Index:  15 , demand:  16
+READER: Demand set:  Index:  16 , demand:  11
+READER: Demand set:  Index:  17 , demand:  7
+READER: Demand set:  Index:  18 , demand:  17
+READER: Demand set:  Index:  19 , demand:  17
+READER: Demand set:  Index:  20 , demand:  22
+READER: Demand set:  Index:  21 , demand:  10
+READER: Demand set:  Index:  22 , demand:  25
+READER: Demand set:  Index:  23 , demand:  16
+READER: Demand set:  Index:  24 , demand:  7
+READER: Demand set:  Index:  25 , demand:  21
+READER: Demand set:  Index:  26 , demand:  11
+READER: Demand set:  Index:  27 , demand:  21
+READER: Demand set:  Index:  28 , demand:  11
+READER: Demand set:  Index:  29 , demand:  21
+READER: Demand set:  Index:  30 , demand:  22
+READER: Demand set:  Index:  31 , demand:  25
+READER: Demand set:  Index:  32 , demand:  2
+READER: Demand set:  Index:  33 , demand:  22
+"../dairyProblem/data/A-n34-k5.vrp"
+READER: Name set:  "A-n34-k5"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 5, Optimal value: 778)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  34
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  73 , y:  39 .
+READER: Node set:  Index:  2 , x:  67 , y:  91 .
+READER: Node set:  Index:  3 , x:  39 , y:  21 .
+READER: Node set:  Index:  4 , x:  3 , y:  9 .
+READER: Node set:  Index:  5 , x:  97 , y:  15 .
+READER: Node set:  Index:  6 , x:  91 , y:  65 .
+READER: Node set:  Index:  7 , x:  55 , y:  75 .
+READER: Node set:  Index:  8 , x:  55 , y:  71 .
+READER: Node set:  Index:  9 , x:  57 , y:  85 .
+READER: Node set:  Index:  10 , x:  21 , y:  15 .
+READER: Node set:  Index:  11 , x:  47 , y:  57 .
+READER: Node set:  Index:  12 , x:  51 , y:  97 .
+READER: Node set:  Index:  13 , x:  11 , y:  11 .
+READER: Node set:  Index:  14 , x:  43 , y:  59 .
+READER: Node set:  Index:  15 , x:  63 , y:  69 .
+READER: Node set:  Index:  16 , x:  55 , y:  77 .
+READER: Node set:  Index:  17 , x:  35 , y:  11 .
+READER: Node set:  Index:  18 , x:  27 , y:  91 .
+READER: Node set:  Index:  19 , x:  49 , y:  25 .
+READER: Node set:  Index:  20 , x:  29 , y:  93 .
+READER: Node set:  Index:  21 , x:  71 , y:  27 .
+READER: Node set:  Index:  22 , x:  31 , y:  43 .
+READER: Node set:  Index:  23 , x:  27 , y:  9 .
+READER: Node set:  Index:  24 , x:  67 , y:  99 .
+READER: Node set:  Index:  25 , x:  87 , y:  81 .
+READER: Node set:  Index:  26 , x:  23 , y:  81 .
+READER: Node set:  Index:  27 , x:  89 , y:  33 .
+READER: Node set:  Index:  28 , x:  71 , y:  91 .
+READER: Node set:  Index:  29 , x:  19 , y:  77 .
+READER: Node set:  Index:  30 , x:  65 , y:  77 .
+READER: Node set:  Index:  31 , x:  87 , y:  79 .
+READER: Node set:  Index:  32 , x:  19 , y:  83 .
+READER: Node set:  Index:  33 , x:  1 , y:  59 .
+READER: Node set:  Index:  34 , x:  55 , y:  7 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  23
+READER: Demand set:  Index:  3 , demand:  3
+READER: Demand set:  Index:  4 , demand:  24
+READER: Demand set:  Index:  5 , demand:  15
+READER: Demand set:  Index:  6 , demand:  15
+READER: Demand set:  Index:  7 , demand:  24
+READER: Demand set:  Index:  8 , demand:  7
+READER: Demand set:  Index:  9 , demand:  25
+READER: Demand set:  Index:  10 , demand:  13
+READER: Demand set:  Index:  11 , demand:  5
+READER: Demand set:  Index:  12 , demand:  7
+READER: Demand set:  Index:  13 , demand:  5
+READER: Demand set:  Index:  14 , demand:  14
+READER: Demand set:  Index:  15 , demand:  13
+READER: Demand set:  Index:  16 , demand:  5
+READER: Demand set:  Index:  17 , demand:  24
+READER: Demand set:  Index:  18 , demand:  15
+READER: Demand set:  Index:  19 , demand:  9
+READER: Demand set:  Index:  20 , demand:  16
+READER: Demand set:  Index:  21 , demand:  13
+READER: Demand set:  Index:  22 , demand:  16
+READER: Demand set:  Index:  23 , demand:  13
+READER: Demand set:  Index:  24 , demand:  24
+READER: Demand set:  Index:  25 , demand:  20
+READER: Demand set:  Index:  26 , demand:  23
+READER: Demand set:  Index:  27 , demand:  20
+READER: Demand set:  Index:  28 , demand:  3
+READER: Demand set:  Index:  29 , demand:  15
+READER: Demand set:  Index:  30 , demand:  12
+READER: Demand set:  Index:  31 , demand:  19
+READER: Demand set:  Index:  32 , demand:  4
+READER: Demand set:  Index:  33 , demand:  15
+READER: Demand set:  Index:  34 , demand:  1
+"../dairyProblem/data/A-n36-k5.vrp"
+READER: Name set:  "A-n36-k5"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 5, Optimal value: 799)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  36
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  15 , y:  19 .
+READER: Node set:  Index:  2 , x:  1 , y:  49 .
+READER: Node set:  Index:  3 , x:  87 , y:  25 .
+READER: Node set:  Index:  4 , x:  69 , y:  65 .
+READER: Node set:  Index:  5 , x:  93 , y:  91 .
+READER: Node set:  Index:  6 , x:  33 , y:  31 .
+READER: Node set:  Index:  7 , x:  71 , y:  61 .
+READER: Node set:  Index:  8 , x:  29 , y:  9 .
+READER: Node set:  Index:  9 , x:  93 , y:  7 .
+READER: Node set:  Index:  10 , x:  55 , y:  47 .
+READER: Node set:  Index:  11 , x:  23 , y:  13 .
+READER: Node set:  Index:  12 , x:  19 , y:  47 .
+READER: Node set:  Index:  13 , x:  57 , y:  63 .
+READER: Node set:  Index:  14 , x:  5 , y:  95 .
+READER: Node set:  Index:  15 , x:  65 , y:  43 .
+READER: Node set:  Index:  16 , x:  69 , y:  1 .
+READER: Node set:  Index:  17 , x:  3 , y:  25 .
+READER: Node set:  Index:  18 , x:  19 , y:  91 .
+READER: Node set:  Index:  19 , x:  21 , y:  81 .
+READER: Node set:  Index:  20 , x:  67 , y:  91 .
+READER: Node set:  Index:  21 , x:  41 , y:  23 .
+READER: Node set:  Index:  22 , x:  19 , y:  75 .
+READER: Node set:  Index:  23 , x:  15 , y:  79 .
+READER: Node set:  Index:  24 , x:  79 , y:  47 .
+READER: Node set:  Index:  25 , x:  19 , y:  65 .
+READER: Node set:  Index:  26 , x:  27 , y:  49 .
+READER: Node set:  Index:  27 , x:  29 , y:  17 .
+READER: Node set:  Index:  28 , x:  25 , y:  65 .
+READER: Node set:  Index:  29 , x:  59 , y:  51 .
+READER: Node set:  Index:  30 , x:  27 , y:  95 .
+READER: Node set:  Index:  31 , x:  21 , y:  91 .
+READER: Node set:  Index:  32 , x:  61 , y:  83 .
+READER: Node set:  Index:  33 , x:  15 , y:  83 .
+READER: Node set:  Index:  34 , x:  31 , y:  87 .
+READER: Node set:  Index:  35 , x:  71 , y:  41 .
+READER: Node set:  Index:  36 , x:  91 , y:  21 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  1
+READER: Demand set:  Index:  3 , demand:  14
+READER: Demand set:  Index:  4 , demand:  15
+READER: Demand set:  Index:  5 , demand:  11
+READER: Demand set:  Index:  6 , demand:  18
+READER: Demand set:  Index:  7 , demand:  2
+READER: Demand set:  Index:  8 , demand:  22
+READER: Demand set:  Index:  9 , demand:  7
+READER: Demand set:  Index:  10 , demand:  18
+READER: Demand set:  Index:  11 , demand:  23
+READER: Demand set:  Index:  12 , demand:  12
+READER: Demand set:  Index:  13 , demand:  21
+READER: Demand set:  Index:  14 , demand:  2
+READER: Demand set:  Index:  15 , demand:  14
+READER: Demand set:  Index:  16 , demand:  9
+READER: Demand set:  Index:  17 , demand:  10
+READER: Demand set:  Index:  18 , demand:  4
+READER: Demand set:  Index:  19 , demand:  19
+READER: Demand set:  Index:  20 , demand:  2
+READER: Demand set:  Index:  21 , demand:  20
+READER: Demand set:  Index:  22 , demand:  15
+READER: Demand set:  Index:  23 , demand:  11
+READER: Demand set:  Index:  24 , demand:  6
+READER: Demand set:  Index:  25 , demand:  13
+READER: Demand set:  Index:  26 , demand:  19
+READER: Demand set:  Index:  27 , demand:  13
+READER: Demand set:  Index:  28 , demand:  8
+READER: Demand set:  Index:  29 , demand:  15
+READER: Demand set:  Index:  30 , demand:  18
+READER: Demand set:  Index:  31 , demand:  11
+READER: Demand set:  Index:  32 , demand:  21
+READER: Demand set:  Index:  33 , demand:  12
+READER: Demand set:  Index:  34 , demand:  2
+READER: Demand set:  Index:  35 , demand:  23
+READER: Demand set:  Index:  36 , demand:  11
+"../dairyProblem/data/A-n37-k5.vrp"
+READER: Name set:  "A-n37-k5"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 5, Optimal value: 669)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  37
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  38 , y:  46 .
+READER: Node set:  Index:  2 , x:  59 , y:  46 .
+READER: Node set:  Index:  3 , x:  96 , y:  42 .
+READER: Node set:  Index:  4 , x:  47 , y:  61 .
+READER: Node set:  Index:  5 , x:  26 , y:  15 .
+READER: Node set:  Index:  6 , x:  66 , y:  6 .
+READER: Node set:  Index:  7 , x:  96 , y:  7 .
+READER: Node set:  Index:  8 , x:  37 , y:  25 .
+READER: Node set:  Index:  9 , x:  68 , y:  92 .
+READER: Node set:  Index:  10 , x:  78 , y:  84 .
+READER: Node set:  Index:  11 , x:  82 , y:  28 .
+READER: Node set:  Index:  12 , x:  93 , y:  90 .
+READER: Node set:  Index:  13 , x:  74 , y:  42 .
+READER: Node set:  Index:  14 , x:  60 , y:  20 .
+READER: Node set:  Index:  15 , x:  78 , y:  58 .
+READER: Node set:  Index:  16 , x:  36 , y:  48 .
+READER: Node set:  Index:  17 , x:  45 , y:  36 .
+READER: Node set:  Index:  18 , x:  73 , y:  57 .
+READER: Node set:  Index:  19 , x:  10 , y:  91 .
+READER: Node set:  Index:  20 , x:  98 , y:  51 .
+READER: Node set:  Index:  21 , x:  92 , y:  62 .
+READER: Node set:  Index:  22 , x:  43 , y:  42 .
+READER: Node set:  Index:  23 , x:  53 , y:  25 .
+READER: Node set:  Index:  24 , x:  78 , y:  65 .
+READER: Node set:  Index:  25 , x:  72 , y:  79 .
+READER: Node set:  Index:  26 , x:  37 , y:  88 .
+READER: Node set:  Index:  27 , x:  16 , y:  73 .
+READER: Node set:  Index:  28 , x:  75 , y:  96 .
+READER: Node set:  Index:  29 , x:  11 , y:  66 .
+READER: Node set:  Index:  30 , x:  9 , y:  49 .
+READER: Node set:  Index:  31 , x:  25 , y:  72 .
+READER: Node set:  Index:  32 , x:  8 , y:  68 .
+READER: Node set:  Index:  33 , x:  12 , y:  61 .
+READER: Node set:  Index:  34 , x:  50 , y:  2 .
+READER: Node set:  Index:  35 , x:  26 , y:  54 .
+READER: Node set:  Index:  36 , x:  18 , y:  89 .
+READER: Node set:  Index:  37 , x:  22 , y:  53 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  16
+READER: Demand set:  Index:  3 , demand:  18
+READER: Demand set:  Index:  4 , demand:  1
+READER: Demand set:  Index:  5 , demand:  13
+READER: Demand set:  Index:  6 , demand:  8
+READER: Demand set:  Index:  7 , demand:  23
+READER: Demand set:  Index:  8 , demand:  7
+READER: Demand set:  Index:  9 , demand:  27
+READER: Demand set:  Index:  10 , demand:  1
+READER: Demand set:  Index:  11 , demand:  3
+READER: Demand set:  Index:  12 , demand:  6
+READER: Demand set:  Index:  13 , demand:  24
+READER: Demand set:  Index:  14 , demand:  19
+READER: Demand set:  Index:  15 , demand:  2
+READER: Demand set:  Index:  16 , demand:  5
+READER: Demand set:  Index:  17 , demand:  16
+READER: Demand set:  Index:  18 , demand:  7
+READER: Demand set:  Index:  19 , demand:  4
+READER: Demand set:  Index:  20 , demand:  22
+READER: Demand set:  Index:  21 , demand:  7
+READER: Demand set:  Index:  22 , demand:  23
+READER: Demand set:  Index:  23 , demand:  16
+READER: Demand set:  Index:  24 , demand:  2
+READER: Demand set:  Index:  25 , demand:  2
+READER: Demand set:  Index:  26 , demand:  9
+READER: Demand set:  Index:  27 , demand:  2
+READER: Demand set:  Index:  28 , demand:  12
+READER: Demand set:  Index:  29 , demand:  1
+READER: Demand set:  Index:  30 , demand:  9
+READER: Demand set:  Index:  31 , demand:  23
+READER: Demand set:  Index:  32 , demand:  6
+READER: Demand set:  Index:  33 , demand:  19
+READER: Demand set:  Index:  34 , demand:  7
+READER: Demand set:  Index:  35 , demand:  7
+READER: Demand set:  Index:  36 , demand:  20
+READER: Demand set:  Index:  37 , demand:  20
+"../dairyProblem/data/A-n37-k6.vrp"
+READER: Name set:  "A-n37-k6"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 6, Optimal value: 949)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  37
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  86 , y:  22 .
+READER: Node set:  Index:  2 , x:  29 , y:  17 .
+READER: Node set:  Index:  3 , x:  4 , y:  50 .
+READER: Node set:  Index:  4 , x:  25 , y:  13 .
+READER: Node set:  Index:  5 , x:  67 , y:  37 .
+READER: Node set:  Index:  6 , x:  13 , y:  7 .
+READER: Node set:  Index:  7 , x:  62 , y:  15 .
+READER: Node set:  Index:  8 , x:  84 , y:  38 .
+READER: Node set:  Index:  9 , x:  34 , y:  3 .
+READER: Node set:  Index:  10 , x:  19 , y:  45 .
+READER: Node set:  Index:  11 , x:  42 , y:  76 .
+READER: Node set:  Index:  12 , x:  40 , y:  86 .
+READER: Node set:  Index:  13 , x:  25 , y:  94 .
+READER: Node set:  Index:  14 , x:  63 , y:  57 .
+READER: Node set:  Index:  15 , x:  75 , y:  24 .
+READER: Node set:  Index:  16 , x:  61 , y:  85 .
+READER: Node set:  Index:  17 , x:  87 , y:  38 .
+READER: Node set:  Index:  18 , x:  54 , y:  39 .
+READER: Node set:  Index:  19 , x:  66 , y:  34 .
+READER: Node set:  Index:  20 , x:  46 , y:  39 .
+READER: Node set:  Index:  21 , x:  47 , y:  17 .
+READER: Node set:  Index:  22 , x:  21 , y:  54 .
+READER: Node set:  Index:  23 , x:  19 , y:  83 .
+READER: Node set:  Index:  24 , x:  1 , y:  82 .
+READER: Node set:  Index:  25 , x:  94 , y:  28 .
+READER: Node set:  Index:  26 , x:  82 , y:  72 .
+READER: Node set:  Index:  27 , x:  41 , y:  59 .
+READER: Node set:  Index:  28 , x:  100 , y:  77 .
+READER: Node set:  Index:  29 , x:  1 , y:  57 .
+READER: Node set:  Index:  30 , x:  96 , y:  7 .
+READER: Node set:  Index:  31 , x:  57 , y:  82 .
+READER: Node set:  Index:  32 , x:  47 , y:  38 .
+READER: Node set:  Index:  33 , x:  68 , y:  89 .
+READER: Node set:  Index:  34 , x:  16 , y:  36 .
+READER: Node set:  Index:  35 , x:  51 , y:  38 .
+READER: Node set:  Index:  36 , x:  83 , y:  74 .
+READER: Node set:  Index:  37 , x:  84 , y:  2 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  1
+READER: Demand set:  Index:  3 , demand:  23
+READER: Demand set:  Index:  4 , demand:  23
+READER: Demand set:  Index:  5 , demand:  5
+READER: Demand set:  Index:  6 , demand:  7
+READER: Demand set:  Index:  7 , demand:  18
+READER: Demand set:  Index:  8 , demand:  12
+READER: Demand set:  Index:  9 , demand:  20
+READER: Demand set:  Index:  10 , demand:  19
+READER: Demand set:  Index:  11 , demand:  19
+READER: Demand set:  Index:  12 , demand:  16
+READER: Demand set:  Index:  13 , demand:  2
+READER: Demand set:  Index:  14 , demand:  26
+READER: Demand set:  Index:  15 , demand:  13
+READER: Demand set:  Index:  16 , demand:  19
+READER: Demand set:  Index:  17 , demand:  17
+READER: Demand set:  Index:  18 , demand:  14
+READER: Demand set:  Index:  19 , demand:  8
+READER: Demand set:  Index:  20 , demand:  10
+READER: Demand set:  Index:  21 , demand:  5
+READER: Demand set:  Index:  22 , demand:  19
+READER: Demand set:  Index:  23 , demand:  12
+READER: Demand set:  Index:  24 , demand:  9
+READER: Demand set:  Index:  25 , demand:  18
+READER: Demand set:  Index:  26 , demand:  4
+READER: Demand set:  Index:  27 , demand:  20
+READER: Demand set:  Index:  28 , demand:  8
+READER: Demand set:  Index:  29 , demand:  3
+READER: Demand set:  Index:  30 , demand:  18
+READER: Demand set:  Index:  31 , demand:  26
+READER: Demand set:  Index:  32 , demand:  21
+READER: Demand set:  Index:  33 , demand:  21
+READER: Demand set:  Index:  34 , demand:  8
+READER: Demand set:  Index:  35 , demand:  19
+READER: Demand set:  Index:  36 , demand:  66
+READER: Demand set:  Index:  37 , demand:  21
+"../dairyProblem/data/A-n38-k5.vrp"
+READER: Name set:  "A-n38-k5"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 5, Optimal value: 730)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  38
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  69 , y:  63 .
+READER: Node set:  Index:  2 , x:  3 , y:  35 .
+READER: Node set:  Index:  3 , x:  71 , y:  79 .
+READER: Node set:  Index:  4 , x:  1 , y:  47 .
+READER: Node set:  Index:  5 , x:  11 , y:  15 .
+READER: Node set:  Index:  6 , x:  87 , y:  23 .
+READER: Node set:  Index:  7 , x:  37 , y:  33 .
+READER: Node set:  Index:  8 , x:  87 , y:  29 .
+READER: Node set:  Index:  9 , x:  35 , y:  81 .
+READER: Node set:  Index:  10 , x:  55 , y:  71 .
+READER: Node set:  Index:  11 , x:  41 , y:  51 .
+READER: Node set:  Index:  12 , x:  93 , y:  9 .
+READER: Node set:  Index:  13 , x:  11 , y:  49 .
+READER: Node set:  Index:  14 , x:  75 , y:  89 .
+READER: Node set:  Index:  15 , x:  75 , y:  69 .
+READER: Node set:  Index:  16 , x:  97 , y:  95 .
+READER: Node set:  Index:  17 , x:  15 , y:  13 .
+READER: Node set:  Index:  18 , x:  63 , y:  95 .
+READER: Node set:  Index:  19 , x:  47 , y:  41 .
+READER: Node set:  Index:  20 , x:  45 , y:  41 .
+READER: Node set:  Index:  21 , x:  89 , y:  43 .
+READER: Node set:  Index:  22 , x:  45 , y:  59 .
+READER: Node set:  Index:  23 , x:  95 , y:  23 .
+READER: Node set:  Index:  24 , x:  19 , y:  83 .
+READER: Node set:  Index:  25 , x:  71 , y:  69 .
+READER: Node set:  Index:  26 , x:  27 , y:  19 .
+READER: Node set:  Index:  27 , x:  17 , y:  57 .
+READER: Node set:  Index:  28 , x:  93 , y:  15 .
+READER: Node set:  Index:  29 , x:  59 , y:  29 .
+READER: Node set:  Index:  30 , x:  35 , y:  39 .
+READER: Node set:  Index:  31 , x:  33 , y:  51 .
+READER: Node set:  Index:  32 , x:  61 , y:  21 .
+READER: Node set:  Index:  33 , x:  89 , y:  53 .
+READER: Node set:  Index:  34 , x:  33 , y:  85 .
+READER: Node set:  Index:  35 , x:  37 , y:  37 .
+READER: Node set:  Index:  36 , x:  21 , y:  91 .
+READER: Node set:  Index:  37 , x:  67 , y:  95 .
+READER: Node set:  Index:  38 , x:  61 , y:  15 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  12
+READER: Demand set:  Index:  3 , demand:  5
+READER: Demand set:  Index:  4 , demand:  8
+READER: Demand set:  Index:  5 , demand:  12
+READER: Demand set:  Index:  6 , demand:  18
+READER: Demand set:  Index:  7 , demand:  12
+READER: Demand set:  Index:  8 , demand:  11
+READER: Demand set:  Index:  9 , demand:  19
+READER: Demand set:  Index:  10 , demand:  23
+READER: Demand set:  Index:  11 , demand:  8
+READER: Demand set:  Index:  12 , demand:  25
+READER: Demand set:  Index:  13 , demand:  1
+READER: Demand set:  Index:  14 , demand:  5
+READER: Demand set:  Index:  15 , demand:  17
+READER: Demand set:  Index:  16 , demand:  13
+READER: Demand set:  Index:  17 , demand:  9
+READER: Demand set:  Index:  18 , demand:  13
+READER: Demand set:  Index:  19 , demand:  19
+READER: Demand set:  Index:  20 , demand:  5
+READER: Demand set:  Index:  21 , demand:  26
+READER: Demand set:  Index:  22 , demand:  9
+READER: Demand set:  Index:  23 , demand:  20
+READER: Demand set:  Index:  24 , demand:  21
+READER: Demand set:  Index:  25 , demand:  8
+READER: Demand set:  Index:  26 , demand:  12
+READER: Demand set:  Index:  27 , demand:  13
+READER: Demand set:  Index:  28 , demand:  12
+READER: Demand set:  Index:  29 , demand:  4
+READER: Demand set:  Index:  30 , demand:  19
+READER: Demand set:  Index:  31 , demand:  25
+READER: Demand set:  Index:  32 , demand:  7
+READER: Demand set:  Index:  33 , demand:  3
+READER: Demand set:  Index:  34 , demand:  2
+READER: Demand set:  Index:  35 , demand:  24
+READER: Demand set:  Index:  36 , demand:  13
+READER: Demand set:  Index:  37 , demand:  14
+READER: Demand set:  Index:  38 , demand:  14
+"../dairyProblem/data/A-n39-k5.vrp"
+READER: Name set:  "A-n39-k5"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 5, Optimal value: 822)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  39
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  9 , y:  35 .
+READER: Node set:  Index:  2 , x:  43 , y:  19 .
+READER: Node set:  Index:  3 , x:  79 , y:  35 .
+READER: Node set:  Index:  4 , x:  93 , y:  7 .
+READER: Node set:  Index:  5 , x:  13 , y:  35 .
+READER: Node set:  Index:  6 , x:  67 , y:  13 .
+READER: Node set:  Index:  7 , x:  31 , y:  77 .
+READER: Node set:  Index:  8 , x:  81 , y:  7 .
+READER: Node set:  Index:  9 , x:  27 , y:  49 .
+READER: Node set:  Index:  10 , x:  27 , y:  35 .
+READER: Node set:  Index:  11 , x:  69 , y:  23 .
+READER: Node set:  Index:  12 , x:  31 , y:  51 .
+READER: Node set:  Index:  13 , x:  27 , y:  27 .
+READER: Node set:  Index:  14 , x:  15 , y:  83 .
+READER: Node set:  Index:  15 , x:  7 , y:  35 .
+READER: Node set:  Index:  16 , x:  53 , y:  25 .
+READER: Node set:  Index:  17 , x:  75 , y:  13 .
+READER: Node set:  Index:  18 , x:  47 , y:  49 .
+READER: Node set:  Index:  19 , x:  25 , y:  33 .
+READER: Node set:  Index:  20 , x:  1 , y:  23 .
+READER: Node set:  Index:  21 , x:  45 , y:  11 .
+READER: Node set:  Index:  22 , x:  1 , y:  47 .
+READER: Node set:  Index:  23 , x:  93 , y:  15 .
+READER: Node set:  Index:  24 , x:  41 , y:  9 .
+READER: Node set:  Index:  25 , x:  75 , y:  55 .
+READER: Node set:  Index:  26 , x:  3 , y:  1 .
+READER: Node set:  Index:  27 , x:  51 , y:  67 .
+READER: Node set:  Index:  28 , x:  57 , y:  91 .
+READER: Node set:  Index:  29 , x:  21 , y:  97 .
+READER: Node set:  Index:  30 , x:  55 , y:  13 .
+READER: Node set:  Index:  31 , x:  3 , y:  71 .
+READER: Node set:  Index:  32 , x:  37 , y:  19 .
+READER: Node set:  Index:  33 , x:  73 , y:  21 .
+READER: Node set:  Index:  34 , x:  19 , y:  19 .
+READER: Node set:  Index:  35 , x:  75 , y:  73 .
+READER: Node set:  Index:  36 , x:  93 , y:  49 .
+READER: Node set:  Index:  37 , x:  41 , y:  87 .
+READER: Node set:  Index:  38 , x:  97 , y:  73 .
+READER: Node set:  Index:  39 , x:  45 , y:  29 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  5
+READER: Demand set:  Index:  3 , demand:  24
+READER: Demand set:  Index:  4 , demand:  3
+READER: Demand set:  Index:  5 , demand:  20
+READER: Demand set:  Index:  6 , demand:  26
+READER: Demand set:  Index:  7 , demand:  23
+READER: Demand set:  Index:  8 , demand:  15
+READER: Demand set:  Index:  9 , demand:  3
+READER: Demand set:  Index:  10 , demand:  20
+READER: Demand set:  Index:  11 , demand:  16
+READER: Demand set:  Index:  12 , demand:  9
+READER: Demand set:  Index:  13 , demand:  21
+READER: Demand set:  Index:  14 , demand:  3
+READER: Demand set:  Index:  15 , demand:  24
+READER: Demand set:  Index:  16 , demand:  14
+READER: Demand set:  Index:  17 , demand:  6
+READER: Demand set:  Index:  18 , demand:  6
+READER: Demand set:  Index:  19 , demand:  13
+READER: Demand set:  Index:  20 , demand:  5
+READER: Demand set:  Index:  21 , demand:  3
+READER: Demand set:  Index:  22 , demand:  3
+READER: Demand set:  Index:  23 , demand:  20
+READER: Demand set:  Index:  24 , demand:  16
+READER: Demand set:  Index:  25 , demand:  22
+READER: Demand set:  Index:  26 , demand:  10
+READER: Demand set:  Index:  27 , demand:  12
+READER: Demand set:  Index:  28 , demand:  20
+READER: Demand set:  Index:  29 , demand:  24
+READER: Demand set:  Index:  30 , demand:  6
+READER: Demand set:  Index:  31 , demand:  1
+READER: Demand set:  Index:  32 , demand:  2
+READER: Demand set:  Index:  33 , demand:  13
+READER: Demand set:  Index:  34 , demand:  7
+READER: Demand set:  Index:  35 , demand:  6
+READER: Demand set:  Index:  36 , demand:  24
+READER: Demand set:  Index:  37 , demand:  19
+READER: Demand set:  Index:  38 , demand:  4
+READER: Demand set:  Index:  39 , demand:  7
+"../dairyProblem/data/A-n39-k6.vrp"
+READER: Name set:  "A-n39-k6"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 6, Optimal value: 831)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  39
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  39 , y:  19 .
+READER: Node set:  Index:  2 , x:  79 , y:  19 .
+READER: Node set:  Index:  3 , x:  41 , y:  79 .
+READER: Node set:  Index:  4 , x:  25 , y:  31 .
+READER: Node set:  Index:  5 , x:  63 , y:  93 .
+READER: Node set:  Index:  6 , x:  33 , y:  5 .
+READER: Node set:  Index:  7 , x:  69 , y:  17 .
+READER: Node set:  Index:  8 , x:  57 , y:  73 .
+READER: Node set:  Index:  9 , x:  53 , y:  75 .
+READER: Node set:  Index:  10 , x:  1 , y:  1 .
+READER: Node set:  Index:  11 , x:  79 , y:  73 .
+READER: Node set:  Index:  12 , x:  59 , y:  5 .
+READER: Node set:  Index:  13 , x:  1 , y:  37 .
+READER: Node set:  Index:  14 , x:  41 , y:  31 .
+READER: Node set:  Index:  15 , x:  23 , y:  73 .
+READER: Node set:  Index:  16 , x:  37 , y:  27 .
+READER: Node set:  Index:  17 , x:  85 , y:  93 .
+READER: Node set:  Index:  18 , x:  93 , y:  13 .
+READER: Node set:  Index:  19 , x:  85 , y:  45 .
+READER: Node set:  Index:  20 , x:  49 , y:  91 .
+READER: Node set:  Index:  21 , x:  55 , y:  43 .
+READER: Node set:  Index:  22 , x:  83 , y:  29 .
+READER: Node set:  Index:  23 , x:  93 , y:  49 .
+READER: Node set:  Index:  24 , x:  87 , y:  23 .
+READER: Node set:  Index:  25 , x:  31 , y:  23 .
+READER: Node set:  Index:  26 , x:  19 , y:  97 .
+READER: Node set:  Index:  27 , x:  41 , y:  9 .
+READER: Node set:  Index:  28 , x:  83 , y:  61 .
+READER: Node set:  Index:  29 , x:  9 , y:  7 .
+READER: Node set:  Index:  30 , x:  13 , y:  13 .
+READER: Node set:  Index:  31 , x:  43 , y:  37 .
+READER: Node set:  Index:  32 , x:  13 , y:  61 .
+READER: Node set:  Index:  33 , x:  71 , y:  51 .
+READER: Node set:  Index:  34 , x:  45 , y:  93 .
+READER: Node set:  Index:  35 , x:  93 , y:  55 .
+READER: Node set:  Index:  36 , x:  5 , y:  97 .
+READER: Node set:  Index:  37 , x:  81 , y:  11 .
+READER: Node set:  Index:  38 , x:  7 , y:  53 .
+READER: Node set:  Index:  39 , x:  7 , y:  41 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  18
+READER: Demand set:  Index:  3 , demand:  16
+READER: Demand set:  Index:  4 , demand:  22
+READER: Demand set:  Index:  5 , demand:  24
+READER: Demand set:  Index:  6 , demand:  3
+READER: Demand set:  Index:  7 , demand:  19
+READER: Demand set:  Index:  8 , demand:  6
+READER: Demand set:  Index:  9 , demand:  6
+READER: Demand set:  Index:  10 , demand:  6
+READER: Demand set:  Index:  11 , demand:  12
+READER: Demand set:  Index:  12 , demand:  18
+READER: Demand set:  Index:  13 , demand:  16
+READER: Demand set:  Index:  14 , demand:  72
+READER: Demand set:  Index:  15 , demand:  7
+READER: Demand set:  Index:  16 , demand:  16
+READER: Demand set:  Index:  17 , demand:  23
+READER: Demand set:  Index:  18 , demand:  4
+READER: Demand set:  Index:  19 , demand:  22
+READER: Demand set:  Index:  20 , demand:  23
+READER: Demand set:  Index:  21 , demand:  7
+READER: Demand set:  Index:  22 , demand:  11
+READER: Demand set:  Index:  23 , demand:  11
+READER: Demand set:  Index:  24 , demand:  1
+READER: Demand set:  Index:  25 , demand:  22
+READER: Demand set:  Index:  26 , demand:  16
+READER: Demand set:  Index:  27 , demand:  15
+READER: Demand set:  Index:  28 , demand:  7
+READER: Demand set:  Index:  29 , demand:  5
+READER: Demand set:  Index:  30 , demand:  22
+READER: Demand set:  Index:  31 , demand:  9
+READER: Demand set:  Index:  32 , demand:  10
+READER: Demand set:  Index:  33 , demand:  11
+READER: Demand set:  Index:  34 , demand:  9
+READER: Demand set:  Index:  35 , demand:  3
+READER: Demand set:  Index:  36 , demand:  7
+READER: Demand set:  Index:  37 , demand:  15
+READER: Demand set:  Index:  38 , demand:  10
+READER: Demand set:  Index:  39 , demand:  2
+"../dairyProblem/data/A-n44-k7.vrp"
+READER: Name set:  "A-n44-k6"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 6, Optimal value: 937)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  44
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  14 , y:  68 .
+READER: Node set:  Index:  2 , x:  73 , y:  2 .
+READER: Node set:  Index:  3 , x:  13 , y:  47 .
+READER: Node set:  Index:  4 , x:  37 , y:  44 .
+READER: Node set:  Index:  5 , x:  34 , y:  63 .
+READER: Node set:  Index:  6 , x:  58 , y:  98 .
+READER: Node set:  Index:  7 , x:  33 , y:  42 .
+READER: Node set:  Index:  8 , x:  18 , y:  98 .
+READER: Node set:  Index:  9 , x:  24 , y:  79 .
+READER: Node set:  Index:  10 , x:  17 , y:  28 .
+READER: Node set:  Index:  11 , x:  72 , y:  67 .
+READER: Node set:  Index:  12 , x:  78 , y:  63 .
+READER: Node set:  Index:  13 , x:  42 , y:  48 .
+READER: Node set:  Index:  14 , x:  1 , y:  2 .
+READER: Node set:  Index:  15 , x:  2 , y:  28 .
+READER: Node set:  Index:  16 , x:  32 , y:  82 .
+READER: Node set:  Index:  17 , x:  97 , y:  38 .
+READER: Node set:  Index:  18 , x:  39 , y:  53 .
+READER: Node set:  Index:  19 , x:  87 , y:  1 .
+READER: Node set:  Index:  20 , x:  42 , y:  77 .
+READER: Node set:  Index:  21 , x:  83 , y:  27 .
+READER: Node set:  Index:  22 , x:  79 , y:  92 .
+READER: Node set:  Index:  23 , x:  22 , y:  39 .
+READER: Node set:  Index:  24 , x:  58 , y:  32 .
+READER: Node set:  Index:  25 , x:  53 , y:  84 .
+READER: Node set:  Index:  26 , x:  38 , y:  37 .
+READER: Node set:  Index:  27 , x:  63 , y:  59 .
+READER: Node set:  Index:  28 , x:  42 , y:  88 .
+READER: Node set:  Index:  29 , x:  32 , y:  88 .
+READER: Node set:  Index:  30 , x:  38 , y:  23 .
+READER: Node set:  Index:  31 , x:  63 , y:  32 .
+READER: Node set:  Index:  32 , x:  22 , y:  73 .
+READER: Node set:  Index:  33 , x:  88 , y:  94 .
+READER: Node set:  Index:  34 , x:  58 , y:  78 .
+READER: Node set:  Index:  35 , x:  43 , y:  62 .
+READER: Node set:  Index:  36 , x:  73 , y:  1 .
+READER: Node set:  Index:  37 , x:  17 , y:  32 .
+READER: Node set:  Index:  38 , x:  87 , y:  79 .
+READER: Node set:  Index:  39 , x:  12 , y:  24 .
+READER: Node set:  Index:  40 , x:  48 , y:  53 .
+READER: Node set:  Index:  41 , x:  48 , y:  23 .
+READER: Node set:  Index:  42 , x:  7 , y:  37 .
+READER: Node set:  Index:  43 , x:  98 , y:  77 .
+READER: Node set:  Index:  44 , x:  34 , y:  12 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  8
+READER: Demand set:  Index:  3 , demand:  24
+READER: Demand set:  Index:  4 , demand:  9
+READER: Demand set:  Index:  5 , demand:  19
+READER: Demand set:  Index:  6 , demand:  9
+READER: Demand set:  Index:  7 , demand:  18
+READER: Demand set:  Index:  8 , demand:  9
+READER: Demand set:  Index:  9 , demand:  14
+READER: Demand set:  Index:  10 , demand:  3
+READER: Demand set:  Index:  11 , demand:  14
+READER: Demand set:  Index:  12 , demand:  8
+READER: Demand set:  Index:  13 , demand:  8
+READER: Demand set:  Index:  14 , demand:  13
+READER: Demand set:  Index:  15 , demand:  18
+READER: Demand set:  Index:  16 , demand:  4
+READER: Demand set:  Index:  17 , demand:  24
+READER: Demand set:  Index:  18 , demand:  14
+READER: Demand set:  Index:  19 , demand:  8
+READER: Demand set:  Index:  20 , demand:  18
+READER: Demand set:  Index:  21 , demand:  13
+READER: Demand set:  Index:  22 , demand:  2
+READER: Demand set:  Index:  23 , demand:  9
+READER: Demand set:  Index:  24 , demand:  18
+READER: Demand set:  Index:  25 , demand:  3
+READER: Demand set:  Index:  26 , demand:  24
+READER: Demand set:  Index:  27 , demand:  8
+READER: Demand set:  Index:  28 , demand:  24
+READER: Demand set:  Index:  29 , demand:  14
+READER: Demand set:  Index:  30 , demand:  13
+READER: Demand set:  Index:  31 , demand:  24
+READER: Demand set:  Index:  32 , demand:  23
+READER: Demand set:  Index:  33 , demand:  9
+READER: Demand set:  Index:  34 , demand:  13
+READER: Demand set:  Index:  35 , demand:  14
+READER: Demand set:  Index:  36 , demand:  14
+READER: Demand set:  Index:  37 , demand:  18
+READER: Demand set:  Index:  38 , demand:  24
+READER: Demand set:  Index:  39 , demand:  4
+READER: Demand set:  Index:  40 , demand:  8
+READER: Demand set:  Index:  41 , demand:  13
+READER: Demand set:  Index:  42 , demand:  4
+READER: Demand set:  Index:  43 , demand:  14
+READER: Demand set:  Index:  44 , demand:  18
+"../dairyProblem/data/A-n45-k6.vrp"
+READER: Name set:  "A-n45-k6"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 6, Optimal value: 944)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  45
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  31 , y:  73 .
+READER: Node set:  Index:  2 , x:  11 , y:  67 .
+READER: Node set:  Index:  3 , x:  52 , y:  96 .
+READER: Node set:  Index:  4 , x:  81 , y:  29 .
+READER: Node set:  Index:  5 , x:  97 , y:  62 .
+READER: Node set:  Index:  6 , x:  71 , y:  5 .
+READER: Node set:  Index:  7 , x:  6 , y:  56 .
+READER: Node set:  Index:  8 , x:  48 , y:  50 .
+READER: Node set:  Index:  9 , x:  91 , y:  17 .
+READER: Node set:  Index:  10 , x:  49 , y:  68 .
+READER: Node set:  Index:  11 , x:  85 , y:  29 .
+READER: Node set:  Index:  12 , x:  11 , y:  16 .
+READER: Node set:  Index:  13 , x:  74 , y:  98 .
+READER: Node set:  Index:  14 , x:  56 , y:  37 .
+READER: Node set:  Index:  15 , x:  13 , y:  81 .
+READER: Node set:  Index:  16 , x:  66 , y:  80 .
+READER: Node set:  Index:  17 , x:  96 , y:  55 .
+READER: Node set:  Index:  18 , x:  36 , y:  17 .
+READER: Node set:  Index:  19 , x:  32 , y:  23 .
+READER: Node set:  Index:  20 , x:  6 , y:  13 .
+READER: Node set:  Index:  21 , x:  64 , y:  30 .
+READER: Node set:  Index:  22 , x:  87 , y:  5 .
+READER: Node set:  Index:  23 , x:  75 , y:  61 .
+READER: Node set:  Index:  24 , x:  40 , y:  72 .
+READER: Node set:  Index:  25 , x:  1 , y:  44 .
+READER: Node set:  Index:  26 , x:  60 , y:  95 .
+READER: Node set:  Index:  27 , x:  27 , y:  49 .
+READER: Node set:  Index:  28 , x:  15 , y:  33 .
+READER: Node set:  Index:  29 , x:  46 , y:  53 .
+READER: Node set:  Index:  30 , x:  28 , y:  43 .
+READER: Node set:  Index:  31 , x:  3 , y:  9 .
+READER: Node set:  Index:  32 , x:  1 , y:  100 .
+READER: Node set:  Index:  33 , x:  53 , y:  46 .
+READER: Node set:  Index:  34 , x:  98 , y:  8 .
+READER: Node set:  Index:  35 , x:  6 , y:  25 .
+READER: Node set:  Index:  36 , x:  7 , y:  81 .
+READER: Node set:  Index:  37 , x:  96 , y:  88 .
+READER: Node set:  Index:  38 , x:  2 , y:  35 .
+READER: Node set:  Index:  39 , x:  32 , y:  94 .
+READER: Node set:  Index:  40 , x:  95 , y:  94 .
+READER: Node set:  Index:  41 , x:  9 , y:  11 .
+READER: Node set:  Index:  42 , x:  96 , y:  16 .
+READER: Node set:  Index:  43 , x:  90 , y:  68 .
+READER: Node set:  Index:  44 , x:  33 , y:  31 .
+READER: Node set:  Index:  45 , x:  6 , y:  59 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  19
+READER: Demand set:  Index:  3 , demand:  2
+READER: Demand set:  Index:  4 , demand:  12
+READER: Demand set:  Index:  5 , demand:  20
+READER: Demand set:  Index:  6 , demand:  6
+READER: Demand set:  Index:  7 , demand:  17
+READER: Demand set:  Index:  8 , demand:  8
+READER: Demand set:  Index:  9 , demand:  14
+READER: Demand set:  Index:  10 , demand:  2
+READER: Demand set:  Index:  11 , demand:  8
+READER: Demand set:  Index:  12 , demand:  5
+READER: Demand set:  Index:  13 , demand:  7
+READER: Demand set:  Index:  14 , demand:  22
+READER: Demand set:  Index:  15 , demand:  14
+READER: Demand set:  Index:  16 , demand:  17
+READER: Demand set:  Index:  17 , demand:  23
+READER: Demand set:  Index:  18 , demand:  15
+READER: Demand set:  Index:  19 , demand:  21
+READER: Demand set:  Index:  20 , demand:  2
+READER: Demand set:  Index:  21 , demand:  24
+READER: Demand set:  Index:  22 , demand:  10
+READER: Demand set:  Index:  23 , demand:  20
+READER: Demand set:  Index:  24 , demand:  6
+READER: Demand set:  Index:  25 , demand:  21
+READER: Demand set:  Index:  26 , demand:  10
+READER: Demand set:  Index:  27 , demand:  6
+READER: Demand set:  Index:  28 , demand:  13
+READER: Demand set:  Index:  29 , demand:  21
+READER: Demand set:  Index:  30 , demand:  24
+READER: Demand set:  Index:  31 , demand:  11
+READER: Demand set:  Index:  32 , demand:  16
+READER: Demand set:  Index:  33 , demand:  8
+READER: Demand set:  Index:  34 , demand:  11
+READER: Demand set:  Index:  35 , demand:  11
+READER: Demand set:  Index:  36 , demand:  22
+READER: Demand set:  Index:  37 , demand:  17
+READER: Demand set:  Index:  38 , demand:  22
+READER: Demand set:  Index:  39 , demand:  17
+READER: Demand set:  Index:  40 , demand:  8
+READER: Demand set:  Index:  41 , demand:  23
+READER: Demand set:  Index:  42 , demand:  5
+READER: Demand set:  Index:  43 , demand:  3
+READER: Demand set:  Index:  44 , demand:  18
+READER: Demand set:  Index:  45 , demand:  12
+"../dairyProblem/data/A-n45-k7.vrp"
+READER: Name set:  "A-n45-k7"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 7, Best value: 1146)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  45
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  61 , y:  99 .
+READER: Node set:  Index:  2 , x:  95 , y:  7 .
+READER: Node set:  Index:  3 , x:  45 , y:  87 .
+READER: Node set:  Index:  4 , x:  15 , y:  47 .
+READER: Node set:  Index:  5 , x:  39 , y:  75 .
+READER: Node set:  Index:  6 , x:  55 , y:  23 .
+READER: Node set:  Index:  7 , x:  29 , y:  71 .
+READER: Node set:  Index:  8 , x:  87 , y:  79 .
+READER: Node set:  Index:  9 , x:  75 , y:  63 .
+READER: Node set:  Index:  10 , x:  65 , y:  61 .
+READER: Node set:  Index:  11 , x:  73 , y:  35 .
+READER: Node set:  Index:  12 , x:  17 , y:  35 .
+READER: Node set:  Index:  13 , x:  39 , y:  99 .
+READER: Node set:  Index:  14 , x:  75 , y:  77 .
+READER: Node set:  Index:  15 , x:  49 , y:  37 .
+READER: Node set:  Index:  16 , x:  85 , y:  31 .
+READER: Node set:  Index:  17 , x:  89 , y:  71 .
+READER: Node set:  Index:  18 , x:  89 , y:  43 .
+READER: Node set:  Index:  19 , x:  79 , y:  81 .
+READER: Node set:  Index:  20 , x:  45 , y:  5 .
+READER: Node set:  Index:  21 , x:  93 , y:  69 .
+READER: Node set:  Index:  22 , x:  49 , y:  69 .
+READER: Node set:  Index:  23 , x:  63 , y:  25 .
+READER: Node set:  Index:  24 , x:  93 , y:  33 .
+READER: Node set:  Index:  25 , x:  39 , y:  45 .
+READER: Node set:  Index:  26 , x:  89 , y:  33 .
+READER: Node set:  Index:  27 , x:  47 , y:  77 .
+READER: Node set:  Index:  28 , x:  29 , y:  19 .
+READER: Node set:  Index:  29 , x:  13 , y:  65 .
+READER: Node set:  Index:  30 , x:  33 , y:  9 .
+READER: Node set:  Index:  31 , x:  63 , y:  9 .
+READER: Node set:  Index:  32 , x:  41 , y:  13 .
+READER: Node set:  Index:  33 , x:  67 , y:  75 .
+READER: Node set:  Index:  34 , x:  41 , y:  27 .
+READER: Node set:  Index:  35 , x:  49 , y:  77 .
+READER: Node set:  Index:  36 , x:  57 , y:  81 .
+READER: Node set:  Index:  37 , x:  45 , y:  5 .
+READER: Node set:  Index:  38 , x:  83 , y:  7 .
+READER: Node set:  Index:  39 , x:  81 , y:  61 .
+READER: Node set:  Index:  40 , x:  57 , y:  81 .
+READER: Node set:  Index:  41 , x:  93 , y:  89 .
+READER: Node set:  Index:  42 , x:  17 , y:  13 .
+READER: Node set:  Index:  43 , x:  89 , y:  27 .
+READER: Node set:  Index:  44 , x:  7 , y:  25 .
+READER: Node set:  Index:  45 , x:  35 , y:  35 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  14
+READER: Demand set:  Index:  3 , demand:  1
+READER: Demand set:  Index:  4 , demand:  16
+READER: Demand set:  Index:  5 , demand:  23
+READER: Demand set:  Index:  6 , demand:  12
+READER: Demand set:  Index:  7 , demand:  6
+READER: Demand set:  Index:  8 , demand:  5
+READER: Demand set:  Index:  9 , demand:  1
+READER: Demand set:  Index:  10 , demand:  13
+READER: Demand set:  Index:  11 , demand:  20
+READER: Demand set:  Index:  12 , demand:  14
+READER: Demand set:  Index:  13 , demand:  18
+READER: Demand set:  Index:  14 , demand:  7
+READER: Demand set:  Index:  15 , demand:  8
+READER: Demand set:  Index:  16 , demand:  21
+READER: Demand set:  Index:  17 , demand:  8
+READER: Demand set:  Index:  18 , demand:  24
+READER: Demand set:  Index:  19 , demand:  20
+READER: Demand set:  Index:  20 , demand:  19
+READER: Demand set:  Index:  21 , demand:  13
+READER: Demand set:  Index:  22 , demand:  3
+READER: Demand set:  Index:  23 , demand:  26
+READER: Demand set:  Index:  24 , demand:  17
+READER: Demand set:  Index:  25 , demand:  22
+READER: Demand set:  Index:  26 , demand:  8
+READER: Demand set:  Index:  27 , demand:  16
+READER: Demand set:  Index:  28 , demand:  20
+READER: Demand set:  Index:  29 , demand:  12
+READER: Demand set:  Index:  30 , demand:  22
+READER: Demand set:  Index:  31 , demand:  20
+READER: Demand set:  Index:  32 , demand:  12
+READER: Demand set:  Index:  33 , demand:  14
+READER: Demand set:  Index:  34 , demand:  25
+READER: Demand set:  Index:  35 , demand:  17
+READER: Demand set:  Index:  36 , demand:  19
+READER: Demand set:  Index:  37 , demand:  20
+READER: Demand set:  Index:  38 , demand:  15
+READER: Demand set:  Index:  39 , demand:  2
+READER: Demand set:  Index:  40 , demand:  9
+READER: Demand set:  Index:  41 , demand:  10
+READER: Demand set:  Index:  42 , demand:  6
+READER: Demand set:  Index:  43 , demand:  11
+READER: Demand set:  Index:  44 , demand:  21
+READER: Demand set:  Index:  45 , demand:  24
+"../dairyProblem/data/A-n46-k7.vrp"
+READER: Name set:  "A-n46-k7"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 7, Optimal value: 914)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  46
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  75 , y:  55 .
+READER: Node set:  Index:  2 , x:  7 , y:  75 .
+READER: Node set:  Index:  3 , x:  77 , y:  1 .
+READER: Node set:  Index:  4 , x:  51 , y:  25 .
+READER: Node set:  Index:  5 , x:  81 , y:  25 .
+READER: Node set:  Index:  6 , x:  59 , y:  37 .
+READER: Node set:  Index:  7 , x:  93 , y:  45 .
+READER: Node set:  Index:  8 , x:  43 , y:  21 .
+READER: Node set:  Index:  9 , x:  35 , y:  53 .
+READER: Node set:  Index:  10 , x:  77 , y:  63 .
+READER: Node set:  Index:  11 , x:  37 , y:  13 .
+READER: Node set:  Index:  12 , x:  37 , y:  51 .
+READER: Node set:  Index:  13 , x:  27 , y:  31 .
+READER: Node set:  Index:  14 , x:  95 , y:  31 .
+READER: Node set:  Index:  15 , x:  87 , y:  43 .
+READER: Node set:  Index:  16 , x:  23 , y:  65 .
+READER: Node set:  Index:  17 , x:  9 , y:  51 .
+READER: Node set:  Index:  18 , x:  73 , y:  81 .
+READER: Node set:  Index:  19 , x:  3 , y:  1 .
+READER: Node set:  Index:  20 , x:  41 , y:  61 .
+READER: Node set:  Index:  21 , x:  29 , y:  81 .
+READER: Node set:  Index:  22 , x:  51 , y:  95 .
+READER: Node set:  Index:  23 , x:  49 , y:  25 .
+READER: Node set:  Index:  24 , x:  81 , y:  53 .
+READER: Node set:  Index:  25 , x:  7 , y:  51 .
+READER: Node set:  Index:  26 , x:  21 , y:  5 .
+READER: Node set:  Index:  27 , x:  91 , y:  35 .
+READER: Node set:  Index:  28 , x:  17 , y:  81 .
+READER: Node set:  Index:  29 , x:  61 , y:  69 .
+READER: Node set:  Index:  30 , x:  27 , y:  97 .
+READER: Node set:  Index:  31 , x:  83 , y:  23 .
+READER: Node set:  Index:  32 , x:  21 , y:  93 .
+READER: Node set:  Index:  33 , x:  59 , y:  31 .
+READER: Node set:  Index:  34 , x:  27 , y:  53 .
+READER: Node set:  Index:  35 , x:  9 , y:  91 .
+READER: Node set:  Index:  36 , x:  11 , y:  27 .
+READER: Node set:  Index:  37 , x:  59 , y:  41 .
+READER: Node set:  Index:  38 , x:  67 , y:  1 .
+READER: Node set:  Index:  39 , x:  77 , y:  39 .
+READER: Node set:  Index:  40 , x:  47 , y:  29 .
+READER: Node set:  Index:  41 , x:  3 , y:  89 .
+READER: Node set:  Index:  42 , x:  33 , y:  87 .
+READER: Node set:  Index:  43 , x:  17 , y:  45 .
+READER: Node set:  Index:  44 , x:  91 , y:  41 .
+READER: Node set:  Index:  45 , x:  23 , y:  3 .
+READER: Node set:  Index:  46 , x:  97 , y:  61 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  12
+READER: Demand set:  Index:  3 , demand:  26
+READER: Demand set:  Index:  4 , demand:  1
+READER: Demand set:  Index:  5 , demand:  20
+READER: Demand set:  Index:  6 , demand:  2
+READER: Demand set:  Index:  7 , demand:  13
+READER: Demand set:  Index:  8 , demand:  20
+READER: Demand set:  Index:  9 , demand:  7
+READER: Demand set:  Index:  10 , demand:  10
+READER: Demand set:  Index:  11 , demand:  15
+READER: Demand set:  Index:  12 , demand:  7
+READER: Demand set:  Index:  13 , demand:  24
+READER: Demand set:  Index:  14 , demand:  10
+READER: Demand set:  Index:  15 , demand:  12
+READER: Demand set:  Index:  16 , demand:  23
+READER: Demand set:  Index:  17 , demand:  13
+READER: Demand set:  Index:  18 , demand:  19
+READER: Demand set:  Index:  19 , demand:  9
+READER: Demand set:  Index:  20 , demand:  12
+READER: Demand set:  Index:  21 , demand:  6
+READER: Demand set:  Index:  22 , demand:  9
+READER: Demand set:  Index:  23 , demand:  22
+READER: Demand set:  Index:  24 , demand:  18
+READER: Demand set:  Index:  25 , demand:  19
+READER: Demand set:  Index:  26 , demand:  20
+READER: Demand set:  Index:  27 , demand:  24
+READER: Demand set:  Index:  28 , demand:  10
+READER: Demand set:  Index:  29 , demand:  4
+READER: Demand set:  Index:  30 , demand:  20
+READER: Demand set:  Index:  31 , demand:  15
+READER: Demand set:  Index:  32 , demand:  13
+READER: Demand set:  Index:  33 , demand:  12
+READER: Demand set:  Index:  34 , demand:  3
+READER: Demand set:  Index:  35 , demand:  7
+READER: Demand set:  Index:  36 , demand:  18
+READER: Demand set:  Index:  37 , demand:  3
+READER: Demand set:  Index:  38 , demand:  23
+READER: Demand set:  Index:  39 , demand:  1
+READER: Demand set:  Index:  40 , demand:  17
+READER: Demand set:  Index:  41 , demand:  13
+READER: Demand set:  Index:  42 , demand:  6
+READER: Demand set:  Index:  43 , demand:  22
+READER: Demand set:  Index:  44 , demand:  20
+READER: Demand set:  Index:  45 , demand:  21
+READER: Demand set:  Index:  46 , demand:  2
+"../dairyProblem/data/A-n48-k7.vrp"
+READER: Name set:  "A-n48-k7"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 7, Best value: 1073)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  48
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  47 , y:  5 .
+READER: Node set:  Index:  2 , x:  1 , y:  19 .
+READER: Node set:  Index:  3 , x:  97 , y:  35 .
+READER: Node set:  Index:  4 , x:  23 , y:  79 .
+READER: Node set:  Index:  5 , x:  77 , y:  87 .
+READER: Node set:  Index:  6 , x:  3 , y:  9 .
+READER: Node set:  Index:  7 , x:  5 , y:  27 .
+READER: Node set:  Index:  8 , x:  41 , y:  53 .
+READER: Node set:  Index:  9 , x:  51 , y:  87 .
+READER: Node set:  Index:  10 , x:  67 , y:  73 .
+READER: Node set:  Index:  11 , x:  89 , y:  45 .
+READER: Node set:  Index:  12 , x:  71 , y:  99 .
+READER: Node set:  Index:  13 , x:  11 , y:  1 .
+READER: Node set:  Index:  14 , x:  85 , y:  85 .
+READER: Node set:  Index:  15 , x:  57 , y:  11 .
+READER: Node set:  Index:  16 , x:  57 , y:  85 .
+READER: Node set:  Index:  17 , x:  71 , y:  33 .
+READER: Node set:  Index:  18 , x:  61 , y:  13 .
+READER: Node set:  Index:  19 , x:  39 , y:  15 .
+READER: Node set:  Index:  20 , x:  13 , y:  59 .
+READER: Node set:  Index:  21 , x:  43 , y:  99 .
+READER: Node set:  Index:  22 , x:  87 , y:  73 .
+READER: Node set:  Index:  23 , x:  11 , y:  37 .
+READER: Node set:  Index:  24 , x:  21 , y:  11 .
+READER: Node set:  Index:  25 , x:  77 , y:  81 .
+READER: Node set:  Index:  26 , x:  3 , y:  63 .
+READER: Node set:  Index:  27 , x:  47 , y:  95 .
+READER: Node set:  Index:  28 , x:  53 , y:  75 .
+READER: Node set:  Index:  29 , x:  73 , y:  55 .
+READER: Node set:  Index:  30 , x:  81 , y:  71 .
+READER: Node set:  Index:  31 , x:  89 , y:  75 .
+READER: Node set:  Index:  32 , x:  11 , y:  9 .
+READER: Node set:  Index:  33 , x:  27 , y:  37 .
+READER: Node set:  Index:  34 , x:  95 , y:  59 .
+READER: Node set:  Index:  35 , x:  63 , y:  63 .
+READER: Node set:  Index:  36 , x:  37 , y:  21 .
+READER: Node set:  Index:  37 , x:  33 , y:  47 .
+READER: Node set:  Index:  38 , x:  23 , y:  63 .
+READER: Node set:  Index:  39 , x:  13 , y:  55 .
+READER: Node set:  Index:  40 , x:  47 , y:  93 .
+READER: Node set:  Index:  41 , x:  45 , y:  43 .
+READER: Node set:  Index:  42 , x:  83 , y:  7 .
+READER: Node set:  Index:  43 , x:  69 , y:  91 .
+READER: Node set:  Index:  44 , x:  13 , y:  11 .
+READER: Node set:  Index:  45 , x:  37 , y:  15 .
+READER: Node set:  Index:  46 , x:  53 , y:  59 .
+READER: Node set:  Index:  47 , x:  97 , y:  83 .
+READER: Node set:  Index:  48 , x:  75 , y:  31 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  20
+READER: Demand set:  Index:  3 , demand:  14
+READER: Demand set:  Index:  4 , demand:  5
+READER: Demand set:  Index:  5 , demand:  11
+READER: Demand set:  Index:  6 , demand:  22
+READER: Demand set:  Index:  7 , demand:  25
+READER: Demand set:  Index:  8 , demand:  2
+READER: Demand set:  Index:  9 , demand:  18
+READER: Demand set:  Index:  10 , demand:  10
+READER: Demand set:  Index:  11 , demand:  26
+READER: Demand set:  Index:  12 , demand:  14
+READER: Demand set:  Index:  13 , demand:  22
+READER: Demand set:  Index:  14 , demand:  9
+READER: Demand set:  Index:  15 , demand:  11
+READER: Demand set:  Index:  16 , demand:  18
+READER: Demand set:  Index:  17 , demand:  24
+READER: Demand set:  Index:  18 , demand:  15
+READER: Demand set:  Index:  19 , demand:  23
+READER: Demand set:  Index:  20 , demand:  16
+READER: Demand set:  Index:  21 , demand:  14
+READER: Demand set:  Index:  22 , demand:  8
+READER: Demand set:  Index:  23 , demand:  5
+READER: Demand set:  Index:  24 , demand:  12
+READER: Demand set:  Index:  25 , demand:  8
+READER: Demand set:  Index:  26 , demand:  16
+READER: Demand set:  Index:  27 , demand:  12
+READER: Demand set:  Index:  28 , demand:  15
+READER: Demand set:  Index:  29 , demand:  9
+READER: Demand set:  Index:  30 , demand:  2
+READER: Demand set:  Index:  31 , demand:  10
+READER: Demand set:  Index:  32 , demand:  2
+READER: Demand set:  Index:  33 , demand:  3
+READER: Demand set:  Index:  34 , demand:  20
+READER: Demand set:  Index:  35 , demand:  3
+READER: Demand set:  Index:  36 , demand:  13
+READER: Demand set:  Index:  37 , demand:  25
+READER: Demand set:  Index:  38 , demand:  23
+READER: Demand set:  Index:  39 , demand:  8
+READER: Demand set:  Index:  40 , demand:  16
+READER: Demand set:  Index:  41 , demand:  9
+READER: Demand set:  Index:  42 , demand:  14
+READER: Demand set:  Index:  43 , demand:  4
+READER: Demand set:  Index:  44 , demand:  13
+READER: Demand set:  Index:  45 , demand:  7
+READER: Demand set:  Index:  46 , demand:  16
+READER: Demand set:  Index:  47 , demand:  18
+READER: Demand set:  Index:  48 , demand:  16
+"../dairyProblem/data/A-n53-k7.vrp"
+READER: Name set:  "A-n53-k7"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 7, Optimal value: 1010)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  53
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  24 , y:  63 .
+READER: Node set:  Index:  2 , x:  35 , y:  60 .
+READER: Node set:  Index:  3 , x:  79 , y:  46 .
+READER: Node set:  Index:  4 , x:  3 , y:  45 .
+READER: Node set:  Index:  5 , x:  42 , y:  50 .
+READER: Node set:  Index:  6 , x:  3 , y:  40 .
+READER: Node set:  Index:  7 , x:  29 , y:  96 .
+READER: Node set:  Index:  8 , x:  47 , y:  30 .
+READER: Node set:  Index:  9 , x:  54 , y:  77 .
+READER: Node set:  Index:  10 , x:  36 , y:  30 .
+READER: Node set:  Index:  11 , x:  83 , y:  86 .
+READER: Node set:  Index:  12 , x:  30 , y:  6 .
+READER: Node set:  Index:  13 , x:  55 , y:  29 .
+READER: Node set:  Index:  14 , x:  13 , y:  2 .
+READER: Node set:  Index:  15 , x:  1 , y:  19 .
+READER: Node set:  Index:  16 , x:  98 , y:  1 .
+READER: Node set:  Index:  17 , x:  75 , y:  10 .
+READER: Node set:  Index:  18 , x:  39 , y:  23 .
+READER: Node set:  Index:  19 , x:  62 , y:  91 .
+READER: Node set:  Index:  20 , x:  96 , y:  9 .
+READER: Node set:  Index:  21 , x:  27 , y:  87 .
+READER: Node set:  Index:  22 , x:  14 , y:  16 .
+READER: Node set:  Index:  23 , x:  52 , y:  49 .
+READER: Node set:  Index:  24 , x:  95 , y:  21 .
+READER: Node set:  Index:  25 , x:  30 , y:  6 .
+READER: Node set:  Index:  26 , x:  18 , y:  40 .
+READER: Node set:  Index:  27 , x:  82 , y:  90 .
+READER: Node set:  Index:  28 , x:  50 , y:  79 .
+READER: Node set:  Index:  29 , x:  48 , y:  49 .
+READER: Node set:  Index:  30 , x:  82 , y:  73 .
+READER: Node set:  Index:  31 , x:  64 , y:  62 .
+READER: Node set:  Index:  32 , x:  34 , y:  78 .
+READER: Node set:  Index:  33 , x:  83 , y:  6 .
+READER: Node set:  Index:  34 , x:  3 , y:  77 .
+READER: Node set:  Index:  35 , x:  18 , y:  8 .
+READER: Node set:  Index:  36 , x:  53 , y:  86 .
+READER: Node set:  Index:  37 , x:  88 , y:  51 .
+READER: Node set:  Index:  38 , x:  77 , y:  51 .
+READER: Node set:  Index:  39 , x:  58 , y:  89 .
+READER: Node set:  Index:  40 , x:  12 , y:  44 .
+READER: Node set:  Index:  41 , x:  70 , y:  88 .
+READER: Node set:  Index:  42 , x:  36 , y:  17 .
+READER: Node set:  Index:  43 , x:  85 , y:  23 .
+READER: Node set:  Index:  44 , x:  93 , y:  30 .
+READER: Node set:  Index:  45 , x:  68 , y:  67 .
+READER: Node set:  Index:  46 , x:  71 , y:  34 .
+READER: Node set:  Index:  47 , x:  56 , y:  73 .
+READER: Node set:  Index:  48 , x:  37 , y:  37 .
+READER: Node set:  Index:  49 , x:  78 , y:  20 .
+READER: Node set:  Index:  50 , x:  88 , y:  69 .
+READER: Node set:  Index:  51 , x:  95 , y:  42 .
+READER: Node set:  Index:  52 , x:  44 , y:  71 .
+READER: Node set:  Index:  53 , x:  18 , y:  1 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  2
+READER: Demand set:  Index:  3 , demand:  12
+READER: Demand set:  Index:  4 , demand:  14
+READER: Demand set:  Index:  5 , demand:  2
+READER: Demand set:  Index:  6 , demand:  17
+READER: Demand set:  Index:  7 , demand:  20
+READER: Demand set:  Index:  8 , demand:  2
+READER: Demand set:  Index:  9 , demand:  26
+READER: Demand set:  Index:  10 , demand:  7
+READER: Demand set:  Index:  11 , demand:  24
+READER: Demand set:  Index:  12 , demand:  23
+READER: Demand set:  Index:  13 , demand:  13
+READER: Demand set:  Index:  14 , demand:  25
+READER: Demand set:  Index:  15 , demand:  20
+READER: Demand set:  Index:  16 , demand:  3
+READER: Demand set:  Index:  17 , demand:  18
+READER: Demand set:  Index:  18 , demand:  23
+READER: Demand set:  Index:  19 , demand:  6
+READER: Demand set:  Index:  20 , demand:  2
+READER: Demand set:  Index:  21 , demand:  13
+READER: Demand set:  Index:  22 , demand:  22
+READER: Demand set:  Index:  23 , demand:  3
+READER: Demand set:  Index:  24 , demand:  6
+READER: Demand set:  Index:  25 , demand:  7
+READER: Demand set:  Index:  26 , demand:  1
+READER: Demand set:  Index:  27 , demand:  18
+READER: Demand set:  Index:  28 , demand:  18
+READER: Demand set:  Index:  29 , demand:  10
+READER: Demand set:  Index:  30 , demand:  2
+READER: Demand set:  Index:  31 , demand:  9
+READER: Demand set:  Index:  32 , demand:  10
+READER: Demand set:  Index:  33 , demand:  8
+READER: Demand set:  Index:  34 , demand:  30
+READER: Demand set:  Index:  35 , demand:  16
+READER: Demand set:  Index:  36 , demand:  23
+READER: Demand set:  Index:  37 , demand:  2
+READER: Demand set:  Index:  38 , demand:  18
+READER: Demand set:  Index:  39 , demand:  22
+READER: Demand set:  Index:  40 , demand:  1
+READER: Demand set:  Index:  41 , demand:  8
+READER: Demand set:  Index:  42 , demand:  4
+READER: Demand set:  Index:  43 , demand:  26
+READER: Demand set:  Index:  44 , demand:  21
+READER: Demand set:  Index:  45 , demand:  2
+READER: Demand set:  Index:  46 , demand:  15
+READER: Demand set:  Index:  47 , demand:  25
+READER: Demand set:  Index:  48 , demand:  22
+READER: Demand set:  Index:  49 , demand:  19
+READER: Demand set:  Index:  50 , demand:  3
+READER: Demand set:  Index:  51 , demand:  3
+READER: Demand set:  Index:  52 , demand:  5
+READER: Demand set:  Index:  53 , demand:  13
+"../dairyProblem/data/A-n54-k7.vrp"
+READER: Name set:  "A-n54-k7"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 7, Best value: 1167)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  54
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  61 , y:  5 .
+READER: Node set:  Index:  2 , x:  85 , y:  53 .
+READER: Node set:  Index:  3 , x:  17 , y:  57 .
+READER: Node set:  Index:  4 , x:  49 , y:  93 .
+READER: Node set:  Index:  5 , x:  69 , y:  11 .
+READER: Node set:  Index:  6 , x:  87 , y:  15 .
+READER: Node set:  Index:  7 , x:  49 , y:  39 .
+READER: Node set:  Index:  8 , x:  87 , y:  23 .
+READER: Node set:  Index:  9 , x:  19 , y:  83 .
+READER: Node set:  Index:  10 , x:  69 , y:  87 .
+READER: Node set:  Index:  11 , x:  69 , y:  43 .
+READER: Node set:  Index:  12 , x:  49 , y:  67 .
+READER: Node set:  Index:  13 , x:  17 , y:  61 .
+READER: Node set:  Index:  14 , x:  45 , y:  61 .
+READER: Node set:  Index:  15 , x:  21 , y:  53 .
+READER: Node set:  Index:  16 , x:  71 , y:  37 .
+READER: Node set:  Index:  17 , x:  53 , y:  23 .
+READER: Node set:  Index:  18 , x:  77 , y:  63 .
+READER: Node set:  Index:  19 , x:  89 , y:  7 .
+READER: Node set:  Index:  20 , x:  21 , y:  83 .
+READER: Node set:  Index:  21 , x:  77 , y:  25 .
+READER: Node set:  Index:  22 , x:  85 , y:  95 .
+READER: Node set:  Index:  23 , x:  43 , y:  93 .
+READER: Node set:  Index:  24 , x:  75 , y:  25 .
+READER: Node set:  Index:  25 , x:  1 , y:  43 .
+READER: Node set:  Index:  26 , x:  7 , y:  7 .
+READER: Node set:  Index:  27 , x:  81 , y:  69 .
+READER: Node set:  Index:  28 , x:  23 , y:  57 .
+READER: Node set:  Index:  29 , x:  81 , y:  15 .
+READER: Node set:  Index:  30 , x:  77 , y:  35 .
+READER: Node set:  Index:  31 , x:  49 , y:  3 .
+READER: Node set:  Index:  32 , x:  21 , y:  93 .
+READER: Node set:  Index:  33 , x:  41 , y:  37 .
+READER: Node set:  Index:  34 , x:  71 , y:  91 .
+READER: Node set:  Index:  35 , x:  31 , y:  13 .
+READER: Node set:  Index:  36 , x:  69 , y:  33 .
+READER: Node set:  Index:  37 , x:  91 , y:  47 .
+READER: Node set:  Index:  38 , x:  13 , y:  69 .
+READER: Node set:  Index:  39 , x:  65 , y:  75 .
+READER: Node set:  Index:  40 , x:  91 , y:  27 .
+READER: Node set:  Index:  41 , x:  9 , y:  85 .
+READER: Node set:  Index:  42 , x:  15 , y:  19 .
+READER: Node set:  Index:  43 , x:  7 , y:  37 .
+READER: Node set:  Index:  44 , x:  61 , y:  11 .
+READER: Node set:  Index:  45 , x:  59 , y:  83 .
+READER: Node set:  Index:  46 , x:  85 , y:  69 .
+READER: Node set:  Index:  47 , x:  15 , y:  29 .
+READER: Node set:  Index:  48 , x:  1 , y:  13 .
+READER: Node set:  Index:  49 , x:  1 , y:  83 .
+READER: Node set:  Index:  50 , x:  85 , y:  31 .
+READER: Node set:  Index:  51 , x:  95 , y:  25 .
+READER: Node set:  Index:  52 , x:  5 , y:  33 .
+READER: Node set:  Index:  53 , x:  51 , y:  11 .
+READER: Node set:  Index:  54 , x:  51 , y:  85 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  24
+READER: Demand set:  Index:  3 , demand:  9
+READER: Demand set:  Index:  4 , demand:  15
+READER: Demand set:  Index:  5 , demand:  17
+READER: Demand set:  Index:  6 , demand:  2
+READER: Demand set:  Index:  7 , demand:  19
+READER: Demand set:  Index:  8 , demand:  10
+READER: Demand set:  Index:  9 , demand:  17
+READER: Demand set:  Index:  10 , demand:  20
+READER: Demand set:  Index:  11 , demand:  16
+READER: Demand set:  Index:  12 , demand:  8
+READER: Demand set:  Index:  13 , demand:  12
+READER: Demand set:  Index:  14 , demand:  3
+READER: Demand set:  Index:  15 , demand:  23
+READER: Demand set:  Index:  16 , demand:  4
+READER: Demand set:  Index:  17 , demand:  23
+READER: Demand set:  Index:  18 , demand:  20
+READER: Demand set:  Index:  19 , demand:  2
+READER: Demand set:  Index:  20 , demand:  19
+READER: Demand set:  Index:  21 , demand:  2
+READER: Demand set:  Index:  22 , demand:  23
+READER: Demand set:  Index:  23 , demand:  23
+READER: Demand set:  Index:  24 , demand:  5
+READER: Demand set:  Index:  25 , demand:  12
+READER: Demand set:  Index:  26 , demand:  15
+READER: Demand set:  Index:  27 , demand:  9
+READER: Demand set:  Index:  28 , demand:  13
+READER: Demand set:  Index:  29 , demand:  18
+READER: Demand set:  Index:  30 , demand:  16
+READER: Demand set:  Index:  31 , demand:  7
+READER: Demand set:  Index:  32 , demand:  6
+READER: Demand set:  Index:  33 , demand:  2
+READER: Demand set:  Index:  34 , demand:  8
+READER: Demand set:  Index:  35 , demand:  2
+READER: Demand set:  Index:  36 , demand:  2
+READER: Demand set:  Index:  37 , demand:  4
+READER: Demand set:  Index:  38 , demand:  13
+READER: Demand set:  Index:  39 , demand:  18
+READER: Demand set:  Index:  40 , demand:  9
+READER: Demand set:  Index:  41 , demand:  19
+READER: Demand set:  Index:  42 , demand:  3
+READER: Demand set:  Index:  43 , demand:  14
+READER: Demand set:  Index:  44 , demand:  19
+READER: Demand set:  Index:  45 , demand:  21
+READER: Demand set:  Index:  46 , demand:  4
+READER: Demand set:  Index:  47 , demand:  6
+READER: Demand set:  Index:  48 , demand:  22
+READER: Demand set:  Index:  49 , demand:  13
+READER: Demand set:  Index:  50 , demand:  10
+READER: Demand set:  Index:  51 , demand:  18
+READER: Demand set:  Index:  52 , demand:  5
+READER: Demand set:  Index:  53 , demand:  9
+READER: Demand set:  Index:  54 , demand:  36
+"../dairyProblem/data/A-n55-k9.vrp"
+READER: Name set:  "A-n55-k9"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 9, Optimal value: 1073)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  55
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  36 , y:  64 .
+READER: Node set:  Index:  2 , x:  94 , y:  47 .
+READER: Node set:  Index:  3 , x:  10 , y:  23 .
+READER: Node set:  Index:  4 , x:  16 , y:  46 .
+READER: Node set:  Index:  5 , x:  25 , y:  79 .
+READER: Node set:  Index:  6 , x:  41 , y:  30 .
+READER: Node set:  Index:  7 , x:  81 , y:  45 .
+READER: Node set:  Index:  8 , x:  14 , y:  79 .
+READER: Node set:  Index:  9 , x:  42 , y:  56 .
+READER: Node set:  Index:  10 , x:  90 , y:  17 .
+READER: Node set:  Index:  11 , x:  41 , y:  39 .
+READER: Node set:  Index:  12 , x:  21 , y:  14 .
+READER: Node set:  Index:  13 , x:  41 , y:  46 .
+READER: Node set:  Index:  14 , x:  65 , y:  96 .
+READER: Node set:  Index:  15 , x:  13 , y:  49 .
+READER: Node set:  Index:  16 , x:  21 , y:  14 .
+READER: Node set:  Index:  17 , x:  57 , y:  2 .
+READER: Node set:  Index:  18 , x:  14 , y:  42 .
+READER: Node set:  Index:  19 , x:  66 , y:  62 .
+READER: Node set:  Index:  20 , x:  58 , y:  96 .
+READER: Node set:  Index:  21 , x:  5 , y:  51 .
+READER: Node set:  Index:  22 , x:  41 , y:  50 .
+READER: Node set:  Index:  23 , x:  50 , y:  99 .
+READER: Node set:  Index:  24 , x:  84 , y:  85 .
+READER: Node set:  Index:  25 , x:  97 , y:  90 .
+READER: Node set:  Index:  26 , x:  47 , y:  76 .
+READER: Node set:  Index:  27 , x:  11 , y:  54 .
+READER: Node set:  Index:  28 , x:  60 , y:  97 .
+READER: Node set:  Index:  29 , x:  60 , y:  89 .
+READER: Node set:  Index:  30 , x:  58 , y:  68 .
+READER: Node set:  Index:  31 , x:  30 , y:  93 .
+READER: Node set:  Index:  32 , x:  9 , y:  60 .
+READER: Node set:  Index:  33 , x:  47 , y:  44 .
+READER: Node set:  Index:  34 , x:  19 , y:  40 .
+READER: Node set:  Index:  35 , x:  15 , y:  40 .
+READER: Node set:  Index:  36 , x:  88 , y:  21 .
+READER: Node set:  Index:  37 , x:  33 , y:  58 .
+READER: Node set:  Index:  38 , x:  21 , y:  51 .
+READER: Node set:  Index:  39 , x:  57 , y:  7 .
+READER: Node set:  Index:  40 , x:  81 , y:  6 .
+READER: Node set:  Index:  41 , x:  49 , y:  6 .
+READER: Node set:  Index:  42 , x:  51 , y:  78 .
+READER: Node set:  Index:  43 , x:  9 , y:  62 .
+READER: Node set:  Index:  44 , x:  84 , y:  36 .
+READER: Node set:  Index:  45 , x:  95 , y:  76 .
+READER: Node set:  Index:  46 , x:  89 , y:  44 .
+READER: Node set:  Index:  47 , x:  10 , y:  49 .
+READER: Node set:  Index:  48 , x:  69 , y:  16 .
+READER: Node set:  Index:  49 , x:  75 , y:  66 .
+READER: Node set:  Index:  50 , x:  97 , y:  11 .
+READER: Node set:  Index:  51 , x:  74 , y:  69 .
+READER: Node set:  Index:  52 , x:  1 , y:  14 .
+READER: Node set:  Index:  53 , x:  96 , y:  91 .
+READER: Node set:  Index:  54 , x:  46 , y:  22 .
+READER: Node set:  Index:  55 , x:  74 , y:  92 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  3
+READER: Demand set:  Index:  3 , demand:  12
+READER: Demand set:  Index:  4 , demand:  25
+READER: Demand set:  Index:  5 , demand:  4
+READER: Demand set:  Index:  6 , demand:  11
+READER: Demand set:  Index:  7 , demand:  20
+READER: Demand set:  Index:  8 , demand:  21
+READER: Demand set:  Index:  9 , demand:  10
+READER: Demand set:  Index:  10 , demand:  20
+READER: Demand set:  Index:  11 , demand:  13
+READER: Demand set:  Index:  12 , demand:  14
+READER: Demand set:  Index:  13 , demand:  16
+READER: Demand set:  Index:  14 , demand:  17
+READER: Demand set:  Index:  15 , demand:  11
+READER: Demand set:  Index:  16 , demand:  36
+READER: Demand set:  Index:  17 , demand:  6
+READER: Demand set:  Index:  18 , demand:  7
+READER: Demand set:  Index:  19 , demand:  21
+READER: Demand set:  Index:  20 , demand:  11
+READER: Demand set:  Index:  21 , demand:  17
+READER: Demand set:  Index:  22 , demand:  22
+READER: Demand set:  Index:  23 , demand:  10
+READER: Demand set:  Index:  24 , demand:  19
+READER: Demand set:  Index:  25 , demand:  21
+READER: Demand set:  Index:  26 , demand:  23
+READER: Demand set:  Index:  27 , demand:  19
+READER: Demand set:  Index:  28 , demand:  15
+READER: Demand set:  Index:  29 , demand:  22
+READER: Demand set:  Index:  30 , demand:  7
+READER: Demand set:  Index:  31 , demand:  11
+READER: Demand set:  Index:  32 , demand:  15
+READER: Demand set:  Index:  33 , demand:  22
+READER: Demand set:  Index:  34 , demand:  12
+READER: Demand set:  Index:  35 , demand:  24
+READER: Demand set:  Index:  36 , demand:  25
+READER: Demand set:  Index:  37 , demand:  2
+READER: Demand set:  Index:  38 , demand:  15
+READER: Demand set:  Index:  39 , demand:  18
+READER: Demand set:  Index:  40 , demand:  13
+READER: Demand set:  Index:  41 , demand:  3
+READER: Demand set:  Index:  42 , demand:  20
+READER: Demand set:  Index:  43 , demand:  14
+READER: Demand set:  Index:  44 , demand:  10
+READER: Demand set:  Index:  45 , demand:  10
+READER: Demand set:  Index:  46 , demand:  66
+READER: Demand set:  Index:  47 , demand:  10
+READER: Demand set:  Index:  48 , demand:  7
+READER: Demand set:  Index:  49 , demand:  12
+READER: Demand set:  Index:  50 , demand:  24
+READER: Demand set:  Index:  51 , demand:  5
+READER: Demand set:  Index:  52 , demand:  18
+READER: Demand set:  Index:  53 , demand:  7
+READER: Demand set:  Index:  54 , demand:  11
+READER: Demand set:  Index:  55 , demand:  12
+"../dairyProblem/data/A-n60-k9.vrp"
+READER: Name set:  "A-n60-k9"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 9, Best value: 1408)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  60
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  27 , y:  93 .
+READER: Node set:  Index:  2 , x:  33 , y:  27 .
+READER: Node set:  Index:  3 , x:  29 , y:  39 .
+READER: Node set:  Index:  4 , x:  7 , y:  81 .
+READER: Node set:  Index:  5 , x:  1 , y:  59 .
+READER: Node set:  Index:  6 , x:  49 , y:  9 .
+READER: Node set:  Index:  7 , x:  21 , y:  53 .
+READER: Node set:  Index:  8 , x:  79 , y:  89 .
+READER: Node set:  Index:  9 , x:  81 , y:  83 .
+READER: Node set:  Index:  10 , x:  85 , y:  11 .
+READER: Node set:  Index:  11 , x:  45 , y:  9 .
+READER: Node set:  Index:  12 , x:  7 , y:  65 .
+READER: Node set:  Index:  13 , x:  95 , y:  27 .
+READER: Node set:  Index:  14 , x:  81 , y:  85 .
+READER: Node set:  Index:  15 , x:  37 , y:  81 .
+READER: Node set:  Index:  16 , x:  69 , y:  69 .
+READER: Node set:  Index:  17 , x:  15 , y:  95 .
+READER: Node set:  Index:  18 , x:  89 , y:  75 .
+READER: Node set:  Index:  19 , x:  33 , y:  93 .
+READER: Node set:  Index:  20 , x:  57 , y:  83 .
+READER: Node set:  Index:  21 , x:  11 , y:  95 .
+READER: Node set:  Index:  22 , x:  3 , y:  57 .
+READER: Node set:  Index:  23 , x:  45 , y:  11 .
+READER: Node set:  Index:  24 , x:  43 , y:  61 .
+READER: Node set:  Index:  25 , x:  35 , y:  43 .
+READER: Node set:  Index:  26 , x:  19 , y:  83 .
+READER: Node set:  Index:  27 , x:  83 , y:  69 .
+READER: Node set:  Index:  28 , x:  85 , y:  77 .
+READER: Node set:  Index:  29 , x:  19 , y:  39 .
+READER: Node set:  Index:  30 , x:  83 , y:  87 .
+READER: Node set:  Index:  31 , x:  1 , y:  13 .
+READER: Node set:  Index:  32 , x:  15 , y:  39 .
+READER: Node set:  Index:  33 , x:  83 , y:  17 .
+READER: Node set:  Index:  34 , x:  41 , y:  97 .
+READER: Node set:  Index:  35 , x:  31 , y:  61 .
+READER: Node set:  Index:  36 , x:  59 , y:  69 .
+READER: Node set:  Index:  37 , x:  29 , y:  15 .
+READER: Node set:  Index:  38 , x:  93 , y:  83 .
+READER: Node set:  Index:  39 , x:  63 , y:  97 .
+READER: Node set:  Index:  40 , x:  65 , y:  57 .
+READER: Node set:  Index:  41 , x:  15 , y:  69 .
+READER: Node set:  Index:  42 , x:  31 , y:  97 .
+READER: Node set:  Index:  43 , x:  57 , y:  9 .
+READER: Node set:  Index:  44 , x:  85 , y:  37 .
+READER: Node set:  Index:  45 , x:  21 , y:  29 .
+READER: Node set:  Index:  46 , x:  53 , y:  11 .
+READER: Node set:  Index:  47 , x:  15 , y:  77 .
+READER: Node set:  Index:  48 , x:  41 , y:  69 .
+READER: Node set:  Index:  49 , x:  45 , y:  17 .
+READER: Node set:  Index:  50 , x:  13 , y:  25 .
+READER: Node set:  Index:  51 , x:  63 , y:  57 .
+READER: Node set:  Index:  52 , x:  95 , y:  5 .
+READER: Node set:  Index:  53 , x:  55 , y:  91 .
+READER: Node set:  Index:  54 , x:  3 , y:  31 .
+READER: Node set:  Index:  55 , x:  47 , y:  7 .
+READER: Node set:  Index:  56 , x:  61 , y:  69 .
+READER: Node set:  Index:  57 , x:  85 , y:  35 .
+READER: Node set:  Index:  58 , x:  89 , y:  81 .
+READER: Node set:  Index:  59 , x:  45 , y:  47 .
+READER: Node set:  Index:  60 , x:  65 , y:  93 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  16
+READER: Demand set:  Index:  3 , demand:  2
+READER: Demand set:  Index:  4 , demand:  7
+READER: Demand set:  Index:  5 , demand:  11
+READER: Demand set:  Index:  6 , demand:  9
+READER: Demand set:  Index:  7 , demand:  17
+READER: Demand set:  Index:  8 , demand:  21
+READER: Demand set:  Index:  9 , demand:  23
+READER: Demand set:  Index:  10 , demand:  10
+READER: Demand set:  Index:  11 , demand:  6
+READER: Demand set:  Index:  12 , demand:  19
+READER: Demand set:  Index:  13 , demand:  18
+READER: Demand set:  Index:  14 , demand:  20
+READER: Demand set:  Index:  15 , demand:  13
+READER: Demand set:  Index:  16 , demand:  5
+READER: Demand set:  Index:  17 , demand:  11
+READER: Demand set:  Index:  18 , demand:  24
+READER: Demand set:  Index:  19 , demand:  2
+READER: Demand set:  Index:  20 , demand:  3
+READER: Demand set:  Index:  21 , demand:  1
+READER: Demand set:  Index:  22 , demand:  5
+READER: Demand set:  Index:  23 , demand:  20
+READER: Demand set:  Index:  24 , demand:  23
+READER: Demand set:  Index:  25 , demand:  24
+READER: Demand set:  Index:  26 , demand:  18
+READER: Demand set:  Index:  27 , demand:  19
+READER: Demand set:  Index:  28 , demand:  2
+READER: Demand set:  Index:  29 , demand:  17
+READER: Demand set:  Index:  30 , demand:  17
+READER: Demand set:  Index:  31 , demand:  9
+READER: Demand set:  Index:  32 , demand:  11
+READER: Demand set:  Index:  33 , demand:  2
+READER: Demand set:  Index:  34 , demand:  6
+READER: Demand set:  Index:  35 , demand:  9
+READER: Demand set:  Index:  36 , demand:  5
+READER: Demand set:  Index:  37 , demand:  9
+READER: Demand set:  Index:  38 , demand:  2
+READER: Demand set:  Index:  39 , demand:  14
+READER: Demand set:  Index:  40 , demand:  19
+READER: Demand set:  Index:  41 , demand:  11
+READER: Demand set:  Index:  42 , demand:  21
+READER: Demand set:  Index:  43 , demand:  20
+READER: Demand set:  Index:  44 , demand:  21
+READER: Demand set:  Index:  45 , demand:  18
+READER: Demand set:  Index:  46 , demand:  48
+READER: Demand set:  Index:  47 , demand:  1
+READER: Demand set:  Index:  48 , demand:  17
+READER: Demand set:  Index:  49 , demand:  42
+READER: Demand set:  Index:  50 , demand:  2
+READER: Demand set:  Index:  51 , demand:  4
+READER: Demand set:  Index:  52 , demand:  24
+READER: Demand set:  Index:  53 , demand:  18
+READER: Demand set:  Index:  54 , demand:  21
+READER: Demand set:  Index:  55 , demand:  11
+READER: Demand set:  Index:  56 , demand:  9
+READER: Demand set:  Index:  57 , demand:  18
+READER: Demand set:  Index:  58 , demand:  22
+READER: Demand set:  Index:  59 , demand:  9
+READER: Demand set:  Index:  60 , demand:  23
+"../dairyProblem/data/A-n61-k9.vrp"
+READER: Name set:  "A-n61-k9"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 9, Best value: 1035)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  61
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  61 , y:  37 .
+READER: Node set:  Index:  2 , x:  93 , y:  57 .
+READER: Node set:  Index:  3 , x:  15 , y:  67 .
+READER: Node set:  Index:  4 , x:  23 , y:  43 .
+READER: Node set:  Index:  5 , x:  53 , y:  5 .
+READER: Node set:  Index:  6 , x:  13 , y:  75 .
+READER: Node set:  Index:  7 , x:  29 , y:  73 .
+READER: Node set:  Index:  8 , x:  47 , y:  37 .
+READER: Node set:  Index:  9 , x:  23 , y:  71 .
+READER: Node set:  Index:  10 , x:  67 , y:  45 .
+READER: Node set:  Index:  11 , x:  21 , y:  49 .
+READER: Node set:  Index:  12 , x:  93 , y:  43 .
+READER: Node set:  Index:  13 , x:  67 , y:  13 .
+READER: Node set:  Index:  14 , x:  69 , y:  25 .
+READER: Node set:  Index:  15 , x:  53 , y:  35 .
+READER: Node set:  Index:  16 , x:  25 , y:  39 .
+READER: Node set:  Index:  17 , x:  85 , y:  69 .
+READER: Node set:  Index:  18 , x:  81 , y:  27 .
+READER: Node set:  Index:  19 , x:  77 , y:  79 .
+READER: Node set:  Index:  20 , x:  45 , y:  43 .
+READER: Node set:  Index:  21 , x:  31 , y:  75 .
+READER: Node set:  Index:  22 , x:  49 , y:  99 .
+READER: Node set:  Index:  23 , x:  63 , y:  9 .
+READER: Node set:  Index:  24 , x:  47 , y:  37 .
+READER: Node set:  Index:  25 , x:  33 , y:  47 .
+READER: Node set:  Index:  26 , x:  39 , y:  69 .
+READER: Node set:  Index:  27 , x:  49 , y:  3 .
+READER: Node set:  Index:  28 , x:  49 , y:  87 .
+READER: Node set:  Index:  29 , x:  87 , y:  39 .
+READER: Node set:  Index:  30 , x:  37 , y:  91 .
+READER: Node set:  Index:  31 , x:  19 , y:  33 .
+READER: Node set:  Index:  32 , x:  97 , y:  35 .
+READER: Node set:  Index:  33 , x:  31 , y:  5 .
+READER: Node set:  Index:  34 , x:  35 , y:  25 .
+READER: Node set:  Index:  35 , x:  79 , y:  61 .
+READER: Node set:  Index:  36 , x:  73 , y:  73 .
+READER: Node set:  Index:  37 , x:  35 , y:  95 .
+READER: Node set:  Index:  38 , x:  5 , y:  43 .
+READER: Node set:  Index:  39 , x:  19 , y:  45 .
+READER: Node set:  Index:  40 , x:  71 , y:  39 .
+READER: Node set:  Index:  41 , x:  35 , y:  63 .
+READER: Node set:  Index:  42 , x:  27 , y:  73 .
+READER: Node set:  Index:  43 , x:  31 , y:  21 .
+READER: Node set:  Index:  44 , x:  47 , y:  9 .
+READER: Node set:  Index:  45 , x:  87 , y:  45 .
+READER: Node set:  Index:  46 , x:  1 , y:  49 .
+READER: Node set:  Index:  47 , x:  1 , y:  77 .
+READER: Node set:  Index:  48 , x:  63 , y:  73 .
+READER: Node set:  Index:  49 , x:  79 , y:  71 .
+READER: Node set:  Index:  50 , x:  21 , y:  55 .
+READER: Node set:  Index:  51 , x:  65 , y:  23 .
+READER: Node set:  Index:  52 , x:  65 , y:  47 .
+READER: Node set:  Index:  53 , x:  97 , y:  23 .
+READER: Node set:  Index:  54 , x:  23 , y:  71 .
+READER: Node set:  Index:  55 , x:  5 , y:  81 .
+READER: Node set:  Index:  56 , x:  53 , y:  27 .
+READER: Node set:  Index:  57 , x:  57 , y:  85 .
+READER: Node set:  Index:  58 , x:  89 , y:  23 .
+READER: Node set:  Index:  59 , x:  51 , y:  65 .
+READER: Node set:  Index:  60 , x:  13 , y:  49 .
+READER: Node set:  Index:  61 , x:  91 , y:  41 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  23
+READER: Demand set:  Index:  3 , demand:  17
+READER: Demand set:  Index:  4 , demand:  12
+READER: Demand set:  Index:  5 , demand:  6
+READER: Demand set:  Index:  6 , demand:  22
+READER: Demand set:  Index:  7 , demand:  3
+READER: Demand set:  Index:  8 , demand:  24
+READER: Demand set:  Index:  9 , demand:  24
+READER: Demand set:  Index:  10 , demand:  11
+READER: Demand set:  Index:  11 , demand:  7
+READER: Demand set:  Index:  12 , demand:  12
+READER: Demand set:  Index:  13 , demand:  8
+READER: Demand set:  Index:  14 , demand:  14
+READER: Demand set:  Index:  15 , demand:  20
+READER: Demand set:  Index:  16 , demand:  16
+READER: Demand set:  Index:  17 , demand:  16
+READER: Demand set:  Index:  18 , demand:  4
+READER: Demand set:  Index:  19 , demand:  9
+READER: Demand set:  Index:  20 , demand:  18
+READER: Demand set:  Index:  21 , demand:  14
+READER: Demand set:  Index:  22 , demand:  10
+READER: Demand set:  Index:  23 , demand:  19
+READER: Demand set:  Index:  24 , demand:  22
+READER: Demand set:  Index:  25 , demand:  19
+READER: Demand set:  Index:  26 , demand:  9
+READER: Demand set:  Index:  27 , demand:  18
+READER: Demand set:  Index:  28 , demand:  2
+READER: Demand set:  Index:  29 , demand:  18
+READER: Demand set:  Index:  30 , demand:  11
+READER: Demand set:  Index:  31 , demand:  19
+READER: Demand set:  Index:  32 , demand:  18
+READER: Demand set:  Index:  33 , demand:  15
+READER: Demand set:  Index:  34 , demand:  4
+READER: Demand set:  Index:  35 , demand:  12
+READER: Demand set:  Index:  36 , demand:  8
+READER: Demand set:  Index:  37 , demand:  18
+READER: Demand set:  Index:  38 , demand:  12
+READER: Demand set:  Index:  39 , demand:  72
+READER: Demand set:  Index:  40 , demand:  2
+READER: Demand set:  Index:  41 , demand:  5
+READER: Demand set:  Index:  42 , demand:  14
+READER: Demand set:  Index:  43 , demand:  11
+READER: Demand set:  Index:  44 , demand:  19
+READER: Demand set:  Index:  45 , demand:  16
+READER: Demand set:  Index:  46 , demand:  19
+READER: Demand set:  Index:  47 , demand:  3
+READER: Demand set:  Index:  48 , demand:  12
+READER: Demand set:  Index:  49 , demand:  10
+READER: Demand set:  Index:  50 , demand:  20
+READER: Demand set:  Index:  51 , demand:  7
+READER: Demand set:  Index:  52 , demand:  13
+READER: Demand set:  Index:  53 , demand:  16
+READER: Demand set:  Index:  54 , demand:  23
+READER: Demand set:  Index:  55 , demand:  22
+READER: Demand set:  Index:  56 , demand:  18
+READER: Demand set:  Index:  57 , demand:  6
+READER: Demand set:  Index:  58 , demand:  12
+READER: Demand set:  Index:  59 , demand:  27
+READER: Demand set:  Index:  60 , demand:  9
+READER: Demand set:  Index:  61 , demand:  15
+"../dairyProblem/data/A-n62-k8.vrp"
+READER: Name set:  "A-n62-k8"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 8, Best value: 1290)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  62
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  2 , y:  48 .
+READER: Node set:  Index:  2 , x:  64 , y:  71 .
+READER: Node set:  Index:  3 , x:  33 , y:  83 .
+READER: Node set:  Index:  4 , x:  77 , y:  89 .
+READER: Node set:  Index:  5 , x:  96 , y:  61 .
+READER: Node set:  Index:  6 , x:  53 , y:  55 .
+READER: Node set:  Index:  7 , x:  38 , y:  10 .
+READER: Node set:  Index:  8 , x:  7 , y:  40 .
+READER: Node set:  Index:  9 , x:  7 , y:  1 .
+READER: Node set:  Index:  10 , x:  73 , y:  68 .
+READER: Node set:  Index:  11 , x:  4 , y:  24 .
+READER: Node set:  Index:  12 , x:  82 , y:  56 .
+READER: Node set:  Index:  13 , x:  30 , y:  56 .
+READER: Node set:  Index:  14 , x:  38 , y:  62 .
+READER: Node set:  Index:  15 , x:  42 , y:  53 .
+READER: Node set:  Index:  16 , x:  5 , y:  49 .
+READER: Node set:  Index:  17 , x:  1 , y:  85 .
+READER: Node set:  Index:  18 , x:  94 , y:  4 .
+READER: Node set:  Index:  19 , x:  50 , y:  70 .
+READER: Node set:  Index:  20 , x:  35 , y:  69 .
+READER: Node set:  Index:  21 , x:  14 , y:  41 .
+READER: Node set:  Index:  22 , x:  94 , y:  73 .
+READER: Node set:  Index:  23 , x:  23 , y:  96 .
+READER: Node set:  Index:  24 , x:  96 , y:  88 .
+READER: Node set:  Index:  25 , x:  74 , y:  94 .
+READER: Node set:  Index:  26 , x:  68 , y:  52 .
+READER: Node set:  Index:  27 , x:  73 , y:  22 .
+READER: Node set:  Index:  28 , x:  92 , y:  96 .
+READER: Node set:  Index:  29 , x:  4 , y:  48 .
+READER: Node set:  Index:  30 , x:  24 , y:  10 .
+READER: Node set:  Index:  31 , x:  52 , y:  72 .
+READER: Node set:  Index:  32 , x:  61 , y:  46 .
+READER: Node set:  Index:  33 , x:  38 , y:  9 .
+READER: Node set:  Index:  34 , x:  90 , y:  15 .
+READER: Node set:  Index:  35 , x:  58 , y:  41 .
+READER: Node set:  Index:  36 , x:  93 , y:  41 .
+READER: Node set:  Index:  37 , x:  8 , y:  74 .
+READER: Node set:  Index:  38 , x:  13 , y:  87 .
+READER: Node set:  Index:  39 , x:  34 , y:  68 .
+READER: Node set:  Index:  40 , x:  84 , y:  97 .
+READER: Node set:  Index:  41 , x:  35 , y:  20 .
+READER: Node set:  Index:  42 , x:  96 , y:  79 .
+READER: Node set:  Index:  43 , x:  73 , y:  87 .
+READER: Node set:  Index:  44 , x:  21 , y:  1 .
+READER: Node set:  Index:  45 , x:  28 , y:  93 .
+READER: Node set:  Index:  46 , x:  55 , y:  94 .
+READER: Node set:  Index:  47 , x:  56 , y:  84 .
+READER: Node set:  Index:  48 , x:  68 , y:  99 .
+READER: Node set:  Index:  49 , x:  30 , y:  53 .
+READER: Node set:  Index:  50 , x:  85 , y:  49 .
+READER: Node set:  Index:  51 , x:  85 , y:  2 .
+READER: Node set:  Index:  52 , x:  0 , y:  30 .
+READER: Node set:  Index:  53 , x:  12 , y:  71 .
+READER: Node set:  Index:  54 , x:  26 , y:  55 .
+READER: Node set:  Index:  55 , x:  72 , y:  75 .
+READER: Node set:  Index:  56 , x:  71 , y:  21 .
+READER: Node set:  Index:  57 , x:  33 , y:  49 .
+READER: Node set:  Index:  58 , x:  51 , y:  2 .
+READER: Node set:  Index:  59 , x:  93 , y:  7 .
+READER: Node set:  Index:  60 , x:  70 , y:  22 .
+READER: Node set:  Index:  61 , x:  54 , y:  53 .
+READER: Node set:  Index:  62 , x:  26 , y:  17 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  26
+READER: Demand set:  Index:  3 , demand:  18
+READER: Demand set:  Index:  4 , demand:  16
+READER: Demand set:  Index:  5 , demand:  8
+READER: Demand set:  Index:  6 , demand:  7
+READER: Demand set:  Index:  7 , demand:  11
+READER: Demand set:  Index:  8 , demand:  4
+READER: Demand set:  Index:  9 , demand:  9
+READER: Demand set:  Index:  10 , demand:  9
+READER: Demand set:  Index:  11 , demand:  16
+READER: Demand set:  Index:  12 , demand:  7
+READER: Demand set:  Index:  13 , demand:  6
+READER: Demand set:  Index:  14 , demand:  1
+READER: Demand set:  Index:  15 , demand:  2
+READER: Demand set:  Index:  16 , demand:  22
+READER: Demand set:  Index:  17 , demand:  23
+READER: Demand set:  Index:  18 , demand:  4
+READER: Demand set:  Index:  19 , demand:  3
+READER: Demand set:  Index:  20 , demand:  20
+READER: Demand set:  Index:  21 , demand:  7
+READER: Demand set:  Index:  22 , demand:  1
+READER: Demand set:  Index:  23 , demand:  2
+READER: Demand set:  Index:  24 , demand:  12
+READER: Demand set:  Index:  25 , demand:  22
+READER: Demand set:  Index:  26 , demand:  6
+READER: Demand set:  Index:  27 , demand:  11
+READER: Demand set:  Index:  28 , demand:  12
+READER: Demand set:  Index:  29 , demand:  2
+READER: Demand set:  Index:  30 , demand:  14
+READER: Demand set:  Index:  31 , demand:  14
+READER: Demand set:  Index:  32 , demand:  2
+READER: Demand set:  Index:  33 , demand:  9
+READER: Demand set:  Index:  34 , demand:  20
+READER: Demand set:  Index:  35 , demand:  2
+READER: Demand set:  Index:  36 , demand:  18
+READER: Demand set:  Index:  37 , demand:  19
+READER: Demand set:  Index:  38 , demand:  18
+READER: Demand set:  Index:  39 , demand:  4
+READER: Demand set:  Index:  40 , demand:  16
+READER: Demand set:  Index:  41 , demand:  26
+READER: Demand set:  Index:  42 , demand:  3
+READER: Demand set:  Index:  43 , demand:  23
+READER: Demand set:  Index:  44 , demand:  16
+READER: Demand set:  Index:  45 , demand:  10
+READER: Demand set:  Index:  46 , demand:  9
+READER: Demand set:  Index:  47 , demand:  21
+READER: Demand set:  Index:  48 , demand:  24
+READER: Demand set:  Index:  49 , demand:  24
+READER: Demand set:  Index:  50 , demand:  19
+READER: Demand set:  Index:  51 , demand:  12
+READER: Demand set:  Index:  52 , demand:  16
+READER: Demand set:  Index:  53 , demand:  6
+READER: Demand set:  Index:  54 , demand:  2
+READER: Demand set:  Index:  55 , demand:  2
+READER: Demand set:  Index:  56 , demand:  2
+READER: Demand set:  Index:  57 , demand:  23
+READER: Demand set:  Index:  58 , demand:  16
+READER: Demand set:  Index:  59 , demand:  26
+READER: Demand set:  Index:  60 , demand:  21
+READER: Demand set:  Index:  61 , demand:  2
+READER: Demand set:  Index:  62 , demand:  7
+"../dairyProblem/data/A-n63-k10.vrp"
+READER: Name set:  "A-n63-k10"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 10, Best value: 1315)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  63
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  76 , y:  75 .
+READER: Node set:  Index:  2 , x:  60 , y:  14 .
+READER: Node set:  Index:  3 , x:  46 , y:  5 .
+READER: Node set:  Index:  4 , x:  91 , y:  14 .
+READER: Node set:  Index:  5 , x:  70 , y:  95 .
+READER: Node set:  Index:  6 , x:  86 , y:  31 .
+READER: Node set:  Index:  7 , x:  20 , y:  0 .
+READER: Node set:  Index:  8 , x:  41 , y:  55 .
+READER: Node set:  Index:  9 , x:  21 , y:  15 .
+READER: Node set:  Index:  10 , x:  46 , y:  1 .
+READER: Node set:  Index:  11 , x:  95 , y:  45 .
+READER: Node set:  Index:  12 , x:  16 , y:  89 .
+READER: Node set:  Index:  13 , x:  41 , y:  1 .
+READER: Node set:  Index:  14 , x:  60 , y:  94 .
+READER: Node set:  Index:  15 , x:  55 , y:  25 .
+READER: Node set:  Index:  16 , x:  71 , y:  41 .
+READER: Node set:  Index:  17 , x:  39 , y:  35 .
+READER: Node set:  Index:  18 , x:  61 , y:  70 .
+READER: Node set:  Index:  19 , x:  80 , y:  36 .
+READER: Node set:  Index:  20 , x:  100 , y:  26 .
+READER: Node set:  Index:  21 , x:  65 , y:  85 .
+READER: Node set:  Index:  22 , x:  40 , y:  51 .
+READER: Node set:  Index:  23 , x:  19 , y:  71 .
+READER: Node set:  Index:  24 , x:  34 , y:  50 .
+READER: Node set:  Index:  25 , x:  36 , y:  61 .
+READER: Node set:  Index:  26 , x:  69 , y:  50 .
+READER: Node set:  Index:  27 , x:  61 , y:  94 .
+READER: Node set:  Index:  28 , x:  19 , y:  11 .
+READER: Node set:  Index:  29 , x:  51 , y:  91 .
+READER: Node set:  Index:  30 , x:  61 , y:  54 .
+READER: Node set:  Index:  31 , x:  76 , y:  90 .
+READER: Node set:  Index:  32 , x:  41 , y:  75 .
+READER: Node set:  Index:  33 , x:  35 , y:  100 .
+READER: Node set:  Index:  34 , x:  1 , y:  40 .
+READER: Node set:  Index:  35 , x:  15 , y:  91 .
+READER: Node set:  Index:  36 , x:  21 , y:  11 .
+READER: Node set:  Index:  37 , x:  79 , y:  81 .
+READER: Node set:  Index:  38 , x:  34 , y:  36 .
+READER: Node set:  Index:  39 , x:  74 , y:  99 .
+READER: Node set:  Index:  40 , x:  75 , y:  14 .
+READER: Node set:  Index:  41 , x:  65 , y:  54 .
+READER: Node set:  Index:  42 , x:  55 , y:  10 .
+READER: Node set:  Index:  43 , x:  100 , y:  6 .
+READER: Node set:  Index:  44 , x:  99 , y:  91 .
+READER: Node set:  Index:  45 , x:  25 , y:  86 .
+READER: Node set:  Index:  46 , x:  75 , y:  16 .
+READER: Node set:  Index:  47 , x:  30 , y:  45 .
+READER: Node set:  Index:  48 , x:  21 , y:  85 .
+READER: Node set:  Index:  49 , x:  75 , y:  80 .
+READER: Node set:  Index:  50 , x:  71 , y:  35 .
+READER: Node set:  Index:  51 , x:  56 , y:  81 .
+READER: Node set:  Index:  52 , x:  25 , y:  76 .
+READER: Node set:  Index:  53 , x:  85 , y:  76 .
+READER: Node set:  Index:  54 , x:  60 , y:  34 .
+READER: Node set:  Index:  55 , x:  41 , y:  44 .
+READER: Node set:  Index:  56 , x:  6 , y:  55 .
+READER: Node set:  Index:  57 , x:  60 , y:  54 .
+READER: Node set:  Index:  58 , x:  40 , y:  96 .
+READER: Node set:  Index:  59 , x:  20 , y:  71 .
+READER: Node set:  Index:  60 , x:  94 , y:  45 .
+READER: Node set:  Index:  61 , x:  31 , y:  41 .
+READER: Node set:  Index:  62 , x:  40 , y:  49 .
+READER: Node set:  Index:  63 , x:  56 , y:  80 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  11
+READER: Demand set:  Index:  3 , demand:  20
+READER: Demand set:  Index:  4 , demand:  26
+READER: Demand set:  Index:  5 , demand:  17
+READER: Demand set:  Index:  6 , demand:  5
+READER: Demand set:  Index:  7 , demand:  17
+READER: Demand set:  Index:  8 , demand:  1
+READER: Demand set:  Index:  9 , demand:  15
+READER: Demand set:  Index:  10 , demand:  16
+READER: Demand set:  Index:  11 , demand:  22
+READER: Demand set:  Index:  12 , demand:  2
+READER: Demand set:  Index:  13 , demand:  22
+READER: Demand set:  Index:  14 , demand:  25
+READER: Demand set:  Index:  15 , demand:  20
+READER: Demand set:  Index:  16 , demand:  20
+READER: Demand set:  Index:  17 , demand:  21
+READER: Demand set:  Index:  18 , demand:  26
+READER: Demand set:  Index:  19 , demand:  12
+READER: Demand set:  Index:  20 , demand:  5
+READER: Demand set:  Index:  21 , demand:  11
+READER: Demand set:  Index:  22 , demand:  5
+READER: Demand set:  Index:  23 , demand:  21
+READER: Demand set:  Index:  24 , demand:  17
+READER: Demand set:  Index:  25 , demand:  12
+READER: Demand set:  Index:  26 , demand:  12
+READER: Demand set:  Index:  27 , demand:  15
+READER: Demand set:  Index:  28 , demand:  21
+READER: Demand set:  Index:  29 , demand:  12
+READER: Demand set:  Index:  30 , demand:  2
+READER: Demand set:  Index:  31 , demand:  17
+READER: Demand set:  Index:  32 , demand:  16
+READER: Demand set:  Index:  33 , demand:  15
+READER: Demand set:  Index:  34 , demand:  26
+READER: Demand set:  Index:  35 , demand:  12
+READER: Demand set:  Index:  36 , demand:  22
+READER: Demand set:  Index:  37 , demand:  16
+READER: Demand set:  Index:  38 , demand:  21
+READER: Demand set:  Index:  39 , demand:  16
+READER: Demand set:  Index:  40 , demand:  2
+READER: Demand set:  Index:  41 , demand:  6
+READER: Demand set:  Index:  42 , demand:  2
+READER: Demand set:  Index:  43 , demand:  6
+READER: Demand set:  Index:  44 , demand:  10
+READER: Demand set:  Index:  45 , demand:  11
+READER: Demand set:  Index:  46 , demand:  1
+READER: Demand set:  Index:  47 , demand:  63
+READER: Demand set:  Index:  48 , demand:  10
+READER: Demand set:  Index:  49 , demand:  21
+READER: Demand set:  Index:  50 , demand:  7
+READER: Demand set:  Index:  51 , demand:  1
+READER: Demand set:  Index:  52 , demand:  6
+READER: Demand set:  Index:  53 , demand:  26
+READER: Demand set:  Index:  54 , demand:  17
+READER: Demand set:  Index:  55 , demand:  10
+READER: Demand set:  Index:  56 , demand:  25
+READER: Demand set:  Index:  57 , demand:  25
+READER: Demand set:  Index:  58 , demand:  25
+READER: Demand set:  Index:  59 , demand:  16
+READER: Demand set:  Index:  60 , demand:  5
+READER: Demand set:  Index:  61 , demand:  22
+READER: Demand set:  Index:  62 , demand:  17
+READER: Demand set:  Index:  63 , demand:  6
+"../dairyProblem/data/A-n63-k9.vrp"
+READER: Name set:  "A-n63-k9"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 9, Best value: 1634)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  63
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  91 , y:  93 .
+READER: Node set:  Index:  2 , x:  7 , y:  5 .
+READER: Node set:  Index:  3 , x:  27 , y:  91 .
+READER: Node set:  Index:  4 , x:  21 , y:  47 .
+READER: Node set:  Index:  5 , x:  33 , y:  11 .
+READER: Node set:  Index:  6 , x:  19 , y:  99 .
+READER: Node set:  Index:  7 , x:  59 , y:  25 .
+READER: Node set:  Index:  8 , x:  69 , y:  79 .
+READER: Node set:  Index:  9 , x:  11 , y:  73 .
+READER: Node set:  Index:  10 , x:  21 , y:  35 .
+READER: Node set:  Index:  11 , x:  59 , y:  45 .
+READER: Node set:  Index:  12 , x:  99 , y:  81 .
+READER: Node set:  Index:  13 , x:  71 , y:  47 .
+READER: Node set:  Index:  14 , x:  53 , y:  83 .
+READER: Node set:  Index:  15 , x:  87 , y:  1 .
+READER: Node set:  Index:  16 , x:  79 , y:  67 .
+READER: Node set:  Index:  17 , x:  59 , y:  65 .
+READER: Node set:  Index:  18 , x:  67 , y:  21 .
+READER: Node set:  Index:  19 , x:  27 , y:  1 .
+READER: Node set:  Index:  20 , x:  81 , y:  93 .
+READER: Node set:  Index:  21 , x:  59 , y:  89 .
+READER: Node set:  Index:  22 , x:  95 , y:  23 .
+READER: Node set:  Index:  23 , x:  73 , y:  25 .
+READER: Node set:  Index:  24 , x:  41 , y:  25 .
+READER: Node set:  Index:  25 , x:  3 , y:  65 .
+READER: Node set:  Index:  26 , x:  59 , y:  83 .
+READER: Node set:  Index:  27 , x:  83 , y:  97 .
+READER: Node set:  Index:  28 , x:  5 , y:  83 .
+READER: Node set:  Index:  29 , x:  71 , y:  35 .
+READER: Node set:  Index:  30 , x:  37 , y:  97 .
+READER: Node set:  Index:  31 , x:  29 , y:  93 .
+READER: Node set:  Index:  32 , x:  19 , y:  21 .
+READER: Node set:  Index:  33 , x:  83 , y:  13 .
+READER: Node set:  Index:  34 , x:  97 , y:  67 .
+READER: Node set:  Index:  35 , x:  31 , y:  83 .
+READER: Node set:  Index:  36 , x:  65 , y:  17 .
+READER: Node set:  Index:  37 , x:  19 , y:  63 .
+READER: Node set:  Index:  38 , x:  59 , y:  23 .
+READER: Node set:  Index:  39 , x:  17 , y:  25 .
+READER: Node set:  Index:  40 , x:  45 , y:  27 .
+READER: Node set:  Index:  41 , x:  89 , y:  7 .
+READER: Node set:  Index:  42 , x:  19 , y:  41 .
+READER: Node set:  Index:  43 , x:  23 , y:  39 .
+READER: Node set:  Index:  44 , x:  23 , y:  21 .
+READER: Node set:  Index:  45 , x:  83 , y:  61 .
+READER: Node set:  Index:  46 , x:  11 , y:  93 .
+READER: Node set:  Index:  47 , x:  17 , y:  11 .
+READER: Node set:  Index:  48 , x:  35 , y:  11 .
+READER: Node set:  Index:  49 , x:  21 , y:  59 .
+READER: Node set:  Index:  50 , x:  21 , y:  69 .
+READER: Node set:  Index:  51 , x:  71 , y:  13 .
+READER: Node set:  Index:  52 , x:  63 , y:  13 .
+READER: Node set:  Index:  53 , x:  49 , y:  21 .
+READER: Node set:  Index:  54 , x:  83 , y:  31 .
+READER: Node set:  Index:  55 , x:  41 , y:  97 .
+READER: Node set:  Index:  56 , x:  85 , y:  15 .
+READER: Node set:  Index:  57 , x:  77 , y:  73 .
+READER: Node set:  Index:  58 , x:  57 , y:  1 .
+READER: Node set:  Index:  59 , x:  83 , y:  11 .
+READER: Node set:  Index:  60 , x:  1 , y:  75 .
+READER: Node set:  Index:  61 , x:  45 , y:  71 .
+READER: Node set:  Index:  62 , x:  41 , y:  55 .
+READER: Node set:  Index:  63 , x:  45 , y:  13 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  4
+READER: Demand set:  Index:  3 , demand:  18
+READER: Demand set:  Index:  4 , demand:  22
+READER: Demand set:  Index:  5 , demand:  14
+READER: Demand set:  Index:  6 , demand:  5
+READER: Demand set:  Index:  7 , demand:  9
+READER: Demand set:  Index:  8 , demand:  7
+READER: Demand set:  Index:  9 , demand:  20
+READER: Demand set:  Index:  10 , demand:  19
+READER: Demand set:  Index:  11 , demand:  7
+READER: Demand set:  Index:  12 , demand:  18
+READER: Demand set:  Index:  13 , demand:  20
+READER: Demand set:  Index:  14 , demand:  2
+READER: Demand set:  Index:  15 , demand:  11
+READER: Demand set:  Index:  16 , demand:  10
+READER: Demand set:  Index:  17 , demand:  5
+READER: Demand set:  Index:  18 , demand:  21
+READER: Demand set:  Index:  19 , demand:  20
+READER: Demand set:  Index:  20 , demand:  1
+READER: Demand set:  Index:  21 , demand:  15
+READER: Demand set:  Index:  22 , demand:  15
+READER: Demand set:  Index:  23 , demand:  14
+READER: Demand set:  Index:  24 , demand:  19
+READER: Demand set:  Index:  25 , demand:  22
+READER: Demand set:  Index:  26 , demand:  21
+READER: Demand set:  Index:  27 , demand:  22
+READER: Demand set:  Index:  28 , demand:  6
+READER: Demand set:  Index:  29 , demand:  24
+READER: Demand set:  Index:  30 , demand:  14
+READER: Demand set:  Index:  31 , demand:  14
+READER: Demand set:  Index:  32 , demand:  2
+READER: Demand set:  Index:  33 , demand:  15
+READER: Demand set:  Index:  34 , demand:  21
+READER: Demand set:  Index:  35 , demand:  15
+READER: Demand set:  Index:  36 , demand:  6
+READER: Demand set:  Index:  37 , demand:  23
+READER: Demand set:  Index:  38 , demand:  14
+READER: Demand set:  Index:  39 , demand:  26
+READER: Demand set:  Index:  40 , demand:  15
+READER: Demand set:  Index:  41 , demand:  15
+READER: Demand set:  Index:  42 , demand:  23
+READER: Demand set:  Index:  43 , demand:  7
+READER: Demand set:  Index:  44 , demand:  22
+READER: Demand set:  Index:  45 , demand:  26
+READER: Demand set:  Index:  46 , demand:  20
+READER: Demand set:  Index:  47 , demand:  3
+READER: Demand set:  Index:  48 , demand:  2
+READER: Demand set:  Index:  49 , demand:  15
+READER: Demand set:  Index:  50 , demand:  2
+READER: Demand set:  Index:  51 , demand:  21
+READER: Demand set:  Index:  52 , demand:  12
+READER: Demand set:  Index:  53 , demand:  4
+READER: Demand set:  Index:  54 , demand:  10
+READER: Demand set:  Index:  55 , demand:  23
+READER: Demand set:  Index:  56 , demand:  4
+READER: Demand set:  Index:  57 , demand:  24
+READER: Demand set:  Index:  58 , demand:  17
+READER: Demand set:  Index:  59 , demand:  2
+READER: Demand set:  Index:  60 , demand:  20
+READER: Demand set:  Index:  61 , demand:  18
+READER: Demand set:  Index:  62 , demand:  19
+READER: Demand set:  Index:  63 , demand:  8
+"../dairyProblem/data/A-n64-k9.vrp"
+READER: Name set:  "A-n64-k9"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 9, Best value: 1402)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  64
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  97 , y:  33 .
+READER: Node set:  Index:  2 , x:  57 , y:  81 .
+READER: Node set:  Index:  3 , x:  1 , y:  33 .
+READER: Node set:  Index:  4 , x:  55 , y:  57 .
+READER: Node set:  Index:  5 , x:  29 , y:  37 .
+READER: Node set:  Index:  6 , x:  21 , y:  39 .
+READER: Node set:  Index:  7 , x:  93 , y:  37 .
+READER: Node set:  Index:  8 , x:  5 , y:  91 .
+READER: Node set:  Index:  9 , x:  25 , y:  11 .
+READER: Node set:  Index:  10 , x:  47 , y:  37 .
+READER: Node set:  Index:  11 , x:  87 , y:  25 .
+READER: Node set:  Index:  12 , x:  67 , y:  65 .
+READER: Node set:  Index:  13 , x:  71 , y:  89 .
+READER: Node set:  Index:  14 , x:  67 , y:  15 .
+READER: Node set:  Index:  15 , x:  45 , y:  79 .
+READER: Node set:  Index:  16 , x:  71 , y:  57 .
+READER: Node set:  Index:  17 , x:  29 , y:  1 .
+READER: Node set:  Index:  18 , x:  59 , y:  79 .
+READER: Node set:  Index:  19 , x:  93 , y:  83 .
+READER: Node set:  Index:  20 , x:  47 , y:  41 .
+READER: Node set:  Index:  21 , x:  51 , y:  41 .
+READER: Node set:  Index:  22 , x:  23 , y:  93 .
+READER: Node set:  Index:  23 , x:  87 , y:  95 .
+READER: Node set:  Index:  24 , x:  39 , y:  45 .
+READER: Node set:  Index:  25 , x:  45 , y:  7 .
+READER: Node set:  Index:  26 , x:  85 , y:  51 .
+READER: Node set:  Index:  27 , x:  35 , y:  93 .
+READER: Node set:  Index:  28 , x:  47 , y:  79 .
+READER: Node set:  Index:  29 , x:  59 , y:  91 .
+READER: Node set:  Index:  30 , x:  83 , y:  51 .
+READER: Node set:  Index:  31 , x:  49 , y:  65 .
+READER: Node set:  Index:  32 , x:  21 , y:  55 .
+READER: Node set:  Index:  33 , x:  51 , y:  21 .
+READER: Node set:  Index:  34 , x:  69 , y:  43 .
+READER: Node set:  Index:  35 , x:  37 , y:  41 .
+READER: Node set:  Index:  36 , x:  37 , y:  95 .
+READER: Node set:  Index:  37 , x:  5 , y:  71 .
+READER: Node set:  Index:  38 , x:  37 , y:  47 .
+READER: Node set:  Index:  39 , x:  83 , y:  73 .
+READER: Node set:  Index:  40 , x:  17 , y:  71 .
+READER: Node set:  Index:  41 , x:  5 , y:  71 .
+READER: Node set:  Index:  42 , x:  81 , y:  17 .
+READER: Node set:  Index:  43 , x:  59 , y:  33 .
+READER: Node set:  Index:  44 , x:  63 , y:  87 .
+READER: Node set:  Index:  45 , x:  21 , y:  77 .
+READER: Node set:  Index:  46 , x:  71 , y:  51 .
+READER: Node set:  Index:  47 , x:  21 , y:  17 .
+READER: Node set:  Index:  48 , x:  9 , y:  7 .
+READER: Node set:  Index:  49 , x:  65 , y:  43 .
+READER: Node set:  Index:  50 , x:  25 , y:  63 .
+READER: Node set:  Index:  51 , x:  13 , y:  57 .
+READER: Node set:  Index:  52 , x:  47 , y:  43 .
+READER: Node set:  Index:  53 , x:  77 , y:  9 .
+READER: Node set:  Index:  54 , x:  57 , y:  55 .
+READER: Node set:  Index:  55 , x:  21 , y:  33 .
+READER: Node set:  Index:  56 , x:  27 , y:  59 .
+READER: Node set:  Index:  57 , x:  83 , y:  9 .
+READER: Node set:  Index:  58 , x:  63 , y:  69 .
+READER: Node set:  Index:  59 , x:  9 , y:  35 .
+READER: Node set:  Index:  60 , x:  25 , y:  55 .
+READER: Node set:  Index:  61 , x:  33 , y:  3 .
+READER: Node set:  Index:  62 , x:  53 , y:  11 .
+READER: Node set:  Index:  63 , x:  51 , y:  49 .
+READER: Node set:  Index:  64 , x:  9 , y:  23 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  10
+READER: Demand set:  Index:  3 , demand:  15
+READER: Demand set:  Index:  4 , demand:  23
+READER: Demand set:  Index:  5 , demand:  23
+READER: Demand set:  Index:  6 , demand:  24
+READER: Demand set:  Index:  7 , demand:  17
+READER: Demand set:  Index:  8 , demand:  1
+READER: Demand set:  Index:  9 , demand:  4
+READER: Demand set:  Index:  10 , demand:  2
+READER: Demand set:  Index:  11 , demand:  5
+READER: Demand set:  Index:  12 , demand:  18
+READER: Demand set:  Index:  13 , demand:  9
+READER: Demand set:  Index:  14 , demand:  8
+READER: Demand set:  Index:  15 , demand:  23
+READER: Demand set:  Index:  16 , demand:  13
+READER: Demand set:  Index:  17 , demand:  4
+READER: Demand set:  Index:  18 , demand:  18
+READER: Demand set:  Index:  19 , demand:  16
+READER: Demand set:  Index:  20 , demand:  26
+READER: Demand set:  Index:  21 , demand:  16
+READER: Demand set:  Index:  22 , demand:  4
+READER: Demand set:  Index:  23 , demand:  23
+READER: Demand set:  Index:  24 , demand:  8
+READER: Demand set:  Index:  25 , demand:  26
+READER: Demand set:  Index:  26 , demand:  16
+READER: Demand set:  Index:  27 , demand:  5
+READER: Demand set:  Index:  28 , demand:  2
+READER: Demand set:  Index:  29 , demand:  21
+READER: Demand set:  Index:  30 , demand:  23
+READER: Demand set:  Index:  31 , demand:  8
+READER: Demand set:  Index:  32 , demand:  5
+READER: Demand set:  Index:  33 , demand:  8
+READER: Demand set:  Index:  34 , demand:  26
+READER: Demand set:  Index:  35 , demand:  12
+READER: Demand set:  Index:  36 , demand:  8
+READER: Demand set:  Index:  37 , demand:  3
+READER: Demand set:  Index:  38 , demand:  8
+READER: Demand set:  Index:  39 , demand:  19
+READER: Demand set:  Index:  40 , demand:  16
+READER: Demand set:  Index:  41 , demand:  2
+READER: Demand set:  Index:  42 , demand:  3
+READER: Demand set:  Index:  43 , demand:  17
+READER: Demand set:  Index:  44 , demand:  7
+READER: Demand set:  Index:  45 , demand:  5
+READER: Demand set:  Index:  46 , demand:  8
+READER: Demand set:  Index:  47 , demand:  4
+READER: Demand set:  Index:  48 , demand:  12
+READER: Demand set:  Index:  49 , demand:  19
+READER: Demand set:  Index:  50 , demand:  19
+READER: Demand set:  Index:  51 , demand:  26
+READER: Demand set:  Index:  52 , demand:  24
+READER: Demand set:  Index:  53 , demand:  5
+READER: Demand set:  Index:  54 , demand:  8
+READER: Demand set:  Index:  55 , demand:  22
+READER: Demand set:  Index:  56 , demand:  9
+READER: Demand set:  Index:  57 , demand:  18
+READER: Demand set:  Index:  58 , demand:  19
+READER: Demand set:  Index:  59 , demand:  15
+READER: Demand set:  Index:  60 , demand:  5
+READER: Demand set:  Index:  61 , demand:  11
+READER: Demand set:  Index:  62 , demand:  12
+READER: Demand set:  Index:  63 , demand:  54
+READER: Demand set:  Index:  64 , demand:  8
+"../dairyProblem/data/A-n65-k9.vrp"
+READER: Name set:  "A-n65-k9"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 9, Best value: 1177)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  65
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  25 , y:  51 .
+READER: Node set:  Index:  2 , x:  35 , y:  7 .
+READER: Node set:  Index:  3 , x:  93 , y:  75 .
+READER: Node set:  Index:  4 , x:  53 , y:  95 .
+READER: Node set:  Index:  5 , x:  51 , y:  81 .
+READER: Node set:  Index:  6 , x:  51 , y:  55 .
+READER: Node set:  Index:  7 , x:  1 , y:  67 .
+READER: Node set:  Index:  8 , x:  9 , y:  23 .
+READER: Node set:  Index:  9 , x:  75 , y:  7 .
+READER: Node set:  Index:  10 , x:  15 , y:  97 .
+READER: Node set:  Index:  11 , x:  79 , y:  5 .
+READER: Node set:  Index:  12 , x:  9 , y:  19 .
+READER: Node set:  Index:  13 , x:  39 , y:  1 .
+READER: Node set:  Index:  14 , x:  47 , y:  1 .
+READER: Node set:  Index:  15 , x:  33 , y:  97 .
+READER: Node set:  Index:  16 , x:  27 , y:  83 .
+READER: Node set:  Index:  17 , x:  83 , y:  79 .
+READER: Node set:  Index:  18 , x:  17 , y:  59 .
+READER: Node set:  Index:  19 , x:  47 , y:  19 .
+READER: Node set:  Index:  20 , x:  57 , y:  9 .
+READER: Node set:  Index:  21 , x:  87 , y:  41 .
+READER: Node set:  Index:  22 , x:  55 , y:  25 .
+READER: Node set:  Index:  23 , x:  21 , y:  91 .
+READER: Node set:  Index:  24 , x:  21 , y:  13 .
+READER: Node set:  Index:  25 , x:  67 , y:  1 .
+READER: Node set:  Index:  26 , x:  59 , y:  21 .
+READER: Node set:  Index:  27 , x:  1 , y:  75 .
+READER: Node set:  Index:  28 , x:  33 , y:  85 .
+READER: Node set:  Index:  29 , x:  25 , y:  21 .
+READER: Node set:  Index:  30 , x:  45 , y:  29 .
+READER: Node set:  Index:  31 , x:  63 , y:  77 .
+READER: Node set:  Index:  32 , x:  1 , y:  77 .
+READER: Node set:  Index:  33 , x:  77 , y:  41 .
+READER: Node set:  Index:  34 , x:  35 , y:  11 .
+READER: Node set:  Index:  35 , x:  9 , y:  77 .
+READER: Node set:  Index:  36 , x:  61 , y:  87 .
+READER: Node set:  Index:  37 , x:  59 , y:  91 .
+READER: Node set:  Index:  38 , x:  63 , y:  79 .
+READER: Node set:  Index:  39 , x:  97 , y:  67 .
+READER: Node set:  Index:  40 , x:  9 , y:  45 .
+READER: Node set:  Index:  41 , x:  93 , y:  21 .
+READER: Node set:  Index:  42 , x:  83 , y:  71 .
+READER: Node set:  Index:  43 , x:  95 , y:  57 .
+READER: Node set:  Index:  44 , x:  31 , y:  69 .
+READER: Node set:  Index:  45 , x:  77 , y:  17 .
+READER: Node set:  Index:  46 , x:  63 , y:  57 .
+READER: Node set:  Index:  47 , x:  3 , y:  63 .
+READER: Node set:  Index:  48 , x:  11 , y:  69 .
+READER: Node set:  Index:  49 , x:  7 , y:  9 .
+READER: Node set:  Index:  50 , x:  37 , y:  65 .
+READER: Node set:  Index:  51 , x:  75 , y:  83 .
+READER: Node set:  Index:  52 , x:  15 , y:  53 .
+READER: Node set:  Index:  53 , x:  69 , y:  5 .
+READER: Node set:  Index:  54 , x:  69 , y:  27 .
+READER: Node set:  Index:  55 , x:  5 , y:  19 .
+READER: Node set:  Index:  56 , x:  49 , y:  31 .
+READER: Node set:  Index:  57 , x:  77 , y:  17 .
+READER: Node set:  Index:  58 , x:  15 , y:  7 .
+READER: Node set:  Index:  59 , x:  91 , y:  39 .
+READER: Node set:  Index:  60 , x:  79 , y:  17 .
+READER: Node set:  Index:  61 , x:  67 , y:  75 .
+READER: Node set:  Index:  62 , x:  93 , y:  51 .
+READER: Node set:  Index:  63 , x:  25 , y:  33 .
+READER: Node set:  Index:  64 , x:  9 , y:  19 .
+READER: Node set:  Index:  65 , x:  3 , y:  65 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  12
+READER: Demand set:  Index:  3 , demand:  24
+READER: Demand set:  Index:  4 , demand:  16
+READER: Demand set:  Index:  5 , demand:  7
+READER: Demand set:  Index:  6 , demand:  9
+READER: Demand set:  Index:  7 , demand:  20
+READER: Demand set:  Index:  8 , demand:  10
+READER: Demand set:  Index:  9 , demand:  18
+READER: Demand set:  Index:  10 , demand:  26
+READER: Demand set:  Index:  11 , demand:  17
+READER: Demand set:  Index:  12 , demand:  2
+READER: Demand set:  Index:  13 , demand:  11
+READER: Demand set:  Index:  14 , demand:  9
+READER: Demand set:  Index:  15 , demand:  12
+READER: Demand set:  Index:  16 , demand:  11
+READER: Demand set:  Index:  17 , demand:  12
+READER: Demand set:  Index:  18 , demand:  23
+READER: Demand set:  Index:  19 , demand:  7
+READER: Demand set:  Index:  20 , demand:  1
+READER: Demand set:  Index:  21 , demand:  26
+READER: Demand set:  Index:  22 , demand:  10
+READER: Demand set:  Index:  23 , demand:  9
+READER: Demand set:  Index:  24 , demand:  22
+READER: Demand set:  Index:  25 , demand:  21
+READER: Demand set:  Index:  26 , demand:  17
+READER: Demand set:  Index:  27 , demand:  2
+READER: Demand set:  Index:  28 , demand:  15
+READER: Demand set:  Index:  29 , demand:  16
+READER: Demand set:  Index:  30 , demand:  14
+READER: Demand set:  Index:  31 , demand:  23
+READER: Demand set:  Index:  32 , demand:  24
+READER: Demand set:  Index:  33 , demand:  2
+READER: Demand set:  Index:  34 , demand:  12
+READER: Demand set:  Index:  35 , demand:  18
+READER: Demand set:  Index:  36 , demand:  5
+READER: Demand set:  Index:  37 , demand:  19
+READER: Demand set:  Index:  38 , demand:  15
+READER: Demand set:  Index:  39 , demand:  8
+READER: Demand set:  Index:  40 , demand:  6
+READER: Demand set:  Index:  41 , demand:  14
+READER: Demand set:  Index:  42 , demand:  13
+READER: Demand set:  Index:  43 , demand:  5
+READER: Demand set:  Index:  44 , demand:  24
+READER: Demand set:  Index:  45 , demand:  25
+READER: Demand set:  Index:  46 , demand:  2
+READER: Demand set:  Index:  47 , demand:  8
+READER: Demand set:  Index:  48 , demand:  14
+READER: Demand set:  Index:  49 , demand:  2
+READER: Demand set:  Index:  50 , demand:  13
+READER: Demand set:  Index:  51 , demand:  10
+READER: Demand set:  Index:  52 , demand:  6
+READER: Demand set:  Index:  53 , demand:  6
+READER: Demand set:  Index:  54 , demand:  24
+READER: Demand set:  Index:  55 , demand:  21
+READER: Demand set:  Index:  56 , demand:  20
+READER: Demand set:  Index:  57 , demand:  24
+READER: Demand set:  Index:  58 , demand:  4
+READER: Demand set:  Index:  59 , demand:  19
+READER: Demand set:  Index:  60 , demand:  14
+READER: Demand set:  Index:  61 , demand:  23
+READER: Demand set:  Index:  62 , demand:  2
+READER: Demand set:  Index:  63 , demand:  16
+READER: Demand set:  Index:  64 , demand:  23
+READER: Demand set:  Index:  65 , demand:  14
+"../dairyProblem/data/A-n69-k9.vrp"
+READER: Name set:  "A-n69-k9"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 9, Best value: 1168)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  69
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  59 , y:  44 .
+READER: Node set:  Index:  2 , x:  9 , y:  23 .
+READER: Node set:  Index:  3 , x:  84 , y:  68 .
+READER: Node set:  Index:  4 , x:  36 , y:  93 .
+READER: Node set:  Index:  5 , x:  87 , y:  9 .
+READER: Node set:  Index:  6 , x:  34 , y:  16 .
+READER: Node set:  Index:  7 , x:  40 , y:  98 .
+READER: Node set:  Index:  8 , x:  72 , y:  43 .
+READER: Node set:  Index:  9 , x:  0 , y:  60 .
+READER: Node set:  Index:  10 , x:  64 , y:  90 .
+READER: Node set:  Index:  11 , x:  11 , y:  8 .
+READER: Node set:  Index:  12 , x:  46 , y:  7 .
+READER: Node set:  Index:  13 , x:  33 , y:  54 .
+READER: Node set:  Index:  14 , x:  23 , y:  84 .
+READER: Node set:  Index:  15 , x:  67 , y:  18 .
+READER: Node set:  Index:  16 , x:  34 , y:  93 .
+READER: Node set:  Index:  17 , x:  19 , y:  25 .
+READER: Node set:  Index:  18 , x:  14 , y:  9 .
+READER: Node set:  Index:  19 , x:  70 , y:  64 .
+READER: Node set:  Index:  20 , x:  58 , y:  50 .
+READER: Node set:  Index:  21 , x:  5 , y:  78 .
+READER: Node set:  Index:  22 , x:  95 , y:  39 .
+READER: Node set:  Index:  23 , x:  38 , y:  54 .
+READER: Node set:  Index:  24 , x:  50 , y:  73 .
+READER: Node set:  Index:  25 , x:  48 , y:  46 .
+READER: Node set:  Index:  26 , x:  64 , y:  4 .
+READER: Node set:  Index:  27 , x:  39 , y:  28 .
+READER: Node set:  Index:  28 , x:  79 , y:  30 .
+READER: Node set:  Index:  29 , x:  61 , y:  36 .
+READER: Node set:  Index:  30 , x:  28 , y:  50 .
+READER: Node set:  Index:  31 , x:  51 , y:  91 .
+READER: Node set:  Index:  32 , x:  68 , y:  59 .
+READER: Node set:  Index:  33 , x:  14 , y:  9 .
+READER: Node set:  Index:  34 , x:  94 , y:  87 .
+READER: Node set:  Index:  35 , x:  68 , y:  29 .
+READER: Node set:  Index:  36 , x:  12 , y:  91 .
+READER: Node set:  Index:  37 , x:  2 , y:  22 .
+READER: Node set:  Index:  38 , x:  25 , y:  16 .
+READER: Node set:  Index:  39 , x:  11 , y:  57 .
+READER: Node set:  Index:  40 , x:  3 , y:  51 .
+READER: Node set:  Index:  41 , x:  13 , y:  52 .
+READER: Node set:  Index:  42 , x:  9 , y:  76 .
+READER: Node set:  Index:  43 , x:  58 , y:  18 .
+READER: Node set:  Index:  44 , x:  40 , y:  39 .
+READER: Node set:  Index:  45 , x:  32 , y:  89 .
+READER: Node set:  Index:  46 , x:  9 , y:  92 .
+READER: Node set:  Index:  47 , x:  36 , y:  14 .
+READER: Node set:  Index:  48 , x:  82 , y:  13 .
+READER: Node set:  Index:  49 , x:  10 , y:  25 .
+READER: Node set:  Index:  50 , x:  96 , y:  97 .
+READER: Node set:  Index:  51 , x:  20 , y:  21 .
+READER: Node set:  Index:  52 , x:  40 , y:  91 .
+READER: Node set:  Index:  53 , x:  33 , y:  31 .
+READER: Node set:  Index:  54 , x:  72 , y:  74 .
+READER: Node set:  Index:  55 , x:  41 , y:  24 .
+READER: Node set:  Index:  56 , x:  90 , y:  20 .
+READER: Node set:  Index:  57 , x:  4 , y:  44 .
+READER: Node set:  Index:  58 , x:  54 , y:  22 .
+READER: Node set:  Index:  59 , x:  43 , y:  59 .
+READER: Node set:  Index:  60 , x:  3 , y:  70 .
+READER: Node set:  Index:  61 , x:  94 , y:  16 .
+READER: Node set:  Index:  62 , x:  94 , y:  54 .
+READER: Node set:  Index:  63 , x:  14 , y:  40 .
+READER: Node set:  Index:  64 , x:  37 , y:  0 .
+READER: Node set:  Index:  65 , x:  88 , y:  55 .
+READER: Node set:  Index:  66 , x:  80 , y:  25 .
+READER: Node set:  Index:  67 , x:  37 , y:  64 .
+READER: Node set:  Index:  68 , x:  87 , y:  47 .
+READER: Node set:  Index:  69 , x:  18 , y:  68 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  2
+READER: Demand set:  Index:  3 , demand:  1
+READER: Demand set:  Index:  4 , demand:  6
+READER: Demand set:  Index:  5 , demand:  9
+READER: Demand set:  Index:  6 , demand:  16
+READER: Demand set:  Index:  7 , demand:  5
+READER: Demand set:  Index:  8 , demand:  3
+READER: Demand set:  Index:  9 , demand:  9
+READER: Demand set:  Index:  10 , demand:  12
+READER: Demand set:  Index:  11 , demand:  1
+READER: Demand set:  Index:  12 , demand:  1
+READER: Demand set:  Index:  13 , demand:  18
+READER: Demand set:  Index:  14 , demand:  10
+READER: Demand set:  Index:  15 , demand:  5
+READER: Demand set:  Index:  16 , demand:  5
+READER: Demand set:  Index:  17 , demand:  9
+READER: Demand set:  Index:  18 , demand:  16
+READER: Demand set:  Index:  19 , demand:  12
+READER: Demand set:  Index:  20 , demand:  6
+READER: Demand set:  Index:  21 , demand:  6
+READER: Demand set:  Index:  22 , demand:  20
+READER: Demand set:  Index:  23 , demand:  23
+READER: Demand set:  Index:  24 , demand:  39
+READER: Demand set:  Index:  25 , demand:  17
+READER: Demand set:  Index:  26 , demand:  8
+READER: Demand set:  Index:  27 , demand:  2
+READER: Demand set:  Index:  28 , demand:  13
+READER: Demand set:  Index:  29 , demand:  17
+READER: Demand set:  Index:  30 , demand:  3
+READER: Demand set:  Index:  31 , demand:  2
+READER: Demand set:  Index:  32 , demand:  7
+READER: Demand set:  Index:  33 , demand:  23
+READER: Demand set:  Index:  34 , demand:  10
+READER: Demand set:  Index:  35 , demand:  7
+READER: Demand set:  Index:  36 , demand:  12
+READER: Demand set:  Index:  37 , demand:  20
+READER: Demand set:  Index:  38 , demand:  13
+READER: Demand set:  Index:  39 , demand:  21
+READER: Demand set:  Index:  40 , demand:  25
+READER: Demand set:  Index:  41 , demand:  5
+READER: Demand set:  Index:  42 , demand:  4
+READER: Demand set:  Index:  43 , demand:  13
+READER: Demand set:  Index:  44 , demand:  12
+READER: Demand set:  Index:  45 , demand:  23
+READER: Demand set:  Index:  46 , demand:  19
+READER: Demand set:  Index:  47 , demand:  10
+READER: Demand set:  Index:  48 , demand:  7
+READER: Demand set:  Index:  49 , demand:  15
+READER: Demand set:  Index:  50 , demand:  5
+READER: Demand set:  Index:  51 , demand:  15
+READER: Demand set:  Index:  52 , demand:  13
+READER: Demand set:  Index:  53 , demand:  30
+READER: Demand set:  Index:  54 , demand:  15
+READER: Demand set:  Index:  55 , demand:  7
+READER: Demand set:  Index:  56 , demand:  9
+READER: Demand set:  Index:  57 , demand:  23
+READER: Demand set:  Index:  58 , demand:  8
+READER: Demand set:  Index:  59 , demand:  5
+READER: Demand set:  Index:  60 , demand:  8
+READER: Demand set:  Index:  61 , demand:  25
+READER: Demand set:  Index:  62 , demand:  12
+READER: Demand set:  Index:  63 , demand:  25
+READER: Demand set:  Index:  64 , demand:  24
+READER: Demand set:  Index:  65 , demand:  8
+READER: Demand set:  Index:  66 , demand:  22
+READER: Demand set:  Index:  67 , demand:  7
+READER: Demand set:  Index:  68 , demand:  24
+READER: Demand set:  Index:  69 , demand:  18
+"../dairyProblem/data/A-n80-k10.vrp"
+READER: Name set:  "A-n80-k10"
+READER: Comment set:  "COMMENT : (Augerat et al, Min no of trucks: 10, Best value: 1764)"
+READER: Type set:  "CVRP"
+READER: Dimension set:  80
+READER: Type of edge weight set:  "EUC_2D"
+READER: Capacity set:  100
+READER: Node set:  Index:  1 , x:  92 , y:  92 .
+READER: Node set:  Index:  2 , x:  88 , y:  58 .
+READER: Node set:  Index:  3 , x:  70 , y:  6 .
+READER: Node set:  Index:  4 , x:  57 , y:  59 .
+READER: Node set:  Index:  5 , x:  0 , y:  98 .
+READER: Node set:  Index:  6 , x:  61 , y:  38 .
+READER: Node set:  Index:  7 , x:  65 , y:  22 .
+READER: Node set:  Index:  8 , x:  91 , y:  52 .
+READER: Node set:  Index:  9 , x:  59 , y:  2 .
+READER: Node set:  Index:  10 , x:  3 , y:  54 .
+READER: Node set:  Index:  11 , x:  95 , y:  38 .
+READER: Node set:  Index:  12 , x:  80 , y:  28 .
+READER: Node set:  Index:  13 , x:  66 , y:  42 .
+READER: Node set:  Index:  14 , x:  79 , y:  74 .
+READER: Node set:  Index:  15 , x:  99 , y:  25 .
+READER: Node set:  Index:  16 , x:  20 , y:  43 .
+READER: Node set:  Index:  17 , x:  40 , y:  3 .
+READER: Node set:  Index:  18 , x:  50 , y:  42 .
+READER: Node set:  Index:  19 , x:  97 , y:  0 .
+READER: Node set:  Index:  20 , x:  21 , y:  19 .
+READER: Node set:  Index:  21 , x:  36 , y:  21 .
+READER: Node set:  Index:  22 , x:  100 , y:  61 .
+READER: Node set:  Index:  23 , x:  11 , y:  85 .
+READER: Node set:  Index:  24 , x:  69 , y:  35 .
+READER: Node set:  Index:  25 , x:  69 , y:  22 .
+READER: Node set:  Index:  26 , x:  29 , y:  35 .
+READER: Node set:  Index:  27 , x:  14 , y:  9 .
+READER: Node set:  Index:  28 , x:  50 , y:  33 .
+READER: Node set:  Index:  29 , x:  89 , y:  17 .
+READER: Node set:  Index:  30 , x:  57 , y:  44 .
+READER: Node set:  Index:  31 , x:  60 , y:  25 .
+READER: Node set:  Index:  32 , x:  48 , y:  42 .
+READER: Node set:  Index:  33 , x:  17 , y:  93 .
+READER: Node set:  Index:  34 , x:  21 , y:  50 .
+READER: Node set:  Index:  35 , x:  77 , y:  18 .
+READER: Node set:  Index:  36 , x:  2 , y:  4 .
+READER: Node set:  Index:  37 , x:  63 , y:  83 .
+READER: Node set:  Index:  38 , x:  68 , y:  6 .
+READER: Node set:  Index:  39 , x:  41 , y:  95 .
+READER: Node set:  Index:  40 , x:  48 , y:  54 .
+READER: Node set:  Index:  41 , x:  98 , y:  73 .
+READER: Node set:  Index:  42 , x:  26 , y:  38 .
+READER: Node set:  Index:  43 , x:  69 , y:  76 .
+READER: Node set:  Index:  44 , x:  40 , y:  1 .
+READER: Node set:  Index:  45 , x:  65 , y:  41 .
+READER: Node set:  Index:  46 , x:  14 , y:  86 .
+READER: Node set:  Index:  47 , x:  32 , y:  39 .
+READER: Node set:  Index:  48 , x:  14 , y:  24 .
+READER: Node set:  Index:  49 , x:  96 , y:  5 .
+READER: Node set:  Index:  50 , x:  82 , y:  98 .
+READER: Node set:  Index:  51 , x:  23 , y:  85 .
+READER: Node set:  Index:  52 , x:  63 , y:  69 .
+READER: Node set:  Index:  53 , x:  87 , y:  19 .
+READER: Node set:  Index:  54 , x:  56 , y:  75 .
+READER: Node set:  Index:  55 , x:  15 , y:  63 .
+READER: Node set:  Index:  56 , x:  10 , y:  45 .
+READER: Node set:  Index:  57 , x:  7 , y:  30 .
+READER: Node set:  Index:  58 , x:  31 , y:  11 .
+READER: Node set:  Index:  59 , x:  36 , y:  93 .
+READER: Node set:  Index:  60 , x:  50 , y:  31 .
+READER: Node set:  Index:  61 , x:  49 , y:  52 .
+READER: Node set:  Index:  62 , x:  39 , y:  10 .
+READER: Node set:  Index:  63 , x:  76 , y:  40 .
+READER: Node set:  Index:  64 , x:  83 , y:  34 .
+READER: Node set:  Index:  65 , x:  33 , y:  51 .
+READER: Node set:  Index:  66 , x:  0 , y:  15 .
+READER: Node set:  Index:  67 , x:  52 , y:  82 .
+READER: Node set:  Index:  68 , x:  52 , y:  82 .
+READER: Node set:  Index:  69 , x:  46 , y:  6 .
+READER: Node set:  Index:  70 , x:  3 , y:  26 .
+READER: Node set:  Index:  71 , x:  46 , y:  80 .
+READER: Node set:  Index:  72 , x:  94 , y:  30 .
+READER: Node set:  Index:  73 , x:  26 , y:  76 .
+READER: Node set:  Index:  74 , x:  75 , y:  92 .
+READER: Node set:  Index:  75 , x:  57 , y:  51 .
+READER: Node set:  Index:  76 , x:  34 , y:  21 .
+READER: Node set:  Index:  77 , x:  28 , y:  80 .
+READER: Node set:  Index:  78 , x:  59 , y:  66 .
+READER: Node set:  Index:  79 , x:  51 , y:  16 .
+READER: Node set:  Index:  80 , x:  87 , y:  11 .
+READER: Demand set:  Index:  1 , demand:  0
+READER: Demand set:  Index:  2 , demand:  24
+READER: Demand set:  Index:  3 , demand:  22
+READER: Demand set:  Index:  4 , demand:  23
+READER: Demand set:  Index:  5 , demand:  5
+READER: Demand set:  Index:  6 , demand:  11
+READER: Demand set:  Index:  7 , demand:  23
+READER: Demand set:  Index:  8 , demand:  26
+READER: Demand set:  Index:  9 , demand:  9
+READER: Demand set:  Index:  10 , demand:  23
+READER: Demand set:  Index:  11 , demand:  9
+READER: Demand set:  Index:  12 , demand:  14
+READER: Demand set:  Index:  13 , demand:  16
+READER: Demand set:  Index:  14 , demand:  12
+READER: Demand set:  Index:  15 , demand:  2
+READER: Demand set:  Index:  16 , demand:  2
+READER: Demand set:  Index:  17 , demand:  6
+READER: Demand set:  Index:  18 , demand:  20
+READER: Demand set:  Index:  19 , demand:  26
+READER: Demand set:  Index:  20 , demand:  12
+READER: Demand set:  Index:  21 , demand:  15
+READER: Demand set:  Index:  22 , demand:  13
+READER: Demand set:  Index:  23 , demand:  26
+READER: Demand set:  Index:  24 , demand:  17
+READER: Demand set:  Index:  25 , demand:  7
+READER: Demand set:  Index:  26 , demand:  12
+READER: Demand set:  Index:  27 , demand:  4
+READER: Demand set:  Index:  28 , demand:  4
+READER: Demand set:  Index:  29 , demand:  20
+READER: Demand set:  Index:  30 , demand:  10
+READER: Demand set:  Index:  31 , demand:  9
+READER: Demand set:  Index:  32 , demand:  2
+READER: Demand set:  Index:  33 , demand:  9
+READER: Demand set:  Index:  34 , demand:  1
+READER: Demand set:  Index:  35 , demand:  2
+READER: Demand set:  Index:  36 , demand:  2
+READER: Demand set:  Index:  37 , demand:  12
+READER: Demand set:  Index:  38 , demand:  14
+READER: Demand set:  Index:  39 , demand:  23
+READER: Demand set:  Index:  40 , demand:  21
+READER: Demand set:  Index:  41 , demand:  13
+READER: Demand set:  Index:  42 , demand:  13
+READER: Demand set:  Index:  43 , demand:  23
+READER: Demand set:  Index:  44 , demand:  3
+READER: Demand set:  Index:  45 , demand:  6
+READER: Demand set:  Index:  46 , demand:  23
+READER: Demand set:  Index:  47 , demand:  11
+READER: Demand set:  Index:  48 , demand:  2
+READER: Demand set:  Index:  49 , demand:  7
+READER: Demand set:  Index:  50 , demand:  13
+READER: Demand set:  Index:  51 , demand:  10
+READER: Demand set:  Index:  52 , demand:  3
+READER: Demand set:  Index:  53 , demand:  6
+READER: Demand set:  Index:  54 , demand:  13
+READER: Demand set:  Index:  55 , demand:  2
+READER: Demand set:  Index:  56 , demand:  14
+READER: Demand set:  Index:  57 , demand:  7
+READER: Demand set:  Index:  58 , demand:  21
+READER: Demand set:  Index:  59 , demand:  7
+READER: Demand set:  Index:  60 , demand:  22
+READER: Demand set:  Index:  61 , demand:  13
+READER: Demand set:  Index:  62 , demand:  22
+READER: Demand set:  Index:  63 , demand:  18
+READER: Demand set:  Index:  64 , demand:  22
+READER: Demand set:  Index:  65 , demand:  6
+READER: Demand set:  Index:  66 , demand:  2
+READER: Demand set:  Index:  67 , demand:  11
+READER: Demand set:  Index:  68 , demand:  5
+READER: Demand set:  Index:  69 , demand:  9
+READER: Demand set:  Index:  70 , demand:  9
+READER: Demand set:  Index:  71 , demand:  5
+READER: Demand set:  Index:  72 , demand:  12
+READER: Demand set:  Index:  73 , demand:  2
+READER: Demand set:  Index:  74 , demand:  12
+READER: Demand set:  Index:  75 , demand:  19
+READER: Demand set:  Index:  76 , demand:  6
+READER: Demand set:  Index:  77 , demand:  14
+READER: Demand set:  Index:  78 , demand:  2
+READER: Demand set:  Index:  79 , demand:  2
+READER: Demand set:  Index:  80 , demand:  24
