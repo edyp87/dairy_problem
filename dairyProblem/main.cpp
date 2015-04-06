@@ -1,5 +1,5 @@
 #include <iostream>
-#include <dataCoverter/cvrpfilereader.h>
+#include <dataReader/cvrpfilereader.h>
 #include <QDirIterator>
 #include <QCryptographicHash>
 

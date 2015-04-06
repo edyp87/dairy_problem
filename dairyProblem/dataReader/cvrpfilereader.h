@@ -4,9 +4,9 @@
 #include <QFile>
 #include <memory>
 
-#include <dataCoverter/cvrpfile.h>
-#include <dataCoverter/cvrpdata.h>
-#include <dataCoverter/IDataReader.h>
+#include <dataReader/cvrpfile.h>
+#include <dataReader/cvrpdata.h>
+#include <dataReader/IDataReader.h>
 
 /*
  * This reader is implemented only for CVRP problems with two dimension.

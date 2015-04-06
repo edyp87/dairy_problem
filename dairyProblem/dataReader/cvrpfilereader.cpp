@@ -1,8 +1,8 @@
-#include "dataCoverter/cvrpfilereader.h"
+#include "dataReader/cvrpfilereader.h"
 #include <QDebug>
 #include <QStringList>
 #include <stdexcept>
-#include <dataCoverter/vrptokens.h>
+#include <dataReader/vrptokens.h>
 
 namespace Vrp
 {
