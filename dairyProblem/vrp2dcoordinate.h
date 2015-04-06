@@ -11,7 +11,6 @@ struct Vrp2dCoordinate
     qreal x, y;
 };
 
-QTextStream& operator<<(QTextStream& cout, const Vrp2dCoordinate& p_node);
 QDebug operator<<(QDebug cout, const Vrp2dCoordinate& p_node);
 
 #endif // VRP2DCOORDINATE_H

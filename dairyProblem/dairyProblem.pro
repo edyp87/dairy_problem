@@ -16,10 +16,12 @@ SOURCES += main.cpp \
     vrpfilereader.cpp \
     cvrpfile.cpp \
     cvrpdata.cpp \
-    vrp2dcoordinate.cpp
+    vrp2dcoordinate.cpp \
+    vrpdemand.cpp
 
 HEADERS  += \
     vrpfilereader.h \
     cvrpfile.h \
     cvrpdata.h \
-    vrp2dcoordinate.h
+    vrp2dcoordinate.h \
+    vrpdemand.h

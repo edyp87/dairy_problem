@@ -49,12 +49,14 @@ SOURCES       = ../dairyProblem/main.cpp \
 		../dairyProblem/vrpfilereader.cpp \
 		../dairyProblem/cvrpfile.cpp \
 		../dairyProblem/cvrpdata.cpp \
-		../dairyProblem/vrp2dcoordinate.cpp 
+		../dairyProblem/vrp2dcoordinate.cpp \
+		../dairyProblem/vrpdemand.cpp 
 OBJECTS       = main.o \
 		vrpfilereader.o \
 		cvrpfile.o \
 		cvrpdata.o \
-		vrp2dcoordinate.o
+		vrp2dcoordinate.o \
+		vrpdemand.o
 DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/shell-unix.conf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/unix.conf \
@@ -138,7 +140,8 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		../dairyProblem/vrpfilereader.cpp \
 		../dairyProblem/cvrpfile.cpp \
 		../dairyProblem/cvrpdata.cpp \
-		../dairyProblem/vrp2dcoordinate.cpp
+		../dairyProblem/vrp2dcoordinate.cpp \
+		../dairyProblem/vrpdemand.cpp
 QMAKE_TARGET  = dairyProblem
 DESTDIR       = #avoid trailing-slash linebreak
 TARGET        = dairyProblem
@@ -345,7 +348,7 @@ qmake_all: FORCE
 
 dist: 
 	@test -d .tmp/dairyProblem1.0.0 || mkdir -p .tmp/dairyProblem1.0.0
-	$(COPY_FILE) --parents $(DIST) .tmp/dairyProblem1.0.0/ && $(COPY_FILE) --parents ../dairyProblem/vrpfilereader.h ../dairyProblem/cvrpfile.h ../dairyProblem/cvrpdata.h ../dairyProblem/vrp2dcoordinate.h .tmp/dairyProblem1.0.0/ && $(COPY_FILE) --parents ../dairyProblem/main.cpp ../dairyProblem/vrpfilereader.cpp ../dairyProblem/cvrpfile.cpp ../dairyProblem/cvrpdata.cpp ../dairyProblem/vrp2dcoordinate.cpp .tmp/dairyProblem1.0.0/ && (cd `dirname .tmp/dairyProblem1.0.0` && $(TAR) dairyProblem1.0.0.tar dairyProblem1.0.0 && $(COMPRESS) dairyProblem1.0.0.tar) && $(MOVE) `dirname .tmp/dairyProblem1.0.0`/dairyProblem1.0.0.tar.gz . && $(DEL_FILE) -r .tmp/dairyProblem1.0.0
+	$(COPY_FILE) --parents $(DIST) .tmp/dairyProblem1.0.0/ && $(COPY_FILE) --parents ../dairyProblem/vrpfilereader.h ../dairyProblem/cvrpfile.h ../dairyProblem/cvrpdata.h ../dairyProblem/vrp2dcoordinate.h ../dairyProblem/vrpdemand.h .tmp/dairyProblem1.0.0/ && $(COPY_FILE) --parents ../dairyProblem/main.cpp ../dairyProblem/vrpfilereader.cpp ../dairyProblem/cvrpfile.cpp ../dairyProblem/cvrpdata.cpp ../dairyProblem/vrp2dcoordinate.cpp ../dairyProblem/vrpdemand.cpp .tmp/dairyProblem1.0.0/ && (cd `dirname .tmp/dairyProblem1.0.0` && $(TAR) dairyProblem1.0.0.tar dairyProblem1.0.0 && $(COMPRESS) dairyProblem1.0.0.tar) && $(MOVE) `dirname .tmp/dairyProblem1.0.0`/dairyProblem1.0.0.tar.gz . && $(DEL_FILE) -r .tmp/dairyProblem1.0.0
 
 
 clean:compiler_clean 
@@ -387,24 +390,30 @@ compiler_clean:
 main.o: ../dairyProblem/main.cpp ../dairyProblem/vrpfilereader.h \
 		../dairyProblem/cvrpfile.h \
 		../dairyProblem/cvrpdata.h \
-		../dairyProblem/vrp2dcoordinate.h
+		../dairyProblem/vrp2dcoordinate.h \
+		../dairyProblem/vrpdemand.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../dairyProblem/main.cpp
 
 vrpfilereader.o: ../dairyProblem/vrpfilereader.cpp ../dairyProblem/vrpfilereader.h \
 		../dairyProblem/cvrpfile.h \
 		../dairyProblem/cvrpdata.h \
-		../dairyProblem/vrp2dcoordinate.h
+		../dairyProblem/vrp2dcoordinate.h \
+		../dairyProblem/vrpdemand.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o vrpfilereader.o ../dairyProblem/vrpfilereader.cpp
 
 cvrpfile.o: ../dairyProblem/cvrpfile.cpp ../dairyProblem/cvrpfile.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o cvrpfile.o ../dairyProblem/cvrpfile.cpp
 
 cvrpdata.o: ../dairyProblem/cvrpdata.cpp ../dairyProblem/cvrpdata.h \
-		../dairyProblem/vrp2dcoordinate.h
+		../dairyProblem/vrp2dcoordinate.h \
+		../dairyProblem/vrpdemand.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o cvrpdata.o ../dairyProblem/cvrpdata.cpp
 
 vrp2dcoordinate.o: ../dairyProblem/vrp2dcoordinate.cpp ../dairyProblem/vrp2dcoordinate.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o vrp2dcoordinate.o ../dairyProblem/vrp2dcoordinate.cpp
+
+vrpdemand.o: ../dairyProblem/vrpdemand.cpp ../dairyProblem/vrpdemand.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o vrpdemand.o ../dairyProblem/vrpdemand.cpp
 
 ####### Install
 

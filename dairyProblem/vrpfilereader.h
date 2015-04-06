@@ -21,6 +21,7 @@ private:
     void showFile();
     void readCoordinates();
     void readDemands();
+    void readDepots();
 
     CvrpFile m_file;
     CvrpData m_data;

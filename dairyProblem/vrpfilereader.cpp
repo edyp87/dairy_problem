@@ -29,7 +29,6 @@ void VrpFileReader::processNextLine()
         qDebug() << "Skipped empty line";
         return;
     }
-    //qDebug() << l_wordList[0];
     switch (Utils::findEnumForKeyword(l_wordList[0]))
     {
         case Utils::e_keywords::NAME:
@@ -66,11 +65,17 @@ void VrpFileReader::processNextLine()
             break;
          case Utils::e_keywords::NODE_COORD_SECTION:
             readCoordinates();
+            break;
          case Utils::e_keywords::DEMAND_SECTION:
             readDemands();
-        default:
             break;
-            //qDebug() << "ERROR!";
+         case Utils::e_keywords::DEPOT_SECTION:
+            readDepots();
+            break;
+         case Utils::e_keywords::END:
+            break;
+        default:
+            throw std::runtime_error(std::string("Unimplemented token!"));
     }
 }
 
@@ -96,12 +101,37 @@ void VrpFileReader::readCoordinates()
         l_list.removeAll("");
         m_data.appendToCoordinates({l_list[0].toUInt(), l_list[1].toFloat(), l_list[2].toFloat()});
         qDebug() << "READER: Node set: " <<  m_data.nodeCoordinates().last();
-
-
     }
 }
 
 void VrpFileReader::readDemands()
 {
+    quint32 l_dimension = m_data.dimension();
 
+    while (l_dimension--)
+    {
+        QString l_line = m_file.readLine();
+        auto l_list = l_line.split(" ");
+        l_list.removeAll("");
+        m_data.appendToDemands({l_list[0].toUInt(), l_list[1].toUInt()});
+        qDebug() << "READER: Demand set: " <<  m_data.demands().last();
+    }
+}
+
+void VrpFileReader::readDepots()
+{
+    QString l_line = m_file.readLine();
+    bool l_isDepotSet = false;
+
+    while (l_line.toInt() != -1)
+    {
+        m_data.setDepot(l_line.toUInt());
+        l_isDepotSet = true;
+        l_line = m_file.readLine();
+    }
+
+    if (not l_isDepotSet)
+    {
+        throw std::runtime_error(std::string("No depot in input file!"));
+    }
 }

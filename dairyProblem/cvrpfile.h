@@ -52,7 +52,7 @@ static QStringList keywordStringList {
     "DISPLAY_DATA_SECTION",
     "TOUR_SECTION",
     "EDGE_WEIGHT_SECTION",
-    "END",
+    "EOF",
     "UNDEFINED"
 };
 
