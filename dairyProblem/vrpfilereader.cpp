@@ -135,3 +135,8 @@ void VrpFileReader::readDepots()
         throw std::runtime_error(std::string("No depot in input file!"));
     }
 }
+
+CvrpData VrpFileReader::getData()
+{
+    return m_data;
+}

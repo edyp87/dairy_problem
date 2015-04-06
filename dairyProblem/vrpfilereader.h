@@ -16,6 +16,7 @@ class VrpFileReader
 {
 public:
     VrpFileReader(const QString &p_filename);
+    CvrpData getData();
 private:
     void processNextLine();
     void showFile();

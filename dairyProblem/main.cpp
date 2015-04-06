@@ -2,7 +2,7 @@
 #include <vrpfilereader.h>
 #include <QDirIterator>
 
-QList<VrpFileReader> g_fileList;
+QList<CvrpData> g_dataList;
 
 int main()
 {
@@ -15,7 +15,7 @@ int main()
             {
                 qDebug() << info.filePath();
 
-                VrpFileReader(info.filePath());
+                g_dataList.append(VrpFileReader(info.filePath()).getData());
             }
             if (info.isDir())
             {
