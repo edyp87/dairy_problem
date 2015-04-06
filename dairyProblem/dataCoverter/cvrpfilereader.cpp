@@ -1,8 +1,8 @@
-#include "cvrpfilereader.h"
+#include "dataCoverter/cvrpfilereader.h"
 #include <QDebug>
 #include <QStringList>
 #include <stdexcept>
-#include <vrptokens.h>
+#include <dataCoverter/vrptokens.h>
 
 namespace Vrp
 {
@@ -10,10 +10,10 @@ namespace Vrp
 CvrpFileReader::CvrpFileReader(const QString p_filename)
     : m_file(p_filename)
 {
-    serializeFileToDataClass();
+    readData();
 }
 
-void CvrpFileReader::serializeFileToDataClass()
+void CvrpFileReader::readData()
 {
     while (not m_file.atEnd())
     {
@@ -204,7 +204,7 @@ QStringList CvrpFileReader::splitLine(QString p_line)
     return p_line.split(CvrpFile::s_descriptionSplitter);
 }
 
-CvrpData CvrpFileReader::getData()
+CvrpData CvrpFileReader::getData() const
 {
     return m_data;
 }

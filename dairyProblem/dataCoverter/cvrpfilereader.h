@@ -4,8 +4,9 @@
 #include <QFile>
 #include <memory>
 
-#include <cvrpfile.h>
-#include <cvrpdata.h>
+#include <dataCoverter/cvrpfile.h>
+#include <dataCoverter/cvrpdata.h>
+#include <dataCoverter/IDataReader.h>
 
 /*
  * This reader is implemented only for CVRP problems with two dimension.
@@ -14,14 +15,15 @@
 namespace Vrp
 {
 
-class CvrpFileReader
+class CvrpFileReader : public IDataReader
 {
 public:
     explicit CvrpFileReader(const QString p_filename);
-    CvrpData getData();
+
+    void readData() override;
+    CvrpData getData() const override;
 
 private:
-    void serializeFileToDataClass();
     void processNextLine();
     void showFile();
     void processLine(QStringList l_wordList, QString l_line);
