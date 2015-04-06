@@ -19,6 +19,8 @@ public:
 private:
     void processNextLine();
     void showFile();
+    void readCoordinates();
+    void readDemands();
 
     CvrpFile m_file;
     CvrpData m_data;

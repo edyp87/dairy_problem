@@ -15,9 +15,11 @@ QMAKE_CXXFLAGS += -std=c++11
 SOURCES += main.cpp \
     vrpfilereader.cpp \
     cvrpfile.cpp \
-    cvrpdata.cpp
+    cvrpdata.cpp \
+    vrp2dcoordinate.cpp
 
 HEADERS  += \
     vrpfilereader.h \
     cvrpfile.h \
-    cvrpdata.h
+    cvrpdata.h \
+    vrp2dcoordinate.h

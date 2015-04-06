@@ -71,6 +71,11 @@ public:
         return m_cvrpRawFileStream->readLine();
     }
 
+    bool atEnd()
+    {
+        return m_cvrpRawFileStream->atEnd();
+    }
+
     static QString s_descriptionSplitter;
 
 
