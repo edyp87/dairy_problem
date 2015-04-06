@@ -8,7 +8,7 @@ namespace Vrp
 {
 
 CvrpFileReader::CvrpFileReader(const QString p_filename)
-    : m_file(p_filename)
+    : m_file(p_filename), m_data(new CvrpRawData)
 {
     readData();
 }
@@ -110,29 +110,29 @@ void CvrpFileReader::showFile()
 
 void CvrpFileReader::readCoordinates()
 {
-    quint32 l_dimension = m_data.dimension();
+    quint32 l_dimension = m_data->dimension();
 
     while (l_dimension--)
     {
         QString l_line = m_file.readLine();
         auto l_list = l_line.split(" ");
         l_list.removeAll("");
-        m_data.appendToCoordinates({l_list[0].toUInt(), l_list[1].toFloat(), l_list[2].toFloat()});
-        qDebug() << "READER: Node set: " <<  m_data.nodeCoordinates().last();
+        m_data->appendToCoordinates({l_list[0].toUInt(), l_list[1].toFloat(), l_list[2].toFloat()});
+        qDebug() << "READER: Node set: " <<  m_data->nodeCoordinates().last();
     }
 }
 
 void CvrpFileReader::readDemands()
 {
-    quint32 l_dimension = m_data.dimension();
+    quint32 l_dimension = m_data->dimension();
 
     while (l_dimension--)
     {
         QString l_line = m_file.readLine();
         auto l_list = l_line.split(" ");
         l_list.removeAll("");
-        m_data.appendToDemands({l_list[0].toUInt(), l_list[1].toUInt()});
-        qDebug() << "READER: Demand set: " <<  m_data.demands().last();
+        m_data->appendToDemands({l_list[0].toUInt(), l_list[1].toUInt()});
+        qDebug() << "READER: Demand set: " <<  m_data->demands().last();
     }
 }
 
@@ -143,8 +143,8 @@ void CvrpFileReader::readDepots()
 
     while (l_line.toInt() != -1)
     {
-        m_data.setDepot(l_line.toUInt());
-        qDebug() << "READER: Depot set: " <<  m_data.depot();
+        m_data->setDepot(l_line.toUInt());
+        qDebug() << "READER: Depot set: " <<  m_data->depot();
         l_isDepotSet = true;
         l_line = m_file.readLine();
     }
@@ -157,8 +157,8 @@ void CvrpFileReader::readDepots()
 
 void CvrpFileReader::readCapacity(QStringList l_wordList)
 {
-    m_data.setCapacity(l_wordList[1].toInt());
-    qDebug() << "READER: Capacity set: " << m_data.capacity();
+    m_data->setCapacity(l_wordList[1].toInt());
+    qDebug() << "READER: Capacity set: " << m_data->capacity();
 }
 
 void CvrpFileReader::readEdgesType(QStringList l_wordList)
@@ -167,14 +167,14 @@ void CvrpFileReader::readEdgesType(QStringList l_wordList)
     {
         throw std::runtime_error(std::string("Edge weight type unsupported!"));
     }
-    m_data.setEdgeWeightType(l_wordList[1]);
-    qDebug() << "READER: Type of edge weight set: " << m_data.edgeWeightType();
+    m_data->setEdgeWeightType(l_wordList[1]);
+    qDebug() << "READER: Type of edge weight set: " << m_data->edgeWeightType();
 }
 
 void CvrpFileReader::readDimension(QStringList l_wordList)
 {
-    m_data.setDimension(l_wordList[1].toInt());
-    qDebug() << "READER: Dimension set: " << m_data.dimension();
+    m_data->setDimension(l_wordList[1].toInt());
+    qDebug() << "READER: Dimension set: " << m_data->dimension();
 }
 
 void CvrpFileReader::readVrpType(QStringList l_wordList)
@@ -183,20 +183,20 @@ void CvrpFileReader::readVrpType(QStringList l_wordList)
     {
         throw std::runtime_error(std::string("VRP Type unsupported!"));
     }
-    m_data.setType(l_wordList[1]);
-    qDebug() << "READER: Type set: " << m_data.type();
+    m_data->setType(l_wordList[1]);
+    qDebug() << "READER: Type set: " << m_data->type();
 }
 
 void CvrpFileReader::readComment(QString l_line)
 {
-    m_data.setComment(l_line);
-    qDebug() << "READER: Comment set: " << m_data.comment();
+    m_data->setComment(l_line);
+    qDebug() << "READER: Comment set: " << m_data->comment();
 }
 
 void CvrpFileReader::readName(QStringList l_wordList)
 {
-    m_data.setName(l_wordList[1]);
-    qDebug() << "READER: Name set: " << m_data.name();
+    m_data->setName(l_wordList[1]);
+    qDebug() << "READER: Name set: " << m_data->name();
 }
 
 QStringList CvrpFileReader::splitLine(QString p_line)
@@ -204,7 +204,7 @@ QStringList CvrpFileReader::splitLine(QString p_line)
     return p_line.split(CvrpFile::s_descriptionSplitter);
 }
 
-CvrpData CvrpFileReader::getData() const
+std::shared_ptr<CvrpRawData> CvrpFileReader::getData() const
 {
     return m_data;
 }

@@ -8,10 +8,10 @@
 namespace Vrp
 {
 
-class CvrpData
+class CvrpRawData
 {
 public:
-    CvrpData();
+    CvrpRawData();
     QString name() const;
     void setName(const QString p_name);
     QString comment() const;

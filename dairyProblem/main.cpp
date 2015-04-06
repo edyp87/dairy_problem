@@ -2,8 +2,9 @@
 #include <dataReader/CvrpFilereader.h>
 #include <QDirIterator>
 #include <QCryptographicHash>
+#include <memory>
 
-QList<Vrp::CvrpData> g_dataList;
+QList<std::shared_ptr<Vrp::CvrpRawData>> g_dataList;
 
 void showProgress()
 {

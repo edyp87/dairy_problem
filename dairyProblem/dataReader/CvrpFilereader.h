@@ -5,8 +5,9 @@
 #include <memory>
 
 #include <dataReader/CvrpFile.h>
-#include <dataReader/CvrpData.h>
+#include <dataReader/CvrpRawData.h>
 #include <dataReader/IDataReader.h>
+#include <memory>
 
 /*
  * This reader is implemented only for CVRP problems with two dimension.
@@ -21,7 +22,7 @@ public:
     explicit CvrpFileReader(const QString p_filename);
 
     void readData() override;
-    CvrpData getData() const override;
+    std::shared_ptr<CvrpRawData> getData() const override;
 
 private:
     void processNextLine();
@@ -40,7 +41,7 @@ private:
     QStringList splitLine(QString p_line);
 
     CvrpFile m_file;
-    CvrpData m_data;
+    std::shared_ptr<CvrpRawData> m_data;
 };
 
 } // namespace Vrp
