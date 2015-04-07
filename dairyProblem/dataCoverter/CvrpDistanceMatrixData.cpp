@@ -111,4 +111,13 @@ qreal CvrpDistanceMatrixData::getDistanceBetweenNodes(quint64 p_firstIndex, quin
     return m_distanceData[p_firstIndex][p_secondIndex];
 }
 
+QDebug &operator<<(QDebug &cout, const CvrpDistanceMatrixData &p_distanceMatrix)
+{
+    for (quint64 i = 0; i < p_distanceMatrix.dimension(); ++i)
+    {
+        cout << p_distanceMatrix.distanceData()[i];
+    }
+    return cout;
+}
+
 } // namespace Vrp

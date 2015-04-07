@@ -3,7 +3,7 @@
 namespace Vrp
 {
 
-QDebug operator<<(QDebug cout, const CvrpDemand& p_node)
+QDebug &operator<<(QDebug &cout, const CvrpDemand& p_node)
 {
     return cout << "Index: " << p_node.index << ", demand: " << p_node.demand;
 }

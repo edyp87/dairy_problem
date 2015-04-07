@@ -4,6 +4,7 @@
 #include <QCryptographicHash>
 #include <memory>
 #include <dataCoverter/DistanceMatrixConverter.h>
+#include <dataCoverter/CvrpDistanceMatrixData.h>
 
 QList<std::shared_ptr<Vrp::CvrpRawData>> g_dataList;
 
@@ -36,6 +37,8 @@ int main()
 
     Vrp::DistanceMatrixConverter matrixConv(data);
     auto distanceMatrixData = matrixConv.convert();
+
+    //qDebug() << ((Vrp::CvrpDistanceMatrixData*)distanceMatrixData.get())->distanceData()[0];
 
 
     return 0;

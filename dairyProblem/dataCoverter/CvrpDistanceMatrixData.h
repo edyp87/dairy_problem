@@ -48,4 +48,6 @@ private:
     QList<CvrpDemand> m_demands;
 };
 
+QDebug &operator<<(QDebug &cout, const CvrpDistanceMatrixData& p_distanceMatrix);
+
 } // namespace Vrp

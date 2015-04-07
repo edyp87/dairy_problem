@@ -13,7 +13,7 @@ struct Vrp2dCoordinate
     qreal x, y;
 };
 
-QDebug operator<<(QDebug cout, const Vrp2dCoordinate& p_node);
+QDebug &operator<<(QDebug &cout, const Vrp2dCoordinate& p_node);
 
 } // namespace Vrp
 
