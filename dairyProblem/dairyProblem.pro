@@ -33,4 +33,5 @@ HEADERS  += \
     dataCoverter/ICvrpGraphData.h \
     dataCoverter/DistanceMatrixConverter.h \
     dataReader/CvrpRawData.h \
-    dataCoverter/CvrpDistanceMatrixData.h
+    dataCoverter/CvrpDistanceMatrixData.h \
+    utilities/Matrix.h
