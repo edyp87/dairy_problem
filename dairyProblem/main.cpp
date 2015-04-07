@@ -20,6 +20,8 @@ void showProgress()
                 qDebug() << info.filePath();
 
                 g_dataList.append(Vrp::CvrpFileReader(info.filePath()).getData());
+                Vrp::DistanceMatrixConverter matrixConv(g_dataList.last());
+                matrixConv.convert();
             }
             if (info.isDir())
             {
@@ -31,15 +33,6 @@ void showProgress()
 
 int main()
 {
-    //showProgress();
-
-    auto data = Vrp::CvrpFileReader("../dairyProblem/data/A-n32-k5.vrp").getData();
-
-    Vrp::DistanceMatrixConverter matrixConv(data);
-    auto distanceMatrixData = matrixConv.convert();
-
-    //qDebug() << ((Vrp::CvrpDistanceMatrixData*)distanceMatrixData.get())->distanceData()[0];
-
-
+    showProgress();
     return 0;
 }
