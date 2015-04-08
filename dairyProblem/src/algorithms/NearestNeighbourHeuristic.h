@@ -1,7 +1,7 @@
 #ifndef NEARESTNEIGHBOURHEURISTIC_H
 #define NEARESTNEIGHBOURHEURISTIC_H
 
-#include <dataCoverter/CvrpDistanceMatrixData.h>
+#include <dataConverter/CvrpDistanceMatrixData.h>
 #include <memory>
 #include <QList>
 

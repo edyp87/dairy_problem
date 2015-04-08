@@ -1,5 +1,5 @@
 #include "DistanceMatrixConverter.h"
-#include <dataCoverter/CvrpDistanceMatrixData.h>
+#include <dataConverter/CvrpDistanceMatrixData.h>
 #include <dataReader/CvrpRawData.h>
 #include <QtCore/QtMath>
 

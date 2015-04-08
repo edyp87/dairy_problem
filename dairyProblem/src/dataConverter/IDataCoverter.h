@@ -1,7 +1,7 @@
 #pragma once
 
 #include <memory>
-#include <dataCoverter/ICvrpGraphData.h>
+#include <dataConverter/ICvrpGraphData.h>
 
 class IDataConverter
 {

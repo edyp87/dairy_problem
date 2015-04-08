@@ -1,6 +1,6 @@
 #pragma once
 
-#include <dataCoverter/ICvrpGraphData.h>
+#include <dataConverter/ICvrpGraphData.h>
 #include <QString>
 #include <dataReader/CvrpDemand.h>
 #include <dataReader/Vrp2dCoordinate.h>

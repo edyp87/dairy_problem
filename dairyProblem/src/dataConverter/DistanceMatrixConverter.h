@@ -1,6 +1,6 @@
 #pragma once
 
-#include <dataCoverter/IDataCoverter.h>
+#include <dataConverter/IDataCoverter.h>
 #include <utilities/Matrix.h>
 #include <dataReader/Vrp2dCoordinate.h>
 
