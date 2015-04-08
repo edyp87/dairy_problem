@@ -5,6 +5,7 @@
 #include <memory>
 #include <dataCoverter/DistanceMatrixConverter.h>
 #include <dataCoverter/CvrpDistanceMatrixData.h>
+#include <algorithms/NearestNeighbourHeuristic.h>
 
 QList<std::shared_ptr<Vrp::CvrpRawData>> g_dataList;
 
@@ -33,6 +34,9 @@ void showProgress()
 
 int main()
 {
-    showProgress();
+    //showProgress();
+    Vrp::DistanceMatrixConverter l_distanceMatrixConv(Vrp::CvrpFileReader("../dairyProblem/data/A-n32-k5.vrp").getData());
+    NearestNeighbourHeuristic l_heuristic(std::dynamic_pointer_cast<Vrp::CvrpDistanceMatrixData>(l_distanceMatrixConv.convert()));
+    l_heuristic.compute();
     return 0;
 }

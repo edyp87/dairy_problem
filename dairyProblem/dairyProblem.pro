@@ -20,7 +20,8 @@ SOURCES += main.cpp \
     dataReader/VrpTokens.cpp \
     dataCoverter/DistanceMatrixConverter.cpp \
     dataReader/CvrpRawData.cpp \
-    dataCoverter/CvrpDistanceMatrixData.cpp
+    dataCoverter/CvrpDistanceMatrixData.cpp \
+    algorithms/NearestNeighbourHeuristic.cpp
 
 HEADERS  += \
     dataReader/IDataReader.h \
@@ -34,4 +35,5 @@ HEADERS  += \
     dataCoverter/DistanceMatrixConverter.h \
     dataReader/CvrpRawData.h \
     dataCoverter/CvrpDistanceMatrixData.h \
-    utilities/Matrix.h
+    utilities/Matrix.h \
+    algorithms/NearestNeighbourHeuristic.h

@@ -5,6 +5,7 @@
 #include <dataReader/CvrpDemand.h>
 #include <dataReader/Vrp2dCoordinate.h>
 #include <utilities/Matrix.h>
+#include <memory>
 
 namespace Vrp
 {
@@ -47,6 +48,8 @@ private:
     Utilities::SquareMatrix m_distanceData;
     QList<CvrpDemand> m_demands;
 };
+
+using SharedCvrpDistanceMatrix = std::shared_ptr<Vrp::CvrpDistanceMatrixData>;
 
 QDebug &operator<<(QDebug &cout, const CvrpDistanceMatrixData& p_distanceMatrix);
 
