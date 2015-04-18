@@ -1,5 +1,6 @@
 #pragma once
 
+#include <dataReader/ICvrpFile.h>
 #include <QTextStream>
 #include <QStringList>
 #include <QFile>
@@ -8,7 +9,7 @@
 namespace Vrp
 {
 
-class CvrpFile
+class CvrpFile : public ICvrpFile
 {
 public:
 

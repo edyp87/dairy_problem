@@ -3,6 +3,7 @@ include(../defaults.pri)
 TEMPLATE = lib
 
 TARGET = dairyProblem
+DEFINES += QT_NO_DEBUG QT_NO_WARNING_OUTPUT QT_NO_DEBUG_OUTPUT
 
 QT += core gui
 
@@ -32,4 +33,5 @@ HEADERS  += \
     dataConverter/DistanceMatrixConverter.h \
     dataConverter/CvrpDistanceMatrixData.h \
     utilities/Matrix.h \
-    algorithms/NearestNeighbourHeuristic.h
+    algorithms/NearestNeighbourHeuristic.h \
+    dataReader/ICvrpFile.h

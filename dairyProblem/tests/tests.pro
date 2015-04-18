@@ -2,9 +2,9 @@ include(../defaults.pri)
 QT       -= gui
 
 TARGET = ut
-CONFIG   += console
+CONFIG   += console warn_off
 CONFIG   -= app_bundle
-
+DEFINES += QT_NO_DEBUG QT_NO_WARNING_OUTPUT QT_NO_DEBUG_OUTPUT
 TEMPLATE = app
 
 QMAKE_CXXFLAGS += -std=c++11
@@ -14,4 +14,8 @@ LIBS += -L../src -ldairyProblem
 
 SOURCES += main.cpp \
     NearestNeighbourHeuristicUT.cpp \
-    MatrixUT.cpp
+    MatrixUT.cpp \
+    CvrpFileReaderUT.cpp
+
+HEADERS += \
+    Mocks/CvrpFileMock.h
