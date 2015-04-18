@@ -1,12 +1,17 @@
+include(../defaults.pri)
 QT       -= gui
 
-TARGET = tst_untitledtest
+TARGET = ut
 CONFIG   += console
 CONFIG   -= app_bundle
 
 TEMPLATE = app
 
-LIBS += -lgtest -lgmock -pthread
+QMAKE_CXXFLAGS += -std=c++11
 
-SOURCES += main.cpp
-DEFINES += SRCDIR=\\\"$$PWD/\\\"
+LIBS += -lgtest -lgmock -pthread
+LIBS += -L../src -ldairyProblem
+
+SOURCES += main.cpp \
+    NearestNeighbourHeuristicUT.cpp \
+    MatrixUT.cpp

@@ -9,12 +9,9 @@ class NearestNeighbourHeuristic
 {
 public:
     explicit NearestNeighbourHeuristic(Vrp::SharedCvrpDistanceMatrix p_distanceMatrix);
-    QList<quint64> compute();
 private:
-    quint64 pickNearestUnvisitedNode(const quint64 p_node, QList<bool> &p_visitedNodes, quint64 &p_truckLoad);
-    void initializeVisitedNodesList(QList<bool> &p_visitedNodes);
-
     Vrp::SharedCvrpDistanceMatrix m_distanceMatrix;
+    static const quint8 s_minDimmension = 3;
 };
 
 #endif // NEARESTNEIGHBOURHEURISTIC_H

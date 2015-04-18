@@ -37,6 +37,6 @@ int main()
     //showProgress();
     Vrp::DistanceMatrixConverter l_distanceMatrixConv(Vrp::CvrpFileReader("../dairyProblem/data/A-n32-k5.vrp").getData());
     NearestNeighbourHeuristic l_heuristic(std::dynamic_pointer_cast<Vrp::CvrpDistanceMatrixData>(l_distanceMatrixConv.convert()));
-    l_heuristic.compute();
+  //  l_heuristic.compute();
     return 0;
 }
