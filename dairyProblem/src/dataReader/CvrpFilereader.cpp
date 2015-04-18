@@ -7,15 +7,15 @@
 namespace Vrp
 {
 
-CvrpFileReader::CvrpFileReader(const QString p_filename)
-    : m_file(p_filename), m_data(new CvrpRawData)
+CvrpFileReader::CvrpFileReader(std::shared_ptr<ICvrpFile> p_cvrpFile)
+    : m_file(p_cvrpFile), m_data(new CvrpRawData)
 {
     readData();
 }
 
 void CvrpFileReader::readData()
 {
-    while (not m_file.atEnd())
+    while (not m_file->atEnd())
     {
         processNextLine();
     }
@@ -23,7 +23,7 @@ void CvrpFileReader::readData()
 
 void CvrpFileReader::processNextLine()
 {
-    QString l_line = m_file.readLine();
+    QString l_line = m_file->readLine();
 
     if (l_line.isNull())
     {
@@ -99,12 +99,12 @@ void CvrpFileReader::processLine(QStringList l_wordList, QString l_line)
 
 void CvrpFileReader::showFile()
 {
-    QString l_line = m_file.readLine();
+    QString l_line = m_file->readLine();
 
     while (not l_line.isNull())
     {
         qDebug() << l_line;
-        l_line = m_file.readLine();
+        l_line = m_file->readLine();
     }
 }
 
@@ -114,7 +114,7 @@ void CvrpFileReader::readCoordinates()
 
     while (l_dimension--)
     {
-        QString l_line = m_file.readLine();
+        QString l_line = m_file->readLine();
         auto l_list = l_line.split(" ");
         l_list.removeAll("");
         m_data->appendToCoordinates({l_list[0].toUInt(), l_list[1].toFloat(), l_list[2].toFloat()});
@@ -128,7 +128,7 @@ void CvrpFileReader::readDemands()
 
     while (l_dimension--)
     {
-        QString l_line = m_file.readLine();
+        QString l_line = m_file->readLine();
         auto l_list = l_line.split(" ");
         l_list.removeAll("");
         m_data->appendToDemands({l_list[0].toUInt(), l_list[1].toUInt()});
@@ -138,7 +138,7 @@ void CvrpFileReader::readDemands()
 
 void CvrpFileReader::readDepots()
 {
-    QString l_line = m_file.readLine();
+    QString l_line = m_file->readLine();
     bool l_isDepotSet = false;
 
     while (l_line.toInt() != -1)
@@ -146,7 +146,7 @@ void CvrpFileReader::readDepots()
         m_data->setDepot(l_line.toUInt());
         qDebug() << "READER: Depot set: " <<  m_data->depot();
         l_isDepotSet = true;
-        l_line = m_file.readLine();
+        l_line = m_file->readLine();
     }
 
     if (not l_isDepotSet)

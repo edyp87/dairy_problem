@@ -19,7 +19,7 @@ namespace Vrp
 class CvrpFileReader : public IDataReader
 {
 public:
-    explicit CvrpFileReader(const QString p_filename);
+    explicit CvrpFileReader(std::shared_ptr<ICvrpFile> p_cvrpFile);
 
     void readData() override;
     std::shared_ptr<CvrpRawData> getData() const override;
@@ -40,7 +40,7 @@ private:
     void readName(QStringList l_wordList);
     QStringList splitLine(QString p_line);
 
-    CvrpFile m_file;
+    std::shared_ptr<ICvrpFile> m_file;
     std::shared_ptr<CvrpRawData> m_data;
 };
 
