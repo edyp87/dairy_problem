@@ -9,10 +9,12 @@ TEMPLATE = subdirs
 SUBDIRS = \
     src \
     app \
-    data
+    data \
+    tests
 
 
 OTHER_FILES += \
     defaults.pri
 
 app.depends = src
+tests.depends = src
