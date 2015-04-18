@@ -33,10 +33,10 @@ public:
 private:
     void initializeMatrixWithZeroes()
     {
-        for(quint64 i = 0; i < m_size; ++i)
+        for(quint64 i = 0; i <= m_size; ++i)
         {
             m_matrix.append(QList<qreal>());
-            for(quint64 j = 0; j < m_size; ++j)
+            for(quint64 j = 0; j <= m_size; ++j)
             {
                 m_matrix[i].append(0);
             }

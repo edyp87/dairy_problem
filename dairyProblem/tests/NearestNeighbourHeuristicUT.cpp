@@ -29,5 +29,3 @@ TEST_F(NearestNeighbourHeuristicTest, ThrowsExceptionWhenMatrixSizeIsSmallerThan
     ASSERT_ANY_THROW(NearestNeighbourHeuristic { l_distanceDataWithTwoElems });
     ASSERT_NO_THROW (NearestNeighbourHeuristic { l_distanceDataWithThreeElems });
 }
-
-

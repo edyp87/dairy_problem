@@ -4,17 +4,21 @@
 
 class CvrpFileReaderTest : public testing::Test
 {
+public:
+    void expectReadSimpleParameter(std::shared_ptr<CvrpFileMock> p_cvrpFile, QString p_parameter)
+    {
+        ::testing::Sequence l_sequence;
 
+        EXPECT_CALL(*p_cvrpFile, atEnd()).InSequence(l_sequence).WillOnce(testing::Return(false));
+        EXPECT_CALL(*p_cvrpFile, readLine()).InSequence(l_sequence).WillOnce(testing::Return(p_parameter));
+        EXPECT_CALL(*p_cvrpFile, atEnd()).InSequence(l_sequence).WillOnce(testing::Return(true));
+    }
 };
 
-TEST_F(CvrpFileReaderTest, CanBeCreated)
-{
-    const QString l_filePath = "../../dairyProblem/data/A-n32-k5.vrp";
 
-    std::shared_ptr<Vrp::ICvrpFile> l_cvrpFle { new Vrp::CvrpFile(l_filePath) };
 
-    ASSERT_NO_THROW(Vrp::CvrpFileReader { l_cvrpFle });
-}
+
+
 
 TEST_F(CvrpFileReaderTest, MockCanBeInjected)
 {
@@ -29,27 +33,17 @@ TEST_F(CvrpFileReaderTest, NameCanBeRead)
 {
     std::shared_ptr<CvrpFileMock> l_cvrpFle { new CvrpFileMock };
 
-    ::testing::Sequence l_sequence;
-
-
-    EXPECT_CALL(*l_cvrpFle, atEnd()).InSequence(l_sequence).WillOnce(testing::Return(false));
-    EXPECT_CALL(*l_cvrpFle, readLine()).InSequence(l_sequence).WillOnce(testing::Return("NAME : A-n32-k5"));
-    EXPECT_CALL(*l_cvrpFle, atEnd()).InSequence(l_sequence).WillOnce(testing::Return(true));
+    expectReadSimpleParameter(l_cvrpFle, "NAME : name");
 
     Vrp::CvrpFileReader l_cvrpFileReader { l_cvrpFle };
-    ASSERT_EQ(l_cvrpFileReader.getData()->name(), "A-n32-k5");
+    ASSERT_EQ(l_cvrpFileReader.getData()->name(), "name");
 }
 
 TEST_F(CvrpFileReaderTest, CommentCanBeRead)
 {
     std::shared_ptr<CvrpFileMock> l_cvrpFle { new CvrpFileMock };
 
-    ::testing::Sequence l_sequence;
-
-
-    EXPECT_CALL(*l_cvrpFle, atEnd()).InSequence(l_sequence).WillOnce(testing::Return(false));
-    EXPECT_CALL(*l_cvrpFle, readLine()).InSequence(l_sequence).WillOnce(testing::Return("COMMENT : example"));
-    EXPECT_CALL(*l_cvrpFle, atEnd()).InSequence(l_sequence).WillOnce(testing::Return(true));
+    expectReadSimpleParameter(l_cvrpFle, "COMMENT : example");
 
     Vrp::CvrpFileReader l_cvrpFileReader { l_cvrpFle };
     ASSERT_EQ(l_cvrpFileReader.getData()->comment(), "COMMENT : example");
@@ -59,12 +53,7 @@ TEST_F(CvrpFileReaderTest, VrpTypeCanBeRead)
 {
     std::shared_ptr<CvrpFileMock> l_cvrpFle { new CvrpFileMock };
 
-    ::testing::Sequence l_sequence;
-
-
-    EXPECT_CALL(*l_cvrpFle, atEnd()).InSequence(l_sequence).WillOnce(testing::Return(false));
-    EXPECT_CALL(*l_cvrpFle, readLine()).InSequence(l_sequence).WillOnce(testing::Return("TYPE : CVRP"));
-    EXPECT_CALL(*l_cvrpFle, atEnd()).InSequence(l_sequence).WillOnce(testing::Return(true));
+    expectReadSimpleParameter(l_cvrpFle, "TYPE : CVRP");
 
     Vrp::CvrpFileReader l_cvrpFileReader { l_cvrpFle };
     ASSERT_EQ(l_cvrpFileReader.getData()->type(), "CVRP");
@@ -74,15 +63,20 @@ TEST_F(CvrpFileReaderTest, DimensionCanBeRead)
 {
     std::shared_ptr<CvrpFileMock> l_cvrpFle { new CvrpFileMock };
 
-    ::testing::Sequence l_sequence;
-
-
-    EXPECT_CALL(*l_cvrpFle, atEnd()).InSequence(l_sequence).WillOnce(testing::Return(false));
-    EXPECT_CALL(*l_cvrpFle, readLine()).InSequence(l_sequence).WillOnce(testing::Return("DIMENSION : 32"));
-    EXPECT_CALL(*l_cvrpFle, atEnd()).InSequence(l_sequence).WillOnce(testing::Return(true));
+    expectReadSimpleParameter(l_cvrpFle, "DIMENSION : 32");
 
     Vrp::CvrpFileReader l_cvrpFileReader { l_cvrpFle };
     ASSERT_EQ(l_cvrpFileReader.getData()->dimension(), 32);
+}
+
+TEST_F(CvrpFileReaderTest, EdgeWeightTypeCanBeRead)
+{
+    std::shared_ptr<CvrpFileMock> l_cvrpFle { new CvrpFileMock };
+
+    expectReadSimpleParameter(l_cvrpFle, "EDGE_WEIGHT_TYPE : EUC_2D");
+
+    Vrp::CvrpFileReader l_cvrpFileReader { l_cvrpFle };
+    ASSERT_EQ(l_cvrpFileReader.getData()->edgeWeightType(), "EUC_2D");
 }
 
 TEST_F(CvrpFileReaderTest, CoordinatesCanBeRead)
@@ -90,7 +84,6 @@ TEST_F(CvrpFileReaderTest, CoordinatesCanBeRead)
     std::shared_ptr<CvrpFileMock> l_cvrpFle { new CvrpFileMock };
 
     ::testing::Sequence l_sequence;
-
 
     EXPECT_CALL(*l_cvrpFle, atEnd()).InSequence(l_sequence).WillOnce(testing::Return(false));
     EXPECT_CALL(*l_cvrpFle, readLine()).InSequence(l_sequence).WillOnce(testing::Return("DIMENSION : 32"));
@@ -117,21 +110,6 @@ TEST_F(CvrpFileReaderTest, DemandsCanBeRead)
     EXPECT_CALL(*l_cvrpFle, atEnd()).InSequence(l_sequence).WillOnce(testing::Return(true));
 
     Vrp::CvrpFileReader { l_cvrpFle };
-}
-
-TEST_F(CvrpFileReaderTest, EdgeWeightTypeCanBeRead)
-{
-    std::shared_ptr<CvrpFileMock> l_cvrpFle { new CvrpFileMock };
-
-    ::testing::Sequence l_sequence;
-
-
-    EXPECT_CALL(*l_cvrpFle, atEnd()).InSequence(l_sequence).WillOnce(testing::Return(false));
-    EXPECT_CALL(*l_cvrpFle, readLine()).InSequence(l_sequence).WillOnce(testing::Return("EDGE_WEIGHT_TYPE : EUC_2D"));
-    EXPECT_CALL(*l_cvrpFle, atEnd()).InSequence(l_sequence).WillOnce(testing::Return(true));
-
-    Vrp::CvrpFileReader l_cvrpFileReader { l_cvrpFle };
-    ASSERT_EQ(l_cvrpFileReader.getData()->edgeWeightType(), "EUC_2D");
 }
 
 TEST_F(CvrpFileReaderTest, CapacityCanBeRead)
