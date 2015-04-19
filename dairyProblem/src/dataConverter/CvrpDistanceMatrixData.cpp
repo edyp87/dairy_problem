@@ -7,7 +7,7 @@ CvrpDistanceMatrixData::CvrpDistanceMatrixData(const quint64 p_size)
     : m_distanceData(p_size)
 {
 }
-QList<CvrpDemand> CvrpDistanceMatrixData::demands() const
+QList<CvrpDemand> &CvrpDistanceMatrixData::demands()
 {
     return m_demands;
 }

@@ -30,7 +30,7 @@ public:
     void setDepot(const quint32 depot);
     QList<Vrp2dCoordinate> nodeCoordinates() const;
     void setNodeCoordinates(const QList<Vrp2dCoordinate> nodeCoordinates);
-    QList<CvrpDemand> demands() const;
+    QList<CvrpDemand> &demands();
     void setDemands(const QList<CvrpDemand> demands);
     Utilities::SquareMatrix distanceData() const;
     void setDistanceData(const Utilities::SquareMatrix distanceData);
