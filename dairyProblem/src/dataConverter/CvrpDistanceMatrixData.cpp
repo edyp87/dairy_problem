@@ -16,7 +16,7 @@ void CvrpDistanceMatrixData::setDemands(const QList<CvrpDemand> demands)
 {
     m_demands = demands;
 }
-Utilities::SquareMatrix CvrpDistanceMatrixData::distanceData() const
+Utilities::SquareMatrix &CvrpDistanceMatrixData::distanceData()
 {
     return m_distanceData;
 }
@@ -111,7 +111,7 @@ qreal CvrpDistanceMatrixData::getDistanceBetweenNodes(quint64 p_firstIndex, quin
     return m_distanceData[p_firstIndex][p_secondIndex];
 }
 
-QDebug &operator<<(QDebug &cout, const CvrpDistanceMatrixData &p_distanceMatrix)
+QDebug &operator<<(QDebug &cout, CvrpDistanceMatrixData &p_distanceMatrix)
 {
     for (quint64 i = 0; i < p_distanceMatrix.dimension(); ++i)
     {

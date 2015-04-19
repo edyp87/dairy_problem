@@ -148,3 +148,26 @@ TEST_F(NearestNeighbourHeuristicTest, ComeBackToDepotIfTruckIsOverloaded)
     NearestNeighbourHeuristic l_algorithm { l_simpleData };
     ASSERT_EQ(l_algorithm.compute(), QList<quint64> ({1, 2, 3, 1, 4, 1}));
 }
+
+
+
+
+
+///////////////////////////////////////////////////
+
+#include <dataConverter/DistanceMatrixConverter.h>
+#include <dataReader/CvrpFilereader.h>
+
+TEST_F(NearestNeighbourHeuristicTest, BigTestOnRealData)
+{
+    std::shared_ptr<Vrp::CvrpFile> l_file = std::make_shared<Vrp::CvrpFile>("../../dairyProblem/data/A-n32-k5.vrp");
+    Vrp::DistanceMatrixConverter l_distanceMatrixConv(Vrp::CvrpFileReader(l_file).getData());
+    NearestNeighbourHeuristic l_algorithm(std::dynamic_pointer_cast<Vrp::CvrpDistanceMatrixData>(l_distanceMatrixConv.convert()));
+
+    ASSERT_EQ(l_algorithm.compute(), QList<quint64>
+        ({1, 31, 27, 17, 13, 2, 8, 15, 30, 23, 19, 1, 25, 28,
+          21, 6, 26, 11, 9, 1, 14, 22, 32, 20, 18, 4, 24, 1,
+          7, 3, 29, 5, 12, 10, 1, 16, 1}));
+
+    ASSERT_FLOAT_EQ(l_algorithm.getDistance(), 1064.6561);
+}

@@ -32,7 +32,7 @@ public:
     void setNodeCoordinates(const QList<Vrp2dCoordinate> nodeCoordinates);
     QList<CvrpDemand> &demands();
     void setDemands(const QList<CvrpDemand> demands);
-    Utilities::SquareMatrix distanceData() const;
+    Utilities::SquareMatrix &distanceData();
     void setDistanceData(const Utilities::SquareMatrix distanceData);
     qreal getDistanceBetweenNodes(quint64 p_firstIndex, quint64 p_secondIndex);
 
