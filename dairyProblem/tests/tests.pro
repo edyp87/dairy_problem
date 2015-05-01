@@ -15,7 +15,8 @@ LIBS += -L../src -ldairyProblem
 SOURCES += main.cpp \
     NearestNeighbourHeuristicUT.cpp \
     MatrixUT.cpp \
-    CvrpFileReaderUT.cpp
+    CvrpFileReaderUT.cpp \
+    PolarCoordinatesMatrixConverterUT.cpp
 
 HEADERS += \
     Mocks/CvrpFileMock.h

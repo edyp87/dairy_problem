@@ -18,7 +18,8 @@ SOURCES += \
     dataReader/CvrpRawData.cpp \
     dataConverter/DistanceMatrixConverter.cpp \
     dataConverter/CvrpDistanceMatrixData.cpp \
-    algorithms/NearestNeighbourHeuristic.cpp
+    algorithms/NearestNeighbourHeuristic.cpp \
+    dataConverter/PolarCoordinatesMatrixConverter.cpp
 
 HEADERS  += \
     dataReader/IDataReader.h \
@@ -34,4 +35,6 @@ HEADERS  += \
     dataConverter/CvrpDistanceMatrixData.h \
     utilities/Matrix.h \
     algorithms/NearestNeighbourHeuristic.h \
-    dataReader/ICvrpFile.h
+    dataReader/ICvrpFile.h \
+    dataConverter/PolarCoordinatesMatrixConverter.h \
+    dataConverter/PolarCoordinate.hpp
