@@ -16,20 +16,32 @@ PolarCoordinatesMatrixConverter::PolarCoordinatesMatrixConverter(std::shared_ptr
     }
 }
 
-QList<PolarCoordinate> PolarCoordinatesMatrixConverter::convert()
+std::shared_ptr<PolarMatrixData> PolarCoordinatesMatrixConverter::convert()
 {
-    return convertCenteredCoordinatesToPolar(centerRawCoordinates());
+    std::shared_ptr<PolarMatrixData> l_polarData = std::make_shared<PolarMatrixData>();
+
+    l_polarData->setCapacity(m_rawData->capacity());
+    l_polarData->setComment(m_rawData->comment());
+    l_polarData->setDemands(m_rawData->demands());
+    l_polarData->setDepot(m_rawData->depot());
+    l_polarData->setDimension(m_rawData->dimension());
+    l_polarData->setEdgeWeightType(m_rawData->edgeWeightType());
+    l_polarData->setName(m_rawData->name());
+    l_polarData->setType(m_rawData->type());
+
+    l_polarData->setPolarCoordinates(convertCenteredCoordinatesToPolar(centerRawCoordinates()));
+    return l_polarData;
 }
 
-QList<PolarCoordinate> PolarCoordinatesMatrixConverter::convertAndSortByAngle()
+std::shared_ptr<PolarMatrixData> PolarCoordinatesMatrixConverter::convertAndSortByAngle()
 {
     auto l_comparator = [](const PolarCoordinate & l_left, const PolarCoordinate & l_right)
         {
             return l_left.angle < l_right.angle;
         };
 
-    QList<PolarCoordinate> l_polarCoordinates = convert();
-    qSort(l_polarCoordinates.begin(), l_polarCoordinates.end(), l_comparator);
+    std::shared_ptr<PolarMatrixData> l_polarCoordinates = convert();
+    qSort(l_polarCoordinates->polarCoordinates().begin(), l_polarCoordinates->polarCoordinates().end(), l_comparator);
 
     return l_polarCoordinates;
 }

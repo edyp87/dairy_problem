@@ -34,13 +34,13 @@ TEST_F(PolarCoordinatesMatrixConverterTest, ConvertReturnsTwoCoordinatesForTwoNo
     PolarCoordinatesMatrixConverter l_polarCoordinates { l_rawData };
 
 
-        ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].index, 1);
-        ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].distance, 0.0);
-        ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].angle, 0.0);
+        ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].index, 1);
+        ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].distance, 0.0);
+        ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].angle, 0.0);
 
-        ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].index, 2);
-        ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].distance, 1.4142135);
-        ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].angle, 0.78539819);
+        ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].index, 2);
+        ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].distance, 1.4142135);
+        ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].angle, 0.78539819);
 }
 
 TEST_F(PolarCoordinatesMatrixConverterTest, ConvertReturnsFiveCoordinateForFiveNodes)
@@ -57,25 +57,25 @@ TEST_F(PolarCoordinatesMatrixConverterTest, ConvertReturnsFiveCoordinateForFiveN
     PolarCoordinatesMatrixConverter l_polarCoordinates { l_rawData };
 
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].index, 1);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].distance, 0.0);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].angle, 0.0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].index, 1);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].distance, 0.0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].angle, 0.0);
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].index, 2);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].distance, 1.4142135);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].angle, 0.78539819);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].index, 2);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].distance, 1.4142135);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].angle, 0.78539819);
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[2].index, 3);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[2].distance, 3.6055512);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[2].angle, 0.98279375);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[2].index, 3);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[2].distance, 3.6055512);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[2].angle, 0.98279375);
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[3].index, 4);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[3].distance, 5.8309517);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[3].angle, 1.0303768);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[3].index, 4);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[3].distance, 5.8309517);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[3].angle, 1.0303768);
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[4].index, 5);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[4].distance, 8.0622578);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[4].angle, 1.0516502);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[4].index, 5);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[4].distance, 8.0622578);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[4].angle, 1.0516502);
 }
 
 TEST_F(PolarCoordinatesMatrixConverterTest, CanConvertForNodesBelowAndToTheLeftFromDepot)
@@ -87,13 +87,13 @@ TEST_F(PolarCoordinatesMatrixConverterTest, CanConvertForNodesBelowAndToTheLeftF
 
     PolarCoordinatesMatrixConverter l_polarCoordinates { l_rawData };
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].index, 1);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].distance, 0.0);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].angle, 0.0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].index, 1);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].distance, 0.0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].angle, 0.0);
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].index, 2);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].distance, 3.6055512);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].angle, -2.1587989);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].index, 2);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].distance, 3.6055512);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].angle, -2.1587989);
 }
 
 TEST_F(PolarCoordinatesMatrixConverterTest, CanConvertForNodesBelowAndToTheRightFromDepot)
@@ -105,13 +105,13 @@ TEST_F(PolarCoordinatesMatrixConverterTest, CanConvertForNodesBelowAndToTheRight
 
     PolarCoordinatesMatrixConverter l_polarCoordinates { l_rawData };
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].index, 1);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].distance, 0.0);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].angle, 0.0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].index, 1);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].distance, 0.0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].angle, 0.0);
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].index, 2);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].distance, 6.5299311);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].angle, -1.0934509);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].index, 2);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].distance, 6.5299311);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].angle, -1.0934509);
 }
 
 TEST_F(PolarCoordinatesMatrixConverterTest, CanConvertForNodesUpAndToTheLeftFromDepot)
@@ -123,13 +123,13 @@ TEST_F(PolarCoordinatesMatrixConverterTest, CanConvertForNodesUpAndToTheLeftFrom
 
     PolarCoordinatesMatrixConverter l_polarCoordinates { l_rawData };
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].index, 1);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].distance, 0.0);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].angle, 0.0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].index, 1);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].distance, 0.0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].angle, 0.0);
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].index, 2);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].distance, 45.350636);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].angle, 1.8799952);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].index, 2);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].distance, 45.350636);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].angle, 1.8799952);
 }
 
 TEST_F(PolarCoordinatesMatrixConverterTest, CanConvertForNodesUpAndToTheRightFromDepot)
@@ -141,13 +141,13 @@ TEST_F(PolarCoordinatesMatrixConverterTest, CanConvertForNodesUpAndToTheRightFro
 
     PolarCoordinatesMatrixConverter l_polarCoordinates { l_rawData };
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].index, 1);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].distance, 0.0);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].angle, 0.0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].index, 1);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].distance, 0.0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].angle, 0.0);
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].index, 2);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].distance, 16.367041);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].angle, -2.5739262);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].index, 2);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].distance, 16.367041);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].angle, -2.5739262);
 }
 
 
@@ -160,13 +160,13 @@ TEST_F(PolarCoordinatesMatrixConverterTest, CanConvertForNodesOnXAxis)
 
     PolarCoordinatesMatrixConverter l_polarCoordinates { l_rawData };
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].index, 1);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].distance, 0.0);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].angle, 0.0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].index, 1);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].distance, 0.0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].angle, 0.0);
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].index, 2);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].distance, 175.2);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].angle, 1.5707964);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].index, 2);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].distance, 175.2);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].angle, 1.5707964);
 }
 
 TEST_F(PolarCoordinatesMatrixConverterTest, CanConvertForNodesOnYAxis)
@@ -178,13 +178,13 @@ TEST_F(PolarCoordinatesMatrixConverterTest, CanConvertForNodesOnYAxis)
 
     PolarCoordinatesMatrixConverter l_polarCoordinates { l_rawData };
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].index, 1);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].distance, 0.0);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].angle, 0.0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].index, 1);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].distance, 0.0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].angle, 0.0);
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].index, 2);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].distance, 175.2);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].angle, 0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].index, 2);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].distance, 175.2);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].angle, 0);
 }
 
 TEST_F(PolarCoordinatesMatrixConverterTest, ThrowsExceptionWhenCannotFindDepot)
@@ -195,7 +195,7 @@ TEST_F(PolarCoordinatesMatrixConverterTest, ThrowsExceptionWhenCannotFindDepot)
     l_rawData->setDepot(3);
     PolarCoordinatesMatrixConverter l_polarCoordinates { l_rawData };
 
-    ASSERT_ANY_THROW(l_polarCoordinates.convert());
+    ASSERT_ANY_THROW(l_polarCoordinates.convert()->polarCoordinates());
 }
 
 TEST_F(PolarCoordinatesMatrixConverterTest, TakesDepotIntoConsideration)
@@ -206,13 +206,13 @@ TEST_F(PolarCoordinatesMatrixConverterTest, TakesDepotIntoConsideration)
     l_rawData->setDepot(2);
     PolarCoordinatesMatrixConverter l_polarCoordinates { l_rawData };
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].index, 1);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].distance, 175.2);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[0].angle, 3.1415927);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].index, 1);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].distance, 175.2);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[0].angle, 3.1415927);
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].index, 2);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].distance, 0.0);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()[1].angle, 0.0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].index, 2);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].distance, 0.0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].angle, 0.0);
 }
 
 TEST_F(PolarCoordinatesMatrixConverterTest, ReturnSortedListByAngle)
@@ -229,24 +229,24 @@ TEST_F(PolarCoordinatesMatrixConverterTest, ReturnSortedListByAngle)
     PolarCoordinatesMatrixConverter l_polarCoordinates { l_rawData };
 
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()[0].index, 4);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()[0].distance, 5.0);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()[0].angle, -2.2142975);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()->polarCoordinates()[0].index, 4);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()->polarCoordinates()[0].distance, 5.0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()->polarCoordinates()[0].angle, -2.2142975);
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()[1].index, 5);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()[1].distance, 7.7175126);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()[1].angle, -2.1156602);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()->polarCoordinates()[1].index, 5);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()->polarCoordinates()[1].distance, 7.7175126);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()->polarCoordinates()[1].angle, -2.1156602);
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()[2].index, 2);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()[2].distance, 6.9720874);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()[2].angle, -1.7147218);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()->polarCoordinates()[2].index, 2);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()->polarCoordinates()[2].distance, 6.9720874);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()->polarCoordinates()[2].angle, -1.7147218);
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()[3].index, 1);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()[3].distance, 0);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()[3].angle, 0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()->polarCoordinates()[3].index, 1);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()->polarCoordinates()[3].distance, 0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()->polarCoordinates()[3].angle, 0);
 
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()[4].index, 3);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()[4].distance, 10.394229);
-    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()[4].angle, 1.7644184);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()->polarCoordinates()[4].index, 3);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()->polarCoordinates()[4].distance, 10.394229);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convertAndSortByAngle()->polarCoordinates()[4].angle, 1.7644184);
 }
 

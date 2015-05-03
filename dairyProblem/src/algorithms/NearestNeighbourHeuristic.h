@@ -12,9 +12,9 @@ public:
     QList<quint64> compute();
     qreal getDistance();
 
+private:
     void incrementCounters(quint64 l_nearestNode);
     void returnToDepot();
-private:
     quint64 pickNextNode();
     quint64 findNearestNodeToLastVisited();
     void appendNextNode();

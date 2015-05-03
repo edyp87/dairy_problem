@@ -19,7 +19,9 @@ SOURCES += \
     dataConverter/DistanceMatrixConverter.cpp \
     dataConverter/CvrpDistanceMatrixData.cpp \
     algorithms/NearestNeighbourHeuristic.cpp \
-    dataConverter/PolarCoordinatesMatrixConverter.cpp
+    dataConverter/PolarCoordinatesMatrixConverter.cpp \
+    algorithms/SweepingAlgorithm.cpp \
+    dataConverter/PolarMatrixData.cpp
 
 HEADERS  += \
     dataReader/IDataReader.h \
@@ -37,4 +39,6 @@ HEADERS  += \
     algorithms/NearestNeighbourHeuristic.h \
     dataReader/ICvrpFile.h \
     dataConverter/PolarCoordinatesMatrixConverter.h \
-    dataConverter/PolarCoordinate.hpp
+    dataConverter/PolarCoordinate.hpp \
+    algorithms/SweepingAlgorithm.h \
+    dataConverter/PolarMatrixData.h

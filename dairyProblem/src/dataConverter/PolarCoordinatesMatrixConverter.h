@@ -4,6 +4,7 @@
 #include <utilities/Matrix.h>
 #include <dataConverter/PolarCoordinate.hpp>
 #include <dataReader/Vrp2dCoordinate.h>
+#include <dataConverter/PolarMatrixData.h>
 
 namespace Vrp
 {
@@ -15,8 +16,8 @@ class PolarCoordinatesMatrixConverter
 public:
     explicit PolarCoordinatesMatrixConverter(std::shared_ptr<CvrpRawData> p_rawData);
 
-    QList<PolarCoordinate> convert();
-    QList<PolarCoordinate> convertAndSortByAngle();
+    std::shared_ptr<PolarMatrixData> convert();
+    std::shared_ptr<PolarMatrixData> convertAndSortByAngle();
 
 private:
     QList<Vrp2dCoordinate> centerRawCoordinates();

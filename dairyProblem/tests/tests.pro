@@ -16,7 +16,8 @@ SOURCES += main.cpp \
     NearestNeighbourHeuristicUT.cpp \
     MatrixUT.cpp \
     CvrpFileReaderUT.cpp \
-    PolarCoordinatesMatrixConverterUT.cpp
+    PolarCoordinatesMatrixConverterUT.cpp \
+    SweepingAlgorithmUT.cpp
 
 HEADERS += \
     Mocks/CvrpFileMock.h
