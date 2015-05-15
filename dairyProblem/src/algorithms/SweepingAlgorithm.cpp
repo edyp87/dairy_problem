@@ -16,13 +16,16 @@ DairyPath SweepingAlgorithm::compute()
 
 qreal SweepingAlgorithm::getDistance()
 {
-    return 0.0;
+    const auto l_path = flatNestedList(createSubroutes());
+    return computeDistance(l_path);
 }
 
 QList<QList<quint64> > SweepingAlgorithm::createSubroutes()
 {
     QList<QList<quint64>> l_subroutes;
     quint64 l_nextIndex = 0;
+
+    moveDepotAtTheBeginning();
 
     while (l_nextIndex < m_polarData->dimension())
     {
@@ -83,20 +86,16 @@ QList<quint64> SweepingAlgorithm::flatNestedList(QList<QList<quint64> > p_subrou
     return l_result;
 }
 
-void SweepingAlgorithm::sortByDistanceFromDepot(QList<quint64> p_subroute)
-{
-    auto l_comparator = [this](){};
-    qSort(p_subroute.begin(), p_subroute.end());
-}
-
 void SweepingAlgorithm::assertThatSorted()
 {
-    qreal l_last = 0.0;
-    for (auto & l_coordinate :m_polarData->polarCoordinates())
+    qreal l_last = m_polarData->polarCoordinates()[0].angle;
+    for (auto & l_coordinate : m_polarData->polarCoordinates())
     {
         if (l_coordinate.angle < l_last)
         {
-             throw std::runtime_error("Input coordinates are not sorted!");
+
+             throw std::runtime_error(
+                        (QString("Input coordinates are not sorted! %1 < %2").arg(l_coordinate.angle).arg(l_last)).toStdString());
         }
         l_last = l_coordinate.angle;
     }
@@ -104,10 +103,31 @@ void SweepingAlgorithm::assertThatSorted()
 
 qreal SweepingAlgorithm::computeDistance(const QList<quint64> p_path)
 {
-    for (const quint64 p_node : p_path)
+    auto l_lastNode = m_polarData->depot();
+    qreal l_distance = 0.0f;
+    for (const auto l_currentNode : p_path)
     {
-
+        l_distance += m_polarData->distanceData()[l_lastNode][l_currentNode];
+        l_lastNode = l_currentNode;
     }
-    return 0.0;
+    return l_distance;
+}
+
+void SweepingAlgorithm::moveDepotAtTheBeginning()
+{
+    int l_depotPosition = 0;
+    for (int i = 0; i < m_polarData->polarCoordinates().size(); ++i)
+    {
+        if (m_polarData->polarCoordinates()[i].index == m_polarData->depot())
+        {
+            l_depotPosition = i;
+            break;
+        }
+    }
+
+    for (quint64 i = l_depotPosition; i > 0; --i)
+    {
+        std::swap(m_polarData->polarCoordinates()[i], m_polarData->polarCoordinates()[i-1]);
+    }
 }
 

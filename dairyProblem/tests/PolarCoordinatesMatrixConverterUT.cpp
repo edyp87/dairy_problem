@@ -45,7 +45,7 @@ TEST_F(PolarCoordinatesMatrixConverterTest, ConvertReturnsTwoCoordinatesForTwoNo
         ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[1].angle, 0.78539819);
 }
 
-TEST_F(PolarCoordinatesMatrixConverterTest, ConvertReturnsFiveCoordinateForFiveNodes)
+TEST_F(PolarCoordinatesMatrixConverterTest, ConvertReturnsFiveCoordinateForFiveNodesWithComputedDistances)
 {
 
     std::shared_ptr<CvrpRawData> l_rawData = std::make_shared<CvrpRawData>();
@@ -79,6 +79,26 @@ TEST_F(PolarCoordinatesMatrixConverterTest, ConvertReturnsFiveCoordinateForFiveN
     ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[4].index, 5);
     ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[4].distance, 8.0622578);
     ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->polarCoordinates()[4].angle, 1.0516502);
+
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->distanceData()[1][1], 0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->distanceData()[1][2], 1.4142135);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->distanceData()[1][3], 3.6055512);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->distanceData()[1][4], 5.8309517);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->distanceData()[1][5], 8.0622578);
+
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->distanceData()[2][2], 0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->distanceData()[2][3], 2.236068);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->distanceData()[2][4], 4.472136);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->distanceData()[2][5], 6.7082038);
+
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->distanceData()[3][3], 0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->distanceData()[3][4], 2.236068);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->distanceData()[3][5], 4.472136);
+
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->distanceData()[4][4], 0);
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->distanceData()[4][5], 2.236068);
+
+    ASSERT_FLOAT_EQ(l_polarCoordinates.convert()->distanceData()[5][5], 0);
 }
 
 TEST_F(PolarCoordinatesMatrixConverterTest, CanConvertForNodesBelowAndToTheLeftFromDepot)

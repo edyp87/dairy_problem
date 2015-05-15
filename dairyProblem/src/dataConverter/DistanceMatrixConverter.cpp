@@ -40,7 +40,7 @@ Utilities::SquareMatrix DistanceMatrixConverter::convertPositionsToDistances()
         for (Vrp2dCoordinate & l_otherNode : l_nodesCoordinates)
         {
             l_matrix[l_node.index][l_otherNode.index] = computeDistance(l_node, l_otherNode);
-            qDebug() << "Distance node:" << l_node.index << "," << l_otherNode.index << "--" << l_matrix[l_node.index][l_otherNode.index];
+            //qDebug() << "Distance node:" << l_node.index << "," << l_otherNode.index << "--" << l_matrix[l_node.index][l_otherNode.index];
         }
     }
     return l_matrix;
