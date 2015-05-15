@@ -18,7 +18,7 @@ PolarCoordinatesMatrixConverter::PolarCoordinatesMatrixConverter(std::shared_ptr
 
 std::shared_ptr<PolarMatrixData> PolarCoordinatesMatrixConverter::convert()
 {
-    std::shared_ptr<PolarMatrixData> l_polarData = std::make_shared<PolarMatrixData>();
+    std::shared_ptr<PolarMatrixData> l_polarData = std::make_shared<PolarMatrixData>(m_rawData->dimension());
 
     l_polarData->setCapacity(m_rawData->capacity());
     l_polarData->setComment(m_rawData->comment());
@@ -28,7 +28,7 @@ std::shared_ptr<PolarMatrixData> PolarCoordinatesMatrixConverter::convert()
     l_polarData->setEdgeWeightType(m_rawData->edgeWeightType());
     l_polarData->setName(m_rawData->name());
     l_polarData->setType(m_rawData->type());
-
+    l_polarData->setDistanceData(convertPositionsToDistances());
     l_polarData->setPolarCoordinates(convertCenteredCoordinatesToPolar(centerRawCoordinates()));
     return l_polarData;
 }
@@ -84,11 +84,6 @@ QList<Vrp2dCoordinate> PolarCoordinatesMatrixConverter::centerRawCoordinates()
     return l_centeredRawCoordinates;
 }
 
-qreal PolarCoordinatesMatrixConverter::computeDistance(Vrp2dCoordinate p_firstNode, Vrp2dCoordinate p_secondNode)
-{
-    return qSqrt(qPow(p_firstNode.x - p_secondNode.x, 2.0) + qPow(p_firstNode.y - p_secondNode.y, 2.0));
-}
-
 qreal PolarCoordinatesMatrixConverter::computeAngle(qreal l_x, qreal l_y)
 {
     return qAtan2(l_y , l_x);
@@ -106,6 +101,26 @@ quint64 PolarCoordinatesMatrixConverter::findIndexOfDepot()
     throw std::runtime_error(std::string("Cannot find depot!"));
 }
 
+Utilities::SquareMatrix PolarCoordinatesMatrixConverter::convertPositionsToDistances()
+{
+    Utilities::SquareMatrix l_matrix(m_rawData->dimension());
 
+    auto l_nodesCoordinates = m_rawData->nodeCoordinates();
 
+    for (Vrp2dCoordinate & l_node : l_nodesCoordinates)
+    {
+        for (Vrp2dCoordinate & l_otherNode : l_nodesCoordinates)
+        {
+            l_matrix[l_node.index][l_otherNode.index] = computeDistance(l_node, l_otherNode);
+            qDebug() << "Distance node:" << l_node.index << "," << l_otherNode.index << "--" << l_matrix[l_node.index][l_otherNode.index];
+        }
+    }
+    return l_matrix;
 }
+
+qreal PolarCoordinatesMatrixConverter::computeDistance(Vrp2dCoordinate p_firstNode, Vrp2dCoordinate p_secondNode)
+{
+    return qSqrt(qPow(p_firstNode.x - p_secondNode.x, 2.0) + qPow(p_firstNode.y - p_secondNode.y, 2.0));
+}
+
+} // namespace Vrp

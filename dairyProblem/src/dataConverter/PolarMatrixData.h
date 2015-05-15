@@ -4,14 +4,14 @@
 #include <dataConverter/PolarCoordinate.hpp>
 #include <dataReader/CvrpDemand.h>
 #include <memory>
-
+#include <utilities/Matrix.h>
 namespace Vrp
 {
 
 class PolarMatrixData
 {
 public:
-    PolarMatrixData();
+    PolarMatrixData(const quint64 p_size);
 
     QString name() const;
     void setName(const QString &name);
@@ -29,10 +29,12 @@ public:
     void setDepot(const quint32 &depot);
     QList<Vrp2dCoordinate> nodeCoordinates() const;
     void setNodeCoordinates(const QList<Vrp2dCoordinate> &nodeCoordinates);
-    QList<CvrpDemand> demands() const;
+    QList<CvrpDemand> &demands();
     void setDemands(const QList<CvrpDemand> &demands);
     QList<PolarCoordinate> &polarCoordinates();
     void setPolarCoordinates(const QList<PolarCoordinate> &polarCoordinates);
+    void setDistanceData(const Utilities::SquareMatrix distanceData);
+    Utilities::SquareMatrix &distanceData();
 
 private:
     QString m_name;
@@ -45,6 +47,7 @@ private:
     QList<Vrp2dCoordinate> m_nodeCoordinates;
     QList<PolarCoordinate> m_polarCoordinates;
     QList<CvrpDemand> m_demands;
+    Utilities::SquareMatrix m_distanceData;
 };
 
 using SharedPolarMatrix = std::shared_ptr<Vrp::PolarMatrixData>;

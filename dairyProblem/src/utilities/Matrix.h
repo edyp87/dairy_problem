@@ -20,7 +20,7 @@ public:
     {
         if (n > m_size)
         {
-            throw std::runtime_error(std::string("Size to big!"));
+            throw std::runtime_error(std::string("You are trying to reach element out of matrix!"));
         }
         return m_matrix[n];
     }

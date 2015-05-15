@@ -3,7 +3,8 @@
 namespace Vrp
 {
 
-PolarMatrixData::PolarMatrixData()
+PolarMatrixData::PolarMatrixData(const quint64 p_size)
+    :m_distanceData(p_size)
 {
 }
 
@@ -87,7 +88,7 @@ void PolarMatrixData::setNodeCoordinates(const QList<Vrp2dCoordinate> &nodeCoord
     m_nodeCoordinates = nodeCoordinates;
 }
 
-QList<CvrpDemand> PolarMatrixData::demands() const
+QList<CvrpDemand> &PolarMatrixData::demands()
 {
     return m_demands;
 }
@@ -105,6 +106,16 @@ QList<PolarCoordinate> &PolarMatrixData::polarCoordinates()
 void PolarMatrixData::setPolarCoordinates(const QList<PolarCoordinate> &polarCoordinates)
 {
     m_polarCoordinates = polarCoordinates;
+}
+
+void PolarMatrixData::setDistanceData(const Utilities::SquareMatrix distanceData)
+{
+    m_distanceData = distanceData;
+}
+
+Utilities::SquareMatrix &PolarMatrixData::distanceData()
+{
+    return m_distanceData;
 }
 
 } // namespace Vrp

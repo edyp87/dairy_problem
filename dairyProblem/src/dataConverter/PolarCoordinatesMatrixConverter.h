@@ -22,9 +22,10 @@ public:
 private:
     QList<Vrp2dCoordinate> centerRawCoordinates();
     QList<PolarCoordinate> convertCenteredCoordinatesToPolar(const QList<Vrp2dCoordinate> l_centeredRawCoordinates);
-    qreal computeDistance(Vrp2dCoordinate p_firstNode, Vrp2dCoordinate p_secondNode);
     qreal computeAngle(qreal l_x, qreal l_y);
     quint64 findIndexOfDepot();
+    Utilities::SquareMatrix convertPositionsToDistances();
+    qreal computeDistance(Vrp2dCoordinate p_firstNode, Vrp2dCoordinate p_secondNode);
 
     std::shared_ptr<CvrpRawData> m_rawData;
     static const quint8 s_minDimmension = 2;

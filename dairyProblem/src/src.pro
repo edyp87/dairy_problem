@@ -41,4 +41,5 @@ HEADERS  += \
     dataConverter/PolarCoordinatesMatrixConverter.h \
     dataConverter/PolarCoordinate.hpp \
     algorithms/SweepingAlgorithm.h \
-    dataConverter/PolarMatrixData.h
+    dataConverter/PolarMatrixData.h \
+    utilities/DairyPath.h

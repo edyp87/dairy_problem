@@ -30,6 +30,8 @@ TEST_F(PolarCoordinatesMatrixConverterTest, ConvertReturnsTwoCoordinatesForTwoNo
     l_rawData->appendToCoordinates(Vrp2dCoordinate {1, 1.0, 1.0});
     l_rawData->appendToCoordinates(Vrp2dCoordinate {2, 2.0, 2.0});
     l_rawData->setDepot(1);
+    l_rawData->setCapacity(100);
+    l_rawData->setDimension(2);
 
     PolarCoordinatesMatrixConverter l_polarCoordinates { l_rawData };
 
@@ -52,6 +54,7 @@ TEST_F(PolarCoordinatesMatrixConverterTest, ConvertReturnsFiveCoordinateForFiveN
     l_rawData->appendToCoordinates(Vrp2dCoordinate {3, 3.0, 4.0});
     l_rawData->appendToCoordinates(Vrp2dCoordinate {4, 4.0, 6.0});
     l_rawData->appendToCoordinates(Vrp2dCoordinate {5, 5.0, 8.0});
+    l_rawData->setDimension(5);
     l_rawData->setDepot(1);
 
     PolarCoordinatesMatrixConverter l_polarCoordinates { l_rawData };
