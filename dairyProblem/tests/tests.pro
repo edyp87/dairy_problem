@@ -17,7 +17,8 @@ SOURCES += main.cpp \
     MatrixUT.cpp \
     CvrpFileReaderUT.cpp \
     PolarCoordinatesMatrixConverterUT.cpp \
-    SweepingAlgorithmUT.cpp
+    SweepingAlgorithmUT.cpp \
+    TabuAlgorithmUT.cpp
 
 HEADERS += \
     Mocks/CvrpFileMock.h

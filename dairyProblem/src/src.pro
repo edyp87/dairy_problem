@@ -21,7 +21,8 @@ SOURCES += \
     algorithms/NearestNeighbourHeuristic.cpp \
     dataConverter/PolarCoordinatesMatrixConverter.cpp \
     algorithms/SweepingAlgorithm.cpp \
-    dataConverter/PolarMatrixData.cpp
+    dataConverter/PolarMatrixData.cpp \
+    algorithms/TabuAlgorithm.cpp
 
 HEADERS  += \
     dataReader/IDataReader.h \
@@ -42,4 +43,5 @@ HEADERS  += \
     dataConverter/PolarCoordinate.hpp \
     algorithms/SweepingAlgorithm.h \
     dataConverter/PolarMatrixData.h \
-    utilities/DairyPath.h
+    utilities/DairyPath.h \
+    algorithms/TabuAlgorithm.h
