@@ -11,6 +11,9 @@ public:
     DairyPath compute();
 
 private:
+    void reduceTabuListSize(QList<DairyPath> l_tabu);
+    void updateBestSolution(DairyPath l_bestCandidate, DairyPath l_bestSolution);
+    DairyPath findBestCandidate(QList<DairyPath> l_tabu, DairyPath l_currentSolution);
     bool stoppingCondition();
     QList<DairyPath> solutionNeighborhood(DairyPath);
 

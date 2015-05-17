@@ -15,31 +15,51 @@ DairyPath TabuAlgorithm::compute()
 
     while (not stoppingCondition())
     {
-        DairyPath l_bestCandidate {{}, std::numeric_limits<qreal>::max()};
-        QList<DairyPath> l_candidateNeighborhood = solutionNeighborhood(l_currentSolution);
-        for (const DairyPath &l_candidate : l_candidateNeighborhood)
-        {
-            if (not l_tabu.contains(l_candidate) && l_candidate.distance < l_bestCandidate.distance)
-            {
-                l_bestCandidate = l_candidate;
-            }
-        }
-        l_currentSolution = l_bestCandidate;
-        if (l_bestCandidate.distance < l_bestSolution.distance)
-        {
-            l_bestSolution = l_bestCandidate;
-        }
+        DairyPath l_bestCandidate = findBestCandidate(l_tabu, l_currentSolution);
+
+        updateBestSolution(l_bestCandidate, l_bestSolution);
+
         l_tabu.push_back(l_bestCandidate);
 
-        if (l_tabu.size() > s_tabuListSize)
-        {
-            l_tabu.removeFirst();
-        }
+        reduceTabuListSize(l_tabu);
 
     }
 
-    // return l_bestSolution;
-    return DairyPath { l_bestSolution.path, 0.0 };
+    return l_bestSolution;
+}
+
+void TabuAlgorithm::reduceTabuListSize(QList<DairyPath> l_tabu)
+{
+    if (l_tabu.size() > s_tabuListSize)
+    {
+        l_tabu.removeFirst();
+    }
+}
+
+void TabuAlgorithm::updateBestSolution(DairyPath l_bestCandidate, DairyPath l_bestSolution)
+{
+    if (l_bestCandidate.distance < l_bestSolution.distance)
+    {
+        l_bestSolution = l_bestCandidate;
+    }
+}
+
+DairyPath TabuAlgorithm::findBestCandidate(QList<DairyPath> l_tabu, DairyPath l_currentSolution)
+{
+    DairyPath l_bestCandidate {{}, std::numeric_limits<qreal>::max()};
+    QList<DairyPath> l_candidateNeighborhood = solutionNeighborhood(l_currentSolution);
+
+    for (const DairyPath &l_candidate : l_candidateNeighborhood)
+    {
+        if (not l_tabu.contains(l_candidate) && l_candidate.distance < l_bestCandidate.distance)
+        {
+            l_bestCandidate = l_candidate;
+        }
+    }
+
+    l_currentSolution = l_bestCandidate;
+
+    return l_bestCandidate;
 }
 
 bool TabuAlgorithm::stoppingCondition()
