@@ -16,6 +16,7 @@ public:
     explicit CvrpFile(const QString &p_filename);
     QString readLine() const;
     bool atEnd() const;
+    ~CvrpFile();
 
     static QString s_descriptionSplitter;
 

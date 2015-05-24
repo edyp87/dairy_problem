@@ -3,7 +3,7 @@ include(../defaults.pri)
 TEMPLATE = lib
 
 TARGET = dairyProblem
-DEFINES += QT_NO_DEBUG QT_NO_WARNING_OUTPUT QT_NO_DEBUG_OUTPUT
+#DEFINES += QT_NO_DEBUG QT_NO_WARNING_OUTPUT QT_NO_DEBUG_OUTPUT
 
 QT += core gui
 
@@ -22,7 +22,9 @@ SOURCES += \
     dataConverter/PolarCoordinatesMatrixConverter.cpp \
     algorithms/SweepingAlgorithm.cpp \
     dataConverter/PolarMatrixData.cpp \
-    algorithms/TabuAlgorithm.cpp
+    algorithms/TabuAlgorithm.cpp \
+    algorithms/LambdaInterchange.cpp \
+    algorithms/SimulatedAnnealing.cpp
 
 HEADERS  += \
     dataReader/IDataReader.h \
@@ -44,4 +46,6 @@ HEADERS  += \
     algorithms/SweepingAlgorithm.h \
     dataConverter/PolarMatrixData.h \
     utilities/DairyPath.h \
-    algorithms/TabuAlgorithm.h
+    algorithms/TabuAlgorithm.h \
+    algorithms/LambdaInterchange.h \
+    algorithms/SimulatedAnnealing.h

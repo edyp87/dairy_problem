@@ -15,7 +15,7 @@ private:
     QList<QList<quint64>> createSubroutes();
     QList<quint64> createSubroute(quint64 &p_nextIndex);
     quint64 getDemandForIndex(quint64 p_nodeIndex);
-    QList<quint64> flatNestedList(QList<QList<quint64>> p_subroutesList);
+    QList<quint64> flatNestedList(const QList<QList<quint64> > p_subroutesList);
     void assertThatSorted();
     qreal computeDistance(const QList<quint64> p_path);
     void moveDepotAtTheBeginning();

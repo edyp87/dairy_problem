@@ -32,4 +32,9 @@ void CvrpFile::loadCvrpFile()
     m_cvrpRawFileStream.reset(new QTextStream(&m_cvrpRawFile));
 }
 
+CvrpFile::~CvrpFile()
+{
+    m_cvrpRawFile.close();
+}
+
 } // namespace Vrp
